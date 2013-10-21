@@ -1,8 +1,9 @@
 <root>
-    <Resources Version="1" Count="4" PathType="Project">
-        <Resource Manager="FILE" Filename="Data\Models\Misc\Sphere.Model_data\materials.xml" Size="687" />
-        <Resource Manager="Textures" Filename="Data\Textures\blubber.dds" CustomInt="1,0" Size="43704" />
-        <Resource Manager="EffectLibs" Filename="shaders\DeferredShading.ShaderLib" Size="113092" />
-        <Resource Manager="Models" Filename="Data\Models\Misc\Sphere.Model" CustomInt="1" Size="4060" />
+    <Resources Version="1" Count="5" PathType="Project">
+        <Resource Manager="FILE" Filename="Models/Misc/Sphere.Model_data\materials.xml" OwnerRes="3" Size="666" />
+        <Resource Manager="EffectLibs" Filename="Shaders\BaseShaders.ShaderLib" Size="62776" />
+        <Resource Manager="Textures" Filename="Textures\blubber.dds" CustomInt="1,64" Size="340" />
+        <Resource Manager="Static/Dynamic Meshes" Filename="Models/Misc/Sphere.Model" CustomInt="1,2" Size="56" />
+        <Resource Manager="EffectLibs" Filename="Shaders\vMaterial.ShaderLib" Size="390384" />
     </Resources>
 </root>

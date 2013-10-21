@@ -304,6 +304,28 @@
                 "TemplateName": "Default"
             }
         },
+        "Models/Misc/ModularWall.model": {
+            "AssetType": "Model",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+                    "Models/Misc/ModularWall.model_data/materials.xml",
+                    "plainwhite.dds",
+                    "Shaders/vMaterial.ShaderLib"
+                ],
+                "Variants": [
+
+                ]
+            },
+            "File": {
+                "Hash": 2856037175,
+                "TimeStamp": 1382312360051435700,
+                "LastEditTime": 1382312564846149300
+            },
+            "Transformations": {
+                "TemplateName": "Default"
+            }
+        },
         "Models/Misc/Plane.Model": {
             "AssetType": "Model",
             "Common": {
@@ -321,6 +343,48 @@
                 "Hash": 2916591323,
                 "TimeStamp": 1381775631118736700,
                 "LastEditTime": 1382060115555012800
+            },
+            "Transformations": {
+                "TemplateName": "Default"
+            }
+        },
+        "Models/Misc/Plane2.anim": {
+            "AssetType": "Animation",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+
+                ],
+                "Variants": [
+
+                ]
+            },
+            "File": {
+                "Hash": 592976672,
+                "TimeStamp": 1382382353940865500,
+                "LastEditTime": 1382382354949923200
+            },
+            "Transformations": {
+                "TemplateName": "Default"
+            }
+        },
+        "Models/Misc/Plane2.vmesh": {
+            "AssetType": "StaticMesh",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+                    "plainwhite.dds",
+                    "Shaders/BaseShaders.ShaderLib",
+                    "Shaders/vMaterial.ShaderLib"
+                ],
+                "Variants": [
+
+                ]
+            },
+            "File": {
+                "Hash": 1965812913,
+                "TimeStamp": 1382382353934865200,
+                "LastEditTime": 1382382378669279900
             },
             "Transformations": {
                 "TemplateName": "Default"
@@ -2987,6 +3051,11 @@
             "Hash": 0,
             "TimeStamp": 1366968261316417700,
             "LastEditTime": 1367313597729715300
+        },
+        "Models/Misc/ModularWall.model_data/materials.xml": {
+            "Hash": 0,
+            "TimeStamp": 1382311914873973000,
+            "LastEditTime": 1382309677542005000
         },
         "Models/Misc/Plane.Model_data/materials.xml": {
             "Hash": 0,
