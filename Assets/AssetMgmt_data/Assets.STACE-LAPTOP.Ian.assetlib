@@ -459,6 +459,57 @@
                 "TemplateName": "Default"
             }
         },
+        "Models/Misc/troll.model": {
+            "AssetType": "Model",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+                    "Models/Misc/troll.model_data/materials.xml",
+                    "Models/Textures/TrollBodyCompleteMap.dds",
+                    "Models/Textures/TrollHatCompleteMap.dds",
+                    "Shaders/BaseShaders.ShaderLib",
+                    "Shaders/vMaterial.ShaderLib"
+                ],
+                "Variants": [
+
+                ]
+            },
+            "File": {
+                "Hash": 1581469246,
+                "TimeStamp": 1374053134000000000,
+                "LastEditTime": 1382554825596407000
+            },
+            "Transformations": {
+                "TemplateName": "Default"
+            }
+        },
+        "Models/Misc/Warrior.MODEL": {
+            "AssetType": "Model",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+                    "Models/Misc/Hair_cmap.dds",
+                    "Models/Misc/Hair_nmap.dds",
+                    "Models/Misc/Warrior.MODEL_data/materials.xml",
+                    "Models/Misc/warrior_cmap-2k.dds",
+                    "Models/Misc/warrior_nmap-2k.dds",
+                    "Models/Misc/warrior_smap-2k.dds",
+                    "Shaders/BaseShaders.ShaderLib",
+                    "Shaders/vMaterial.ShaderLib"
+                ],
+                "Variants": [
+
+                ]
+            },
+            "File": {
+                "Hash": 2244391882,
+                "TimeStamp": 1374052980000000000,
+                "LastEditTime": 1382553420166021000
+            },
+            "Transformations": {
+                "TemplateName": "Default"
+            }
+        },
         "Particles/explosion_page.dds": {
             "AssetType": "Texture",
             "Common": {
@@ -3042,6 +3093,31 @@
             "TimeStamp": 1366968261284417700,
             "LastEditTime": 1367313597730715300
         },
+        "Models/Misc/Hair_cmap.dds": {
+            "Hash": 0,
+            "TimeStamp": 0,
+            "LastEditTime": 1382553421707109100
+        },
+        "Models/Misc/Hair_nmap.dds": {
+            "Hash": 0,
+            "TimeStamp": 0,
+            "LastEditTime": 1382553421707109100
+        },
+        "Models/Misc/warrior_cmap-2k.dds": {
+            "Hash": 0,
+            "TimeStamp": 0,
+            "LastEditTime": 1382553421707109100
+        },
+        "Models/Misc/warrior_nmap-2k.dds": {
+            "Hash": 0,
+            "TimeStamp": 0,
+            "LastEditTime": 1382553421707109100
+        },
+        "Models/Misc/warrior_smap-2k.dds": {
+            "Hash": 0,
+            "TimeStamp": 0,
+            "LastEditTime": 1382553421707109100
+        },
         "Models/Misc/CharHeight.Model_data/materials.xml": {
             "Hash": 0,
             "TimeStamp": 1366968261302417700,
@@ -3076,6 +3152,26 @@
             "Hash": 0,
             "TimeStamp": 1366968261374417700,
             "LastEditTime": 1367313597729715300
+        },
+        "Models/Misc/troll.model_data/materials.xml": {
+            "Hash": 0,
+            "TimeStamp": 1374053134000000000,
+            "LastEditTime": 1382554825557404800
+        },
+        "Models/Misc/Warrior.MODEL_data/materials.xml": {
+            "Hash": 0,
+            "TimeStamp": 1374052980000000000,
+            "LastEditTime": 1382553420084016300
+        },
+        "Models/Textures/TrollBodyCompleteMap.dds": {
+            "Hash": 0,
+            "TimeStamp": 0,
+            "LastEditTime": 1382554826568462600
+        },
+        "Models/Textures/TrollHatCompleteMap.dds": {
+            "Hash": 0,
+            "TimeStamp": 0,
+            "LastEditTime": 1382554826568462600
         },
         "Textures/blubber.dds": {
             "Hash": 0,
