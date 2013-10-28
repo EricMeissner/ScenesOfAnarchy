@@ -18,8 +18,8 @@
             },
             "File": {
                 "Hash": 3915487704,
-                "TimeStamp": 1368033629479580200,
-                "LastEditTime": 1371544642889005600
+                "TimeStamp": 1374053170000000000,
+                "LastEditTime": 1382980763817106700
             },
             "Texture": {
                 "FileFormat": "DDS",
@@ -60,8 +60,8 @@
             },
             "File": {
                 "Hash": 1201484646,
-                "TimeStamp": 1368033629480580300,
-                "LastEditTime": 1371544642872005600
+                "TimeStamp": 1374053170000000000,
+                "LastEditTime": 1382980768590379800
             },
             "Texture": {
                 "FileFormat": "DDS",
@@ -102,8 +102,8 @@
             },
             "File": {
                 "Hash": 1037186940,
-                "TimeStamp": 1368033629517584000,
-                "LastEditTime": 1371544642892005600
+                "TimeStamp": 1374053170000000000,
+                "LastEditTime": 1382980768609380800
             },
             "Texture": {
                 "FileFormat": "DDS",
@@ -144,8 +144,8 @@
             },
             "File": {
                 "Hash": 1705425836,
-                "TimeStamp": 1368033629518584100,
-                "LastEditTime": 1371544642892005600
+                "TimeStamp": 1374053170000000000,
+                "LastEditTime": 1382980768627381900
             },
             "Texture": {
                 "FileFormat": "DDS",
@@ -186,8 +186,8 @@
             },
             "File": {
                 "Hash": 345883119,
-                "TimeStamp": 1368033629519584200,
-                "LastEditTime": 1371544642900005600
+                "TimeStamp": 1374053170000000000,
+                "LastEditTime": 1382980768646383000
             },
             "Texture": {
                 "FileFormat": "DDS",
@@ -228,8 +228,8 @@
             },
             "File": {
                 "Hash": 1232628565,
-                "TimeStamp": 1368033630554687700,
-                "LastEditTime": 1371544642892005600
+                "TimeStamp": 1374053170000000000,
+                "LastEditTime": 1382980768589379700
             },
             "Transformations": {
                 "TemplateName": "Default"
@@ -251,8 +251,8 @@
             },
             "File": {
                 "Hash": 2570006971,
-                "TimeStamp": 1368033629519584200,
-                "LastEditTime": 1371544642899005600
+                "TimeStamp": 1374053170000000000,
+                "LastEditTime": 1382980766075235900
             },
             "Transformations": {
                 "TemplateName": "Default"
@@ -274,8 +274,8 @@
             },
             "File": {
                 "Hash": 2100221746,
-                "TimeStamp": 1368033630554687700,
-                "LastEditTime": 1371544642911005600
+                "TimeStamp": 1374053170000000000,
+                "LastEditTime": 1382980763833107700
             },
             "Transformations": {
                 "TemplateName": "Default"
@@ -297,8 +297,8 @@
             },
             "File": {
                 "Hash": 4108779169,
-                "TimeStamp": 1368033630575689800,
-                "LastEditTime": 1371544645108005600
+                "TimeStamp": 1374053170000000000,
+                "LastEditTime": 1382980767282304900
             },
             "Transformations": {
                 "TemplateName": "Default"
@@ -319,8 +319,8 @@
             },
             "File": {
                 "Hash": 2916591323,
-                "TimeStamp": 1368033630656697900,
-                "LastEditTime": 1371544642947005600
+                "TimeStamp": 1374053170000000000,
+                "LastEditTime": 1382980766106237700
             },
             "Transformations": {
                 "TemplateName": "Default"
@@ -342,8 +342,8 @@
             },
             "File": {
                 "Hash": 2577180651,
-                "TimeStamp": 1368033630683700600,
-                "LastEditTime": 1371544642932005600
+                "TimeStamp": 1374053170000000000,
+                "LastEditTime": 1382980766137239400
             },
             "Transformations": {
                 "TemplateName": "Default"
@@ -365,8 +365,8 @@
             },
             "File": {
                 "Hash": 3366308346,
-                "TimeStamp": 1368033630691701400,
-                "LastEditTime": 1371544642963005600
+                "TimeStamp": 1374053170000000000,
+                "LastEditTime": 1382980768545377200
             },
             "Transformations": {
                 "TemplateName": "Default"
@@ -388,8 +388,8 @@
             },
             "File": {
                 "Hash": 3276996417,
-                "TimeStamp": 1368033630696701900,
-                "LastEditTime": 1371544642958005600
+                "TimeStamp": 1374053170000000000,
+                "LastEditTime": 1382980766168241200
             },
             "Transformations": {
                 "TemplateName": "Default"
@@ -408,8 +408,8 @@
             },
             "File": {
                 "Hash": 2321946612,
-                "TimeStamp": 1368033630811713400,
-                "LastEditTime": 1371544643016005600
+                "TimeStamp": 1374053172000000000,
+                "LastEditTime": 1382980768377367600
             },
             "Texture": {
                 "FileFormat": "DDS",
@@ -436,8 +436,8 @@
             },
             "File": {
                 "Hash": 2469079876,
-                "TimeStamp": 1368033630750707300,
-                "LastEditTime": 1371544642994005600
+                "TimeStamp": 1374053172000000000,
+                "LastEditTime": 1382980768409369400
             },
             "Texture": {
                 "FileFormat": "DDS",
@@ -464,8 +464,8 @@
             },
             "File": {
                 "Hash": 3492478385,
-                "TimeStamp": 1368033630812713500,
-                "LastEditTime": 1371544643021005600
+                "TimeStamp": 1374053172000000000,
+                "LastEditTime": 1382980768437371000
             },
             "Texture": {
                 "FileFormat": "DDS",
@@ -492,8 +492,8 @@
             },
             "File": {
                 "Hash": 2827367384,
-                "TimeStamp": 1368033630807713000,
-                "LastEditTime": 1371544643052005600
+                "TimeStamp": 1374053172000000000,
+                "LastEditTime": 1382980768464372600
             },
             "Texture": {
                 "FileFormat": "DDS",
@@ -520,8 +520,8 @@
             },
             "File": {
                 "Hash": 488704078,
-                "TimeStamp": 1368033630813713600,
-                "LastEditTime": 1371544643047005600
+                "TimeStamp": 1374053172000000000,
+                "LastEditTime": 1382980768490374000
             },
             "Texture": {
                 "FileFormat": "DDS",
@@ -548,8 +548,8 @@
             },
             "File": {
                 "Hash": 3870076004,
-                "TimeStamp": 1368033630817714000,
-                "LastEditTime": 1371544643064005600
+                "TimeStamp": 1374053172000000000,
+                "LastEditTime": 1382980768517375600
             },
             "Texture": {
                 "FileFormat": "DDS",
@@ -576,8 +576,8 @@
             },
             "File": {
                 "Hash": 2165401693,
-                "TimeStamp": 1368033632337866000,
-                "LastEditTime": 1371544643062005600
+                "TimeStamp": 1374053172000000000,
+                "LastEditTime": 1382980768336365200
             },
             "Texture": {
                 "FileFormat": "BMP",
@@ -604,8 +604,8 @@
             },
             "File": {
                 "Hash": 2392805357,
-                "TimeStamp": 1368033631145746800,
-                "LastEditTime": 1371545767957005600
+                "TimeStamp": 1374053172000000000,
+                "LastEditTime": 1382980763914112300
             },
             "Texture": {
                 "FileFormat": "DDS",
@@ -632,8 +632,8 @@
             },
             "File": {
                 "Hash": 1997719687,
-                "TimeStamp": 1368033631153747600,
-                "LastEditTime": 1371545768006005600
+                "TimeStamp": 1374053172000000000,
+                "LastEditTime": 1382980764019118300
             },
             "Texture": {
                 "FileFormat": "DDS",
@@ -660,8 +660,8 @@
             },
             "File": {
                 "Hash": 3798401387,
-                "TimeStamp": 1368033631213753600,
-                "LastEditTime": 1371545768023005600
+                "TimeStamp": 1374053172000000000,
+                "LastEditTime": 1382980768271361500
             },
             "Texture": {
                 "FileFormat": "DDS",
@@ -688,8 +688,8 @@
             },
             "File": {
                 "Hash": 3193604671,
-                "TimeStamp": 1368033631217754000,
-                "LastEditTime": 1371545768041005600
+                "TimeStamp": 1374053172000000000,
+                "LastEditTime": 1382980768308363600
             },
             "Texture": {
                 "FileFormat": "DDS",
@@ -716,8 +716,8 @@
             },
             "File": {
                 "Hash": 2693784306,
-                "TimeStamp": 1368033631664798700,
-                "LastEditTime": 1371544645073005600
+                "TimeStamp": 1374053172000000000,
+                "LastEditTime": 1382980764040119500
             },
             "Texture": {
                 "FileFormat": "PNG",
@@ -744,8 +744,8 @@
             },
             "File": {
                 "Hash": 387886918,
-                "TimeStamp": 1368033631664798700,
-                "LastEditTime": 1371544645080005600
+                "TimeStamp": 1374053172000000000,
+                "LastEditTime": 1382980764055120400
             },
             "Texture": {
                 "FileFormat": "PNG",
@@ -772,8 +772,8 @@
             },
             "File": {
                 "Hash": 1123576971,
-                "TimeStamp": 1368033631664798700,
-                "LastEditTime": 1371544645087005600
+                "TimeStamp": 1374053172000000000,
+                "LastEditTime": 1382980764069121200
             },
             "Texture": {
                 "FileFormat": "PNG",
@@ -800,8 +800,8 @@
             },
             "File": {
                 "Hash": 3654125431,
-                "TimeStamp": 1368033631667799000,
-                "LastEditTime": 1371544645094005600
+                "TimeStamp": 1374053172000000000,
+                "LastEditTime": 1382980764083122000
             },
             "Texture": {
                 "FileFormat": "PNG",
@@ -828,8 +828,8 @@
             },
             "File": {
                 "Hash": 152472663,
-                "TimeStamp": 1368033631701802400,
-                "LastEditTime": 1371544645101005600
+                "TimeStamp": 1374053172000000000,
+                "LastEditTime": 1382980767261303700
             },
             "Texture": {
                 "FileFormat": "DDS",
@@ -856,8 +856,8 @@
             },
             "File": {
                 "Hash": 3912344418,
-                "TimeStamp": 1368033631701802400,
-                "LastEditTime": 1371544645160005600
+                "TimeStamp": 1374053172000000000,
+                "LastEditTime": 1382980767317306900
             },
             "Texture": {
                 "FileFormat": "PNG",
@@ -884,8 +884,8 @@
             },
             "File": {
                 "Hash": 489799713,
-                "TimeStamp": 1368033631702802500,
-                "LastEditTime": 1371544645168005600
+                "TimeStamp": 1374053172000000000,
+                "LastEditTime": 1382980767338308100
             },
             "Texture": {
                 "FileFormat": "PNG",
@@ -912,8 +912,8 @@
             },
             "File": {
                 "Hash": 2779904304,
-                "TimeStamp": 1368033631702802500,
-                "LastEditTime": 1371544645176005600
+                "TimeStamp": 1374053172000000000,
+                "LastEditTime": 1382980767360309400
             },
             "Texture": {
                 "FileFormat": "PNG",
@@ -940,8 +940,8 @@
             },
             "File": {
                 "Hash": 898840705,
-                "TimeStamp": 1368033631703802600,
-                "LastEditTime": 1371544645184005600
+                "TimeStamp": 1374053172000000000,
+                "LastEditTime": 1382980767788333900
             },
             "Texture": {
                 "FileFormat": "PNG",
@@ -968,8 +968,8 @@
             },
             "File": {
                 "Hash": 4036269692,
-                "TimeStamp": 1368033631703802600,
-                "LastEditTime": 1371544645192005600
+                "TimeStamp": 1374053172000000000,
+                "LastEditTime": 1382980767828336200
             },
             "Texture": {
                 "FileFormat": "PNG",
@@ -996,8 +996,8 @@
             },
             "File": {
                 "Hash": 3069971710,
-                "TimeStamp": 1368033631704802700,
-                "LastEditTime": 1371544645199005600
+                "TimeStamp": 1374053172000000000,
+                "LastEditTime": 1382980767850337400
             },
             "Texture": {
                 "FileFormat": "PNG",
@@ -1024,8 +1024,8 @@
             },
             "File": {
                 "Hash": 4200225716,
-                "TimeStamp": 1368033631704802700,
-                "LastEditTime": 1371544645207005600
+                "TimeStamp": 1374053172000000000,
+                "LastEditTime": 1382980767872338700
             },
             "Texture": {
                 "FileFormat": "PNG",
@@ -1052,8 +1052,8 @@
             },
             "File": {
                 "Hash": 567606843,
-                "TimeStamp": 1368033631704802700,
-                "LastEditTime": 1371544645214005600
+                "TimeStamp": 1374053172000000000,
+                "LastEditTime": 1382980767894339900
             },
             "Texture": {
                 "FileFormat": "PNG",
@@ -1080,8 +1080,8 @@
             },
             "File": {
                 "Hash": 3230106881,
-                "TimeStamp": 1368033631705802800,
-                "LastEditTime": 1371544645221005600
+                "TimeStamp": 1374053172000000000,
+                "LastEditTime": 1382980767916341200
             },
             "Texture": {
                 "FileFormat": "PNG",
@@ -1108,8 +1108,8 @@
             },
             "File": {
                 "Hash": 718301464,
-                "TimeStamp": 1368033631705802800,
-                "LastEditTime": 1371544645229005600
+                "TimeStamp": 1374053172000000000,
+                "LastEditTime": 1382980767939342500
             },
             "Texture": {
                 "FileFormat": "PNG",
@@ -1136,8 +1136,8 @@
             },
             "File": {
                 "Hash": 544781701,
-                "TimeStamp": 1368033631705802800,
-                "LastEditTime": 1371544645237005600
+                "TimeStamp": 1374053172000000000,
+                "LastEditTime": 1382980767961343800
             },
             "Texture": {
                 "FileFormat": "PNG",
@@ -1164,8 +1164,8 @@
             },
             "File": {
                 "Hash": 1457724882,
-                "TimeStamp": 1368033631706802900,
-                "LastEditTime": 1371544645244005600
+                "TimeStamp": 1374053172000000000,
+                "LastEditTime": 1382980767983345000
             },
             "Texture": {
                 "FileFormat": "PNG",
@@ -1192,8 +1192,8 @@
             },
             "File": {
                 "Hash": 1010970629,
-                "TimeStamp": 1368033631706802900,
-                "LastEditTime": 1371544645252005600
+                "TimeStamp": 1374053172000000000,
+                "LastEditTime": 1382980768032347800
             },
             "Texture": {
                 "FileFormat": "PNG",
@@ -1220,8 +1220,8 @@
             },
             "File": {
                 "Hash": 1533376781,
-                "TimeStamp": 1368033631706802900,
-                "LastEditTime": 1371544645260005600
+                "TimeStamp": 1374053172000000000,
+                "LastEditTime": 1382980768055349200
             },
             "Texture": {
                 "FileFormat": "PNG",
@@ -1248,8 +1248,8 @@
             },
             "File": {
                 "Hash": 4250395552,
-                "TimeStamp": 1368033631707803000,
-                "LastEditTime": 1371545767571005600
+                "TimeStamp": 1374053172000000000,
+                "LastEditTime": 1382980768077350400
             },
             "Texture": {
                 "FileFormat": "PNG",
@@ -1276,8 +1276,8 @@
             },
             "File": {
                 "Hash": 1604665640,
-                "TimeStamp": 1368033631707803000,
-                "LastEditTime": 1371545767071005600
+                "TimeStamp": 1374053172000000000,
+                "LastEditTime": 1382980768100351700
             },
             "Texture": {
                 "FileFormat": "PNG",
@@ -1304,8 +1304,8 @@
             },
             "File": {
                 "Hash": 3662613963,
-                "TimeStamp": 1368033631708803100,
-                "LastEditTime": 1371545767894005600
+                "TimeStamp": 1374053172000000000,
+                "LastEditTime": 1382980768123353000
             },
             "Texture": {
                 "FileFormat": "PNG",
@@ -1332,8 +1332,8 @@
             },
             "File": {
                 "Hash": 2301827101,
-                "TimeStamp": 1368033631752807500,
-                "LastEditTime": 1371545767898005600
+                "TimeStamp": 1374053172000000000,
+                "LastEditTime": 1382980768146354400
             },
             "Texture": {
                 "FileFormat": "PNG",
@@ -1360,8 +1360,8 @@
             },
             "File": {
                 "Hash": 1589270689,
-                "TimeStamp": 1368033631755807800,
-                "LastEditTime": 1371545767903005600
+                "TimeStamp": 1374053172000000000,
+                "LastEditTime": 1382980768169355700
             },
             "Texture": {
                 "FileFormat": "PNG",
@@ -1388,8 +1388,8 @@
             },
             "File": {
                 "Hash": 1874368593,
-                "TimeStamp": 1368033631756807900,
-                "LastEditTime": 1371545767907005600
+                "TimeStamp": 1374053172000000000,
+                "LastEditTime": 1382980768191356900
             },
             "Texture": {
                 "FileFormat": "PNG",
@@ -1416,8 +1416,8 @@
             },
             "File": {
                 "Hash": 48825491,
-                "TimeStamp": 1368033631774809700,
-                "LastEditTime": 1371545767912005600
+                "TimeStamp": 1374053172000000000,
+                "LastEditTime": 1382980768223358800
             },
             "Texture": {
                 "FileFormat": "PNG",
@@ -1444,8 +1444,8 @@
             },
             "File": {
                 "Hash": 3151282179,
-                "TimeStamp": 1368033631774809700,
-                "LastEditTime": 1371545767917005600
+                "TimeStamp": 1374053172000000000,
+                "LastEditTime": 1382980768246360100
             },
             "Texture": {
                 "FileFormat": "PNG",
@@ -1472,8 +1472,8 @@
             },
             "File": {
                 "Hash": 2544372907,
-                "TimeStamp": 1368033631219754200,
-                "LastEditTime": 1371544644990005600
+                "TimeStamp": 1374053172000000000,
+                "LastEditTime": 1382980764101123000
             },
             "Texture": {
                 "FileFormat": "DDS",
@@ -1500,8 +1500,8 @@
             },
             "File": {
                 "Hash": 3199946232,
-                "TimeStamp": 1368033631219754200,
-                "LastEditTime": 1371544644997005600
+                "TimeStamp": 1374053172000000000,
+                "LastEditTime": 1382980764116123800
             },
             "Texture": {
                 "FileFormat": "DDS",
@@ -1528,8 +1528,8 @@
             },
             "File": {
                 "Hash": 4256624385,
-                "TimeStamp": 1368033631220754300,
-                "LastEditTime": 1371544645004005600
+                "TimeStamp": 1374053172000000000,
+                "LastEditTime": 1382980767194299900
             },
             "Texture": {
                 "FileFormat": "DDS",
@@ -1556,8 +1556,8 @@
             },
             "File": {
                 "Hash": 3044873305,
-                "TimeStamp": 1368033631232755500,
-                "LastEditTime": 1371544645056005600
+                "TimeStamp": 1374053172000000000,
+                "LastEditTime": 1382980767216301200
             },
             "Texture": {
                 "FileFormat": "DDS",
@@ -1584,8 +1584,8 @@
             },
             "File": {
                 "Hash": 2802605445,
-                "TimeStamp": 1368033631232755500,
-                "LastEditTime": 1371544645065005600
+                "TimeStamp": 1374053172000000000,
+                "LastEditTime": 1382980767239302500
             },
             "Texture": {
                 "FileFormat": "DDS",
@@ -1612,8 +1612,8 @@
             },
             "File": {
                 "Hash": 1011961606,
-                "TimeStamp": 1368033631775809800,
-                "LastEditTime": 1371544644931005600
+                "TimeStamp": 1374053172000000000,
+                "LastEditTime": 1382980764131124700
             },
             "Texture": {
                 "FileFormat": "DDS",
@@ -1640,8 +1640,8 @@
             },
             "File": {
                 "Hash": 2959653170,
-                "TimeStamp": 1368033631775809800,
-                "LastEditTime": 1371544644938005600
+                "TimeStamp": 1374053172000000000,
+                "LastEditTime": 1382980767053291800
             },
             "Texture": {
                 "FileFormat": "DDS",
@@ -1668,8 +1668,8 @@
             },
             "File": {
                 "Hash": 197315479,
-                "TimeStamp": 1368033631776809900,
-                "LastEditTime": 1371544644945005600
+                "TimeStamp": 1374053172000000000,
+                "LastEditTime": 1382980767075293100
             },
             "Texture": {
                 "FileFormat": "DDS",
@@ -1696,8 +1696,8 @@
             },
             "File": {
                 "Hash": 4256624385,
-                "TimeStamp": 1368033631815813800,
-                "LastEditTime": 1371544644951005600
+                "TimeStamp": 1374053172000000000,
+                "LastEditTime": 1382980767096294300
             },
             "Texture": {
                 "FileFormat": "DDS",
@@ -1724,8 +1724,8 @@
             },
             "File": {
                 "Hash": 2133180069,
-                "TimeStamp": 1368033631816813900,
-                "LastEditTime": 1371544644958005600
+                "TimeStamp": 1374053172000000000,
+                "LastEditTime": 1382980767117295500
             },
             "Texture": {
                 "FileFormat": "DDS",
@@ -1752,8 +1752,8 @@
             },
             "File": {
                 "Hash": 272578201,
-                "TimeStamp": 1368033631817814000,
-                "LastEditTime": 1371544644973005600
+                "TimeStamp": 1374053172000000000,
+                "LastEditTime": 1382980767150297400
             },
             "Texture": {
                 "FileFormat": "DDS",
@@ -1780,8 +1780,8 @@
             },
             "File": {
                 "Hash": 2702918717,
-                "TimeStamp": 1368033631818814100,
-                "LastEditTime": 1371544644981005600
+                "TimeStamp": 1374053172000000000,
+                "LastEditTime": 1382980767173298700
             },
             "Texture": {
                 "FileFormat": "DDS",
@@ -1808,8 +1808,8 @@
             },
             "File": {
                 "Hash": 1792375473,
-                "TimeStamp": 1368033631863818600,
-                "LastEditTime": 1371544643119005600
+                "TimeStamp": 1374053172000000000,
+                "LastEditTime": 1382980766001231700
             },
             "Texture": {
                 "FileFormat": "JPG",
@@ -1836,8 +1836,8 @@
             },
             "File": {
                 "Hash": 953118428,
-                "TimeStamp": 1368033631292761500,
-                "LastEditTime": 1371544644698005600
+                "TimeStamp": 1374053172000000000,
+                "LastEditTime": 1382980764146125600
             },
             "Texture": {
                 "FileFormat": "DDS",
@@ -1864,8 +1864,8 @@
             },
             "File": {
                 "Hash": 3501536564,
-                "TimeStamp": 1368033631292761500,
-                "LastEditTime": 1371544644704005600
+                "TimeStamp": 1374053172000000000,
+                "LastEditTime": 1382980764161126400
             },
             "Texture": {
                 "FileFormat": "TGA",
@@ -1892,8 +1892,8 @@
             },
             "File": {
                 "Hash": 4190648672,
-                "TimeStamp": 1368033631293761600,
-                "LastEditTime": 1371544644709005600
+                "TimeStamp": 1374053172000000000,
+                "LastEditTime": 1382980764176127300
             },
             "Texture": {
                 "FileFormat": "TGA",
@@ -1920,8 +1920,8 @@
             },
             "File": {
                 "Hash": 1084572453,
-                "TimeStamp": 1368033631354767700,
-                "LastEditTime": 1371544644714005600
+                "TimeStamp": 1374053172000000000,
+                "LastEditTime": 1382980764192128200
             },
             "Texture": {
                 "FileFormat": "TGA",
@@ -1948,8 +1948,8 @@
             },
             "File": {
                 "Hash": 2336713793,
-                "TimeStamp": 1368033631354767700,
-                "LastEditTime": 1371544644718005600
+                "TimeStamp": 1374053172000000000,
+                "LastEditTime": 1382980764206129000
             },
             "Texture": {
                 "FileFormat": "TGA",
@@ -1976,8 +1976,8 @@
             },
             "File": {
                 "Hash": 715195384,
-                "TimeStamp": 1368033631355767800,
-                "LastEditTime": 1371544644723005600
+                "TimeStamp": 1374053172000000000,
+                "LastEditTime": 1382980766248245800
             },
             "Texture": {
                 "FileFormat": "BMP",
@@ -2004,8 +2004,8 @@
             },
             "File": {
                 "Hash": 932084437,
-                "TimeStamp": 1368033631355767800,
-                "LastEditTime": 1371544644727005600
+                "TimeStamp": 1374053172000000000,
+                "LastEditTime": 1382980766267246900
             },
             "Texture": {
                 "FileFormat": "BMP",
@@ -2032,8 +2032,8 @@
             },
             "File": {
                 "Hash": 3191185991,
-                "TimeStamp": 1368033631356767900,
-                "LastEditTime": 1371544644732005600
+                "TimeStamp": 1374053172000000000,
+                "LastEditTime": 1382980766286248000
             },
             "Texture": {
                 "FileFormat": "BMP",
@@ -2060,8 +2060,8 @@
             },
             "File": {
                 "Hash": 2590564751,
-                "TimeStamp": 1368033631356767900,
-                "LastEditTime": 1371544644736005600
+                "TimeStamp": 1374053172000000000,
+                "LastEditTime": 1382980766304249000
             },
             "Texture": {
                 "FileFormat": "BMP",
@@ -2088,8 +2088,8 @@
             },
             "File": {
                 "Hash": 3276389663,
-                "TimeStamp": 1368033631359768200,
-                "LastEditTime": 1371544644856005600
+                "TimeStamp": 1374053172000000000,
+                "LastEditTime": 1382980766767275500
             },
             "Texture": {
                 "FileFormat": "DDS",
@@ -2116,8 +2116,8 @@
             },
             "File": {
                 "Hash": 2149971418,
-                "TimeStamp": 1368033631360768300,
-                "LastEditTime": 1371544644861005600
+                "TimeStamp": 1374053172000000000,
+                "LastEditTime": 1382980766787276600
             },
             "Texture": {
                 "FileFormat": "DDS",
@@ -2144,8 +2144,8 @@
             },
             "File": {
                 "Hash": 2331492807,
-                "TimeStamp": 1368033631369769200,
-                "LastEditTime": 1371544644867005600
+                "TimeStamp": 1374053172000000000,
+                "LastEditTime": 1382980766812278100
             },
             "Texture": {
                 "FileFormat": "DDS",
@@ -2172,8 +2172,8 @@
             },
             "File": {
                 "Hash": 2508838961,
-                "TimeStamp": 1368033631370769300,
-                "LastEditTime": 1371544644872005600
+                "TimeStamp": 1374053172000000000,
+                "LastEditTime": 1382980766832279200
             },
             "Texture": {
                 "FileFormat": "DDS",
@@ -2200,8 +2200,8 @@
             },
             "File": {
                 "Hash": 2384535164,
-                "TimeStamp": 1368033631370769300,
-                "LastEditTime": 1371544644878005600
+                "TimeStamp": 1374053172000000000,
+                "LastEditTime": 1382980766852280300
             },
             "Texture": {
                 "FileFormat": "DDS",
@@ -2228,8 +2228,8 @@
             },
             "File": {
                 "Hash": 478964782,
-                "TimeStamp": 1368033631371769400,
-                "LastEditTime": 1371544644884005600
+                "TimeStamp": 1374053172000000000,
+                "LastEditTime": 1382980766873281500
             },
             "Texture": {
                 "FileFormat": "DDS",
@@ -2256,8 +2256,8 @@
             },
             "File": {
                 "Hash": 843566397,
-                "TimeStamp": 1368033631371769400,
-                "LastEditTime": 1371544644890005600
+                "TimeStamp": 1374053172000000000,
+                "LastEditTime": 1382980766893282700
             },
             "Texture": {
                 "FileFormat": "DDS",
@@ -2284,8 +2284,8 @@
             },
             "File": {
                 "Hash": 3670501257,
-                "TimeStamp": 1368033631372769500,
-                "LastEditTime": 1371544644896005600
+                "TimeStamp": 1374053172000000000,
+                "LastEditTime": 1382980766913283800
             },
             "Texture": {
                 "FileFormat": "DDS",
@@ -2312,8 +2312,8 @@
             },
             "File": {
                 "Hash": 2715151806,
-                "TimeStamp": 1368033631372769500,
-                "LastEditTime": 1371544644901005600
+                "TimeStamp": 1374053172000000000,
+                "LastEditTime": 1382980766934285000
             },
             "Texture": {
                 "FileFormat": "DDS",
@@ -2340,8 +2340,8 @@
             },
             "File": {
                 "Hash": 183683613,
-                "TimeStamp": 1368033631372769500,
-                "LastEditTime": 1371544644907005600
+                "TimeStamp": 1374053172000000000,
+                "LastEditTime": 1382980766971287200
             },
             "Texture": {
                 "FileFormat": "DDS",
@@ -2368,8 +2368,8 @@
             },
             "File": {
                 "Hash": 674290189,
-                "TimeStamp": 1368033631373769600,
-                "LastEditTime": 1371544644913005600
+                "TimeStamp": 1374053172000000000,
+                "LastEditTime": 1382980766992288400
             },
             "Texture": {
                 "FileFormat": "DDS",
@@ -2396,8 +2396,8 @@
             },
             "File": {
                 "Hash": 3889161198,
-                "TimeStamp": 1368033631373769600,
-                "LastEditTime": 1371544644919005600
+                "TimeStamp": 1374053172000000000,
+                "LastEditTime": 1382980767012289500
             },
             "Texture": {
                 "FileFormat": "DDS",
@@ -2424,8 +2424,8 @@
             },
             "File": {
                 "Hash": 659494762,
-                "TimeStamp": 1368033631374769700,
-                "LastEditTime": 1371544644925005600
+                "TimeStamp": 1374053172000000000,
+                "LastEditTime": 1382980767033290700
             },
             "Texture": {
                 "FileFormat": "DDS",
@@ -2452,8 +2452,8 @@
             },
             "File": {
                 "Hash": 65762880,
-                "TimeStamp": 1368033631356767900,
-                "LastEditTime": 1371544644742005600
+                "TimeStamp": 1374053172000000000,
+                "LastEditTime": 1382980766364252400
             },
             "Texture": {
                 "FileFormat": "TGA",
@@ -2480,8 +2480,8 @@
             },
             "File": {
                 "Hash": 1355220591,
-                "TimeStamp": 1368033631357768000,
-                "LastEditTime": 1371544644747005600
+                "TimeStamp": 1374053172000000000,
+                "LastEditTime": 1382980766383253500
             },
             "Texture": {
                 "FileFormat": "DDS",
@@ -2508,8 +2508,8 @@
             },
             "File": {
                 "Hash": 2270025003,
-                "TimeStamp": 1368033631357768000,
-                "LastEditTime": 1371544644754005600
+                "TimeStamp": 1374053172000000000,
+                "LastEditTime": 1382980766403254700
             },
             "Texture": {
                 "FileFormat": "DDS",
@@ -2536,8 +2536,8 @@
             },
             "File": {
                 "Hash": 379136593,
-                "TimeStamp": 1368033631358768100,
-                "LastEditTime": 1371544644763005600
+                "TimeStamp": 1374053172000000000,
+                "LastEditTime": 1382980766423255800
             },
             "Texture": {
                 "FileFormat": "TGA",
@@ -2564,8 +2564,8 @@
             },
             "File": {
                 "Hash": 4294560100,
-                "TimeStamp": 1368033631358768100,
-                "LastEditTime": 1371544644767005600
+                "TimeStamp": 1374053172000000000,
+                "LastEditTime": 1382980766442256900
             },
             "Texture": {
                 "FileFormat": "DDS",
@@ -2592,8 +2592,8 @@
             },
             "File": {
                 "Hash": 2438627137,
-                "TimeStamp": 1368033631374769700,
-                "LastEditTime": 1371544644774005600
+                "TimeStamp": 1374053172000000000,
+                "LastEditTime": 1382980766462258000
             },
             "Texture": {
                 "FileFormat": "DDS",
@@ -2620,8 +2620,8 @@
             },
             "File": {
                 "Hash": 3579689310,
-                "TimeStamp": 1368033631617794000,
-                "LastEditTime": 1371544644782005600
+                "TimeStamp": 1374053172000000000,
+                "LastEditTime": 1382980766481259100
             },
             "Texture": {
                 "FileFormat": "PNG",
@@ -2648,8 +2648,8 @@
             },
             "File": {
                 "Hash": 987150866,
-                "TimeStamp": 1368033631374769700,
-                "LastEditTime": 1371544644788005600
+                "TimeStamp": 1374053172000000000,
+                "LastEditTime": 1382980766500260200
             },
             "Texture": {
                 "FileFormat": "TGA",
@@ -2676,8 +2676,8 @@
             },
             "File": {
                 "Hash": 4294560100,
-                "TimeStamp": 1368033631649797200,
-                "LastEditTime": 1371544644793005600
+                "TimeStamp": 1374053172000000000,
+                "LastEditTime": 1382980766545262800
             },
             "Texture": {
                 "FileFormat": "DDS",
@@ -2704,8 +2704,8 @@
             },
             "File": {
                 "Hash": 848328670,
-                "TimeStamp": 1368033631650797300,
-                "LastEditTime": 1371544644800005600
+                "TimeStamp": 1374053172000000000,
+                "LastEditTime": 1382980766564263900
             },
             "Texture": {
                 "FileFormat": "PNG",
@@ -2732,8 +2732,8 @@
             },
             "File": {
                 "Hash": 2445229178,
-                "TimeStamp": 1368033631618794100,
-                "LastEditTime": 1371544644806005600
+                "TimeStamp": 1374053172000000000,
+                "LastEditTime": 1382980766585265100
             },
             "Texture": {
                 "FileFormat": "TGA",
@@ -2760,8 +2760,8 @@
             },
             "File": {
                 "Hash": 675265548,
-                "TimeStamp": 1368033631650797300,
-                "LastEditTime": 1371544644811005600
+                "TimeStamp": 1374053172000000000,
+                "LastEditTime": 1382980766608266400
             },
             "Texture": {
                 "FileFormat": "DDS",
@@ -2788,8 +2788,8 @@
             },
             "File": {
                 "Hash": 3785064924,
-                "TimeStamp": 1368033631651797400,
-                "LastEditTime": 1371544644820005600
+                "TimeStamp": 1374053172000000000,
+                "LastEditTime": 1382980766628267500
             },
             "Texture": {
                 "FileFormat": "PNG",
@@ -2816,8 +2816,8 @@
             },
             "File": {
                 "Hash": 1170192762,
-                "TimeStamp": 1368033631651797400,
-                "LastEditTime": 1371544644826005600
+                "TimeStamp": 1374053172000000000,
+                "LastEditTime": 1382980766648268700
             },
             "Texture": {
                 "FileFormat": "DDS",
@@ -2844,8 +2844,8 @@
             },
             "File": {
                 "Hash": 3307883261,
-                "TimeStamp": 1368033631652797500,
-                "LastEditTime": 1371544644833005600
+                "TimeStamp": 1374053172000000000,
+                "LastEditTime": 1382980766668269800
             },
             "Texture": {
                 "FileFormat": "PNG",
@@ -2872,8 +2872,8 @@
             },
             "File": {
                 "Hash": 3706357273,
-                "TimeStamp": 1368033631652797500,
-                "LastEditTime": 1371544644839005600
+                "TimeStamp": 1374053172000000000,
+                "LastEditTime": 1382980766688271000
             },
             "Texture": {
                 "FileFormat": "DDS",
@@ -2900,8 +2900,8 @@
             },
             "File": {
                 "Hash": 3235561399,
-                "TimeStamp": 1368033631652797500,
-                "LastEditTime": 1371544644845005600
+                "TimeStamp": 1374053172000000000,
+                "LastEditTime": 1382980766708272100
             },
             "Texture": {
                 "FileFormat": "PNG",
@@ -2928,8 +2928,8 @@
             },
             "File": {
                 "Hash": 2620166608,
-                "TimeStamp": 1368033631359768200,
-                "LastEditTime": 1371544644851005600
+                "TimeStamp": 1374053172000000000,
+                "LastEditTime": 1382980766746274300
             },
             "Texture": {
                 "FileFormat": "DDS",
@@ -2956,8 +2956,8 @@
             },
             "File": {
                 "Hash": 1405187284,
-                "TimeStamp": 1368033631663798600,
-                "LastEditTime": 1371544644081005600
+                "TimeStamp": 1374053172000000000,
+                "LastEditTime": 1382980766224244400
             },
             "Texture": {
                 "FileFormat": "DDS",
