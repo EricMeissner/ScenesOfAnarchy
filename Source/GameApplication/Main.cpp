@@ -34,7 +34,7 @@ float cameraInitZ = 250;                  // Set our camera above the ground so 
 VIMPORT IVisPlugin_cl* GetEnginePlugin_GamePlugin();
 VIMPORT IVisPlugin_cl* GetEnginePlugin_VisionEnginePlugin();
 VIMPORT IVisPlugin_cl* GetEnginePlugin_vHavok();
-VIMPORT IVisPlugin_cl* GetEnginePlugin_vHavokAi();
+//VIMPORT IVisPlugin_cl* GetEnginePlugin_vHavokAi();
 
 VisSampleAppPtr spApp;
 
@@ -95,7 +95,7 @@ VISION_INIT
   VISION_PLUGIN_ENSURE_LOADED(GamePlugin);
   VISION_PLUGIN_ENSURE_LOADED(VisionEnginePlugin);
 VISION_PLUGIN_ENSURE_LOADED(vHavok);
-VISION_PLUGIN_ENSURE_LOADED(vHavokAi);
+//VISION_PLUGIN_ENSURE_LOADED(vHavokAi);
 
 
   // Init the application and point it to the start up scene.
