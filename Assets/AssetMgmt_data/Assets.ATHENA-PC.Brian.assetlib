@@ -215,6 +215,50 @@
                 }
             }
         },
+        "Meshes/menu_floor_mesh.vmesh": {
+            "AssetType": "StaticMesh",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+                    "Shaders/BaseShaders.ShaderLib",
+                    "Shaders/vMaterial.ShaderLib",
+                    "Textures/oldtilej.jpg"
+                ],
+                "Variants": [
+
+                ]
+            },
+            "File": {
+                "Hash": 1885497181,
+                "TimeStamp": 1383020714809707700,
+                "LastEditTime": 1383021602825499300
+            },
+            "Transformations": {
+                "TemplateName": "Default"
+            }
+        },
+        "Meshes/menu_wall_mash.vmesh": {
+            "AssetType": "StaticMesh",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+                    "Shaders/BaseShaders.ShaderLib",
+                    "Shaders/vMaterial.ShaderLib",
+                    "Textures/menu_bricks_wall.jpg"
+                ],
+                "Variants": [
+
+                ]
+            },
+            "File": {
+                "Hash": 3715274766,
+                "TimeStamp": 1383020714810707800,
+                "LastEditTime": 1383021602899503600
+            },
+            "Transformations": {
+                "TemplateName": "Default"
+            }
+        },
         "Meshes/Plane.vcolmesh": {
             "AssetType": "CollisionMesh",
             "Common": {
@@ -253,6 +297,28 @@
                 "Hash": 2570006971,
                 "TimeStamp": 1374053170000000000,
                 "LastEditTime": 1382980766075235900
+            },
+            "Transformations": {
+                "TemplateName": "Default"
+            }
+        },
+        "Meshes/TowerOfDoom.vmesh": {
+            "AssetType": "StaticMesh",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+                    "Meshes/Textures/JP_Brick01_Bump.jpg",
+                    "Shaders/BaseShaders.ShaderLib",
+                    "Shaders/vMaterial.ShaderLib"
+                ],
+                "Variants": [
+
+                ]
+            },
+            "File": {
+                "Hash": 3970386574,
+                "TimeStamp": 1382837478000000000,
+                "LastEditTime": 1383023766066229600
             },
             "Transformations": {
                 "TemplateName": "Default"
@@ -304,6 +370,28 @@
                 "TemplateName": "Default"
             }
         },
+        "Models/Misc/ModularWall.model": {
+            "AssetType": "Model",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+                    "Models/Misc/ModularWall.model_data/materials.xml",
+                    "plainwhite.dds",
+                    "Shaders/vMaterial.ShaderLib"
+                ],
+                "Variants": [
+
+                ]
+            },
+            "File": {
+                "Hash": 2856037175,
+                "TimeStamp": 1383020696360652500,
+                "LastEditTime": 1383021599553312200
+            },
+            "Transformations": {
+                "TemplateName": "Default"
+            }
+        },
         "Models/Misc/Plane.Model": {
             "AssetType": "Model",
             "Common": {
@@ -321,6 +409,48 @@
                 "Hash": 2916591323,
                 "TimeStamp": 1374053170000000000,
                 "LastEditTime": 1382980766106237700
+            },
+            "Transformations": {
+                "TemplateName": "Default"
+            }
+        },
+        "Models/Misc/Plane2.anim": {
+            "AssetType": "Animation",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+
+                ],
+                "Variants": [
+
+                ]
+            },
+            "File": {
+                "Hash": 592976672,
+                "TimeStamp": 1383020696364652700,
+                "LastEditTime": 1383021599553312200
+            },
+            "Transformations": {
+                "TemplateName": "Default"
+            }
+        },
+        "Models/Misc/Plane2.vmesh": {
+            "AssetType": "StaticMesh",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+                    "plainwhite.dds",
+                    "Shaders/BaseShaders.ShaderLib",
+                    "Shaders/vMaterial.ShaderLib"
+                ],
+                "Variants": [
+
+                ]
+            },
+            "File": {
+                "Hash": 1965812913,
+                "TimeStamp": 1383020696364652700,
+                "LastEditTime": 1383021599554312200
             },
             "Transformations": {
                 "TemplateName": "Default"
@@ -372,6 +502,48 @@
                 "TemplateName": "Default"
             }
         },
+        "Models/Misc/TODCrate.Model": {
+            "AssetType": "Model",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+                    "Shaders/BaseShaders.ShaderLib",
+                    "Shaders/vMaterial.ShaderLib",
+                    "Textures/stone.tga"
+                ],
+                "Variants": [
+
+                ]
+            },
+            "File": {
+                "Hash": 1847919170,
+                "TimeStamp": 1382842206000000000,
+                "LastEditTime": 1383023832500029400
+            },
+            "Transformations": {
+                "TemplateName": "Default"
+            }
+        },
+        "Models/Misc/TODCreate.anim": {
+            "AssetType": "Animation",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+
+                ],
+                "Variants": [
+
+                ]
+            },
+            "File": {
+                "Hash": 592976672,
+                "TimeStamp": 1382842206000000000,
+                "LastEditTime": 1383023832533031300
+            },
+            "Transformations": {
+                "TemplateName": "Default"
+            }
+        },
         "Models/Misc/Torus.Model": {
             "AssetType": "Model",
             "Common": {
@@ -390,6 +562,57 @@
                 "Hash": 3276996417,
                 "TimeStamp": 1374053170000000000,
                 "LastEditTime": 1382980766168241200
+            },
+            "Transformations": {
+                "TemplateName": "Default"
+            }
+        },
+        "Models/Misc/troll.model": {
+            "AssetType": "Model",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+                    "Models/Misc/troll.model_data/materials.xml",
+                    "Models/Textures/TrollBodyCompleteMap.dds",
+                    "Models/Textures/TrollHatCompleteMap.dds",
+                    "Shaders/BaseShaders.ShaderLib",
+                    "Shaders/vMaterial.ShaderLib"
+                ],
+                "Variants": [
+
+                ]
+            },
+            "File": {
+                "Hash": 1581469246,
+                "TimeStamp": 1383020696405655100,
+                "LastEditTime": 1383021599564312800
+            },
+            "Transformations": {
+                "TemplateName": "Default"
+            }
+        },
+        "Models/Misc/Warrior.MODEL": {
+            "AssetType": "Model",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+                    "Models/Misc/Hair_cmap.dds",
+                    "Models/Misc/Hair_nmap.dds",
+                    "Models/Misc/Warrior.MODEL_data/materials.xml",
+                    "Models/Misc/warrior_cmap-2k.dds",
+                    "Models/Misc/warrior_nmap-2k.dds",
+                    "Models/Misc/warrior_smap-2k.dds",
+                    "Shaders/BaseShaders.ShaderLib",
+                    "Shaders/vMaterial.ShaderLib"
+                ],
+                "Variants": [
+
+                ]
+            },
+            "File": {
+                "Hash": 2244391882,
+                "TimeStamp": 1383020696397654600,
+                "LastEditTime": 1383021599594314500
             },
             "Transformations": {
                 "TemplateName": "Default"
@@ -1823,6 +2046,90 @@
                 "TemplateName": "Default"
             }
         },
+        "Textures/JP_Brick01_Bump.jpg": {
+            "AssetType": "Texture",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+
+                ],
+                "Variants": [
+
+                ]
+            },
+            "File": {
+                "Hash": 3322978754,
+                "TimeStamp": 1382839712000000000,
+                "LastEditTime": 1383023782478168300
+            },
+            "Texture": {
+                "FileFormat": "JPG",
+                "Width": 160,
+                "Height": 80,
+                "HasAlpha": false,
+                "Usage": "Undefined",
+                "sRGB": false
+            },
+            "Transformations": {
+                "TemplateName": "Default"
+            }
+        },
+        "Textures/menu_bricks_wall.jpg": {
+            "AssetType": "Texture",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+
+                ],
+                "Variants": [
+
+                ]
+            },
+            "File": {
+                "Hash": 1845868542,
+                "TimeStamp": 1383020714840709500,
+                "LastEditTime": 1383021600439362900
+            },
+            "Texture": {
+                "FileFormat": "JPG",
+                "Width": 795,
+                "Height": 503,
+                "HasAlpha": false,
+                "Usage": "Undefined",
+                "sRGB": false
+            },
+            "Transformations": {
+                "TemplateName": "Default"
+            }
+        },
+        "Textures/oldtilej.jpg": {
+            "AssetType": "Texture",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+
+                ],
+                "Variants": [
+
+                ]
+            },
+            "File": {
+                "Hash": 2988776518,
+                "TimeStamp": 1383020714841709600,
+                "LastEditTime": 1383021602749495000
+            },
+            "Texture": {
+                "FileFormat": "JPG",
+                "Width": 1164,
+                "Height": 1080,
+                "HasAlpha": false,
+                "Usage": "Undefined",
+                "sRGB": false
+            },
+            "Transformations": {
+                "TemplateName": "Default"
+            }
+        },
         "Textures/UI/Button.dds": {
             "AssetType": "Texture",
             "Common": {
@@ -2978,6 +3285,36 @@
             "TimeStamp": 1366968261284417700,
             "LastEditTime": 1367313597730715300
         },
+        "Meshes/Textures/JP_Brick01_Bump.jpg": {
+            "Hash": 0,
+            "TimeStamp": 0,
+            "LastEditTime": 1383023767721324300
+        },
+        "Models/Misc/Hair_cmap.dds": {
+            "Hash": 0,
+            "TimeStamp": 0,
+            "LastEditTime": 1382553421707109100
+        },
+        "Models/Misc/Hair_nmap.dds": {
+            "Hash": 0,
+            "TimeStamp": 0,
+            "LastEditTime": 1382553421707109100
+        },
+        "Models/Misc/warrior_cmap-2k.dds": {
+            "Hash": 0,
+            "TimeStamp": 0,
+            "LastEditTime": 1382553421707109100
+        },
+        "Models/Misc/warrior_nmap-2k.dds": {
+            "Hash": 0,
+            "TimeStamp": 0,
+            "LastEditTime": 1382553421707109100
+        },
+        "Models/Misc/warrior_smap-2k.dds": {
+            "Hash": 0,
+            "TimeStamp": 0,
+            "LastEditTime": 1382553421707109100
+        },
         "Models/Misc/CharHeight.Model_data/materials.xml": {
             "Hash": 0,
             "TimeStamp": 1366968261302417700,
@@ -2987,6 +3324,11 @@
             "Hash": 0,
             "TimeStamp": 1366968261316417700,
             "LastEditTime": 1367313597729715300
+        },
+        "Models/Misc/ModularWall.model_data/materials.xml": {
+            "Hash": 0,
+            "TimeStamp": 1382311914873973000,
+            "LastEditTime": 1382309677542005000
         },
         "Models/Misc/Plane.Model_data/materials.xml": {
             "Hash": 0,
@@ -3008,6 +3350,26 @@
             "TimeStamp": 1366968261374417700,
             "LastEditTime": 1367313597729715300
         },
+        "Models/Misc/troll.model_data/materials.xml": {
+            "Hash": 0,
+            "TimeStamp": 1374053134000000000,
+            "LastEditTime": 1382554825557404800
+        },
+        "Models/Misc/Warrior.MODEL_data/materials.xml": {
+            "Hash": 0,
+            "TimeStamp": 1374052980000000000,
+            "LastEditTime": 1382553420084016300
+        },
+        "Models/Textures/TrollBodyCompleteMap.dds": {
+            "Hash": 0,
+            "TimeStamp": 0,
+            "LastEditTime": 1382554826568462600
+        },
+        "Models/Textures/TrollHatCompleteMap.dds": {
+            "Hash": 0,
+            "TimeStamp": 0,
+            "LastEditTime": 1382554826568462600
+        },
         "Textures/blubber.dds": {
             "Hash": 0,
             "TimeStamp": 0,
@@ -3017,6 +3379,11 @@
             "Hash": 0,
             "TimeStamp": 0,
             "LastEditTime": 1367313600072715300
+        },
+        "Textures/stone.tga": {
+            "Hash": 0,
+            "TimeStamp": 0,
+            "LastEditTime": 1383023832533031300
         }
     }
 }

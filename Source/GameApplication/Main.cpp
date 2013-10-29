@@ -13,7 +13,6 @@
 
 #include "GameApplicationPCH.h"
 
-
 //============================================================================================================
 // Properties for start up. Some of the settings are not relevant for mobile devices
 //============================================================================================================
@@ -23,17 +22,20 @@ int windowPosX    = 500;                 // Set the Window position X if not in 
 int windowPosy    = 50;                  // Set the Window position Y if not in fullscreen.
 
 char name[]      = "StandAlone Project Template";  // Name to be displayed in the windows title bar.
-char StartUpScene[]  = "Scenes\\Default.vscene";   // Set the location of your start up scene.
+char StartUpScene[]  = "Scenes\\TowerOfDoom.vscene";   // Set the location of your start up scene.
 
-float cameraInitX = 0;                    //
+float cameraInitX = -750;                    //
 float cameraInitY = 0;                    //
-float cameraInitZ = 170;                  // Set our camera above the ground so that we can see 
+float cameraInitZ = 250;                  // Set our camera above the ground so that we can see 
                                           // the ground.
 
 //use the following line if you link statically. e.g. for mobile. 
 //You can remove this line when developing for windows only
 VIMPORT IVisPlugin_cl* GetEnginePlugin_GamePlugin();
-         
+VIMPORT IVisPlugin_cl* GetEnginePlugin_VisionEnginePlugin();
+VIMPORT IVisPlugin_cl* GetEnginePlugin_vHavok();
+VIMPORT IVisPlugin_cl* GetEnginePlugin_vHavokAi();
+
 VisSampleAppPtr spApp;
 
 //---------------------------------------------------------------------------------------------------------
@@ -91,6 +93,10 @@ VISION_INIT
   // use the following line if you link statically. e.g. for mobile. 
   // You can remove this line when developing for windows only
   VISION_PLUGIN_ENSURE_LOADED(GamePlugin);
+  VISION_PLUGIN_ENSURE_LOADED(VisionEnginePlugin);
+VISION_PLUGIN_ENSURE_LOADED(vHavok);
+VISION_PLUGIN_ENSURE_LOADED(vHavokAi);
+
 
   // Init the application and point it to the start up scene.
   if (!spApp->InitSample( "", StartUpScene, VSAMPLE_INIT_DEFAULTS|VSAMPLE_CUSTOMDATADIRECTORIES,windowSizeX,windowSizeY))

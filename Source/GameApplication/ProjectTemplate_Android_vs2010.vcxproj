@@ -72,7 +72,7 @@
       <Command>"$(VISION_SDK)\Build\StandaloneTools\Deployment\Exe\deployAndroid.exe" $(OutDir)$(TargetName)$(TargetExt) --pickleName $(ProjectFileName)_$(Configuration).deploy -j $(JavaOutputDir) -s $(AndroidAPILevel) -e -i --asset ..\../Data/Vision/Base/ Data/Vision/Base/ --asset ..\../Assets/ Assets/</Command>
     </PostBuildEvent>
     <Link>
-      <AdditionalDependencies>-lGamePlugin;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>-lGamePlugin;-lvHavok;-lvHavokAi;-lhkInternal;-lhkGeometryUtilities;-lhkVisualize;-lhkSerialize;-lhkCompat;-lhkSceneData;-lhkBase;-lhkcdCollide;-lhkcdInternal;-lhkpUtilities;-lhkpVehicle;-lhkpDynamics;-lhkpCollide;-lhkpInternal;-lhkpConstraintSolver;-lhkpConstraint;-lhkaiPathfinding;-lhkaiInternal;-lhkaiVisualize;-lhkaiSpatialAnalysis;-lhkaiPhysics2012Bridge;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalLibraryDirectories>..\..\Lib\android_vs2010_anarchy\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>

@@ -7,7 +7,7 @@
  */
 
 #include "GameApplicationPCH.h"
-
+#include <Common/Base/keycode.cxx>
 /*
  * Havok SDK - Base file, BUILD(#20130717)
  * 
