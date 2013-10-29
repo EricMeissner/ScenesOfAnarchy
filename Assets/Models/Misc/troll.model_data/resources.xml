@@ -1,0 +1,10 @@
+<root>
+    <Resources Version="1" Count="6" PathType="Project">
+        <Resource Manager="Animations" Filename="Models\troll.anim" Size="27976" />
+        <Resource Manager="FILE" Filename="Models\troll.model_data\materials.xml" OwnerRes="5" Size="842" />
+        <Resource Manager="EffectLibs" Filename="Shaders\vMaterial.ShaderLib" Size="448328" />
+        <Resource Manager="Textures" Filename="Textures\TrollClothingLR.dds" CustomInt="1,64" Size="5592404" />
+        <Resource Manager="Textures" Filename="Textures\TrollHiPolyColourGrey01LR.dds" CustomInt="1,64" Size="5592404" />
+        <Resource Manager="Static/Dynamic Meshes" Filename="Models\troll.model" CustomInt="1,2" Size="144" />
+    </Resources>
+</root>

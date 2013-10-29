@@ -1,0 +1,1 @@
+vLux.exe "" -project "C:\Users\Ian\Documents\GitHub\ScenesOfAnarchy\Assets" -tempfolder "C:\Users\Ian\Documents\GitHub\ScenesOfAnarchy\Assets\Scenes\Gravity Room.scene.Layers" -out "Scenes\Gravity Room" -quiet -minimized -config "C:\Users\Ian\Documents\GitHub\ScenesOfAnarchy\Assets\Scenes\Gravity Room.scene.Layers\lighting.cfg"
