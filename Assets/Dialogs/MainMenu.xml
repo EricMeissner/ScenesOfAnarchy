@@ -1,0 +1,71 @@
+<root>
+  <DIALOG class="VDialog" name="MainMenu" fullscreen="FALSE" backgroundcolor="51,51,51,200" size="275,600" startPosition="ScreenCenter">
+
+	<!-- NOTES:
+	
+	Position for coordinates  = "X,Y"
+	- (0,0) Left top of the Parent Box
+	- (X+,Y) --move to the right
+	- (X-,Y) --move to the left
+	- (X,Y+) --move up
+	- (X,Y-) --move down
+	
+	-Keep Everything aligned on the X-coordinate
+	
+	
+	-->
+	
+	
+    <!-- Project Anarchy Logo -->
+    <control class="VImageControl" ID="IMAGE1" pos="73,50" size="128,129">
+      <image texture="logo.tga" stretchmode="TEXTURE_SIZE"/>
+    </control>
+	
+	<!-- Project Name -->
+	<control class="VTextLabel" ID="STATIC1" pos="30,300" size="150,35">
+	  <text text="Scenes of Anarchy" font="MenuFont" color="255,192,58,255" valign="CENTER" halign="CENTER"/>
+    </control>
+
+
+	<!--Tower of Doom Scene Button -->
+	
+	<control class="VPushButton" ID="QUIT" pos="30,350" size="95,35" dialogResult="NONE" enabled="true" tooltiptext="Tower Of Doom Scene" taborder="6">
+      <text text="Tower of Doom" font="MenuFont" color="180,180,180,255" valign="CENTER" halign="LEFT">
+        <statemodifier state="mouseOver" color="230,230,230,255"/>
+        <statemodifier state="selected"  color="255,255,255,255"/>
+        <statemodifier state="disabled"  color="120,120,120,255"/>
+      </text>
+    </control>
+	
+	<!--Gravity Room Scene Button -->
+	
+	<control class="VPushButton" ID="QUIT" pos="30,390" size="88,35" dialogResult="NONE" enabled="true" tooltiptext="Gravity Room Scene" taborder="6">
+      <text text="Gravity Room" font="MenuFont" color="180,180,180,255" valign="CENTER" halign="LEFt">
+        <statemodifier state="mouseOver" color="230,230,230,255"/>
+        <statemodifier state="selected"  color="255,255,255,255"/>
+        <statemodifier state="disabled"  color="120,120,120,255"/>
+      </text>
+    </control>
+	
+	<!--About Button -->
+	
+	<control class="VPushButton" ID="QUIT" pos="30,430" size="88,35" dialogResult="NONE" enabled="true" tooltiptext="About Scenes of Anarchy" taborder="6">
+      <text text="About" font="MenuFont" color="180,180,180,255" valign="CENTER" halign="LEFt">
+        <statemodifier state="mouseOver" color="230,230,230,255"/>
+        <statemodifier state="selected"  color="255,255,255,255"/>
+        <statemodifier state="disabled"  color="120,120,120,255"/>
+      </text>
+    </control>
+
+	
+    <!-- quit button -->
+    <control class="VPushButton" ID="QUIT" pos="30,470" size="88,35" dialogResult="CANCEL" enabled="true" tooltiptext="Quit the application" taborder="6">
+      <text text="Quit" font="MenuFont" color="180,180,180,255" valign="CENTER" halign="LEFT">
+        <statemodifier state="mouseOver" color="230,230,230,255"/>
+        <statemodifier state="selected"  color="255,255,255,255"/>
+        <statemodifier state="disabled"  color="120,120,120,255"/>
+      </text>
+    </control>
+	
+  </DIALOG>
+</root>

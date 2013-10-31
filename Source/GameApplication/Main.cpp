@@ -13,6 +13,43 @@
 
 #include "GameApplicationPCH.h"
 
+VSmartPtr<VGUIMainContext> spGUIContext;
+VDialogPtr spMainDlg;
+
+
+void InitGUI()
+
+{
+
+  spGUIContext = new VGUIMainContext(NULL);
+
+  spGUIContext->SetActivate(true);
+
+ 
+
+  // Load some default resources (like fonts or the image for the cursor)
+
+  VGUIManager::GlobalManager().LoadResourceFile("Dialogs\\MenuSystem.xml");
+
+  // Load and show the Main Menu layout
+  spMainDlg = spGUIContext->ShowDialog("Dialogs\\MainMenu.xml");
+
+  VASSERT(spMainDlg);
+
+}
+
+void DeInitGUI()
+
+{
+
+  spMainDlg = NULL;                  // destroy the Main Dialog object
+
+  spGUIContext->SetActivate(false);  // deactivate the GUI context ...
+
+  spGUIContext = NULL;               // ... and destroy it
+
+}
+
 //============================================================================================================
 // Properties for start up. Some of the settings are not relevant for mobile devices
 //============================================================================================================
@@ -22,7 +59,7 @@ int windowPosX    = 500;                 // Set the Window position X if not in 
 int windowPosy    = 50;                  // Set the Window position Y if not in fullscreen.
 
 char name[]      = "StandAlone Project Template";  // Name to be displayed in the windows title bar.
-char StartUpScene[]  = "Scenes\\TowerOfDoom.vscene";   // Set the location of your start up scene.
+char StartUpScene[]  = "Scenes\\GravityRoom.vscene";   // Set the location of your start up scene.
 
 float cameraInitX = -750;                    //
 float cameraInitY = 0;                    //
@@ -101,7 +138,7 @@ VISION_PLUGIN_ENSURE_LOADED(vHavok);
   // Init the application and point it to the start up scene.
   if (!spApp->InitSample( "", StartUpScene, VSAMPLE_INIT_DEFAULTS|VSAMPLE_CUSTOMDATADIRECTORIES,windowSizeX,windowSizeY))
     return false;
-
+  InitGUI();
   return true;
 }
 
@@ -132,11 +169,12 @@ VISION_SAMPLEAPP_AFTER_LOADING
 
 VISION_SAMPLEAPP_RUN
 {
-  return spApp->Run();
+  return spApp->Run() && spMainDlg->GetDialogResult()!=VGUIManager::ID_CANCEL;
 }
 
 VISION_DEINIT
 {
+	  DeInitGUI();
   // Deinit the application
   spApp->DeInitSample();
   spApp = NULL;
