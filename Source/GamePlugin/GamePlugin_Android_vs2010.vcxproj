@@ -54,7 +54,7 @@
     <OutDir>..\..\Lib\android_vs2010_anarchy\$(Configuration)\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|hkAndroid'">
-    <IntDir>..\..\Obj\android_vs2010_anarchy\$(Configuration)\GamePlugin</IntDir>
+    <IntDir>..\..\Obj\android_vs2010_anarchy\$(Configuration)\GamePlugin\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|hkAndroid'">
     <TargetName>libGamePlugin</TargetName>
@@ -64,7 +64,7 @@
     <OutDir>..\..\Lib\android_vs2010_anarchy\$(Configuration)\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|hkAndroid'">
-    <IntDir>..\..\Obj\android_vs2010_anarchy\$(Configuration)\GamePlugin</IntDir>
+    <IntDir>..\..\Obj\android_vs2010_anarchy\$(Configuration)\GamePlugin\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|hkAndroid'">
     <TargetName>libGamePlugin</TargetName>
@@ -74,7 +74,7 @@
     <OutDir>..\..\Lib\android_vs2010_anarchy\$(Configuration)\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Dev|hkAndroid'">
-    <IntDir>..\..\Obj\android_vs2010_anarchy\$(Configuration)\GamePlugin</IntDir>
+    <IntDir>..\..\Obj\android_vs2010_anarchy\$(Configuration)\GamePlugin\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Dev|hkAndroid'">
     <TargetName>libGamePlugin</TargetName>
