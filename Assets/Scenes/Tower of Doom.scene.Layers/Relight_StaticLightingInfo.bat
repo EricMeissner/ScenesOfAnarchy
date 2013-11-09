@@ -1,0 +1,1 @@
+vLux.exe "" -project "C:\Users\Ian\Documents\GitHub\ScenesOfAnarchy\Assets" -tempfolder "C:\Users\Ian\Documents\GitHub\ScenesOfAnarchy\Assets\Scenes\Tower of Doom.scene.Layers" -out "Scenes\Tower of Doom" -quiet -minimized -config "C:\Users\Ian\Documents\GitHub\ScenesOfAnarchy\Assets\Scenes\Tower of Doom.scene.Layers\lighting.cfg"

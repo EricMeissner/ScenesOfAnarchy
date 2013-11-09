@@ -106,5 +106,10 @@ textures/water/water_n_01.dds	textures/water/water_n_01.dds	Usage="NormalMap",sR
 models/misc/modularwall.model	models/misc/modularwall.model	
 models/misc/plane2.anim	models/misc/plane2.anim	
 models/misc/plane2.vmesh	models/misc/plane2.vmesh	
-models/misc/warrior.model	models/misc/warrior.model	
 models/misc/troll.model	models/misc/troll.model	
+models/misc/warrior.model	models/misc/warrior.model	
+models/misc/test.anim	models/misc/test.anim	
+models/misc/test.vcolmesh	models/misc/test.vcolmesh	
+models/misc/tumbler.anim	models/misc/tumbler.anim	
+models/misc/tumbler.vcolmesh	models/misc/tumbler.vcolmesh	
+models/misc/tumbler.model	models/misc/tumbler.model	

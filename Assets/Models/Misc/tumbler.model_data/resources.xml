@@ -1,0 +1,10 @@
+<root>
+    <Resources Version="1" Count="6" PathType="Project">
+        <Resource Manager="Textures" Filename="Atten\smooth.dds" CustomInt="1,1" Size="1024" />
+        <Resource Manager="FILE" Filename="Models/Misc/Tumbler.MODEL_data\materials.xml" OwnerRes="5" Size="433" />
+        <Resource Manager="Animations" Filename="Models\Misc\Tumbler.anim" Size="1024" />
+        <Resource Manager="Textures" Filename="PlainWhite.DDS" CustomInt="1,64" Size="64" />
+        <Resource Manager="EffectLibs" Filename="Shaders\vMaterial.ShaderLib" Size="390384" />
+        <Resource Manager="Static/Dynamic Meshes" Filename="Models/Misc/Tumbler.MODEL" CustomInt="1,2" Size="56" />
+    </Resources>
+</root>
