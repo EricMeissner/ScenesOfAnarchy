@@ -643,7 +643,7 @@
             "File": {
                 "Hash": 1847919170,
                 "TimeStamp": 1383521787630896000,
-                "LastEditTime": 1383593648549458600
+                "LastEditTime": 1384047297998990200
             },
             "Model": {
                 "LODSwitchDistances": [
@@ -988,7 +988,7 @@
             "File": {
                 "Hash": 1091366312,
                 "TimeStamp": 1383521965078045400,
-                "LastEditTime": 1383593649023485700
+                "LastEditTime": 1384047298036992400
             },
             "Model": {
                 "LODSwitchDistances": [
@@ -2309,7 +2309,7 @@
             "File": {
                 "Hash": 4060525796,
                 "TimeStamp": 1383521965129048300,
-                "LastEditTime": 1383593649128491700
+                "LastEditTime": 1384047296327894600
             },
             "Texture": {
                 "FileFormat": "TGA",

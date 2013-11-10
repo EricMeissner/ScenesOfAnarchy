@@ -117,9 +117,9 @@ models/misc/warrior.model	models/misc/warrior.model	LODSwitchDistances=
 textures/jp_brick01_bump.jpg	textures/jp_brick01_bump.jpg	sRGB=false
 textures/menu_bricks_wall.jpg	textures/menu_bricks_wall.jpg	sRGB=false
 textures/oldtilej.jpg	textures/oldtilej.jpg	sRGB=false
+meshes/towerofdoom/floor.vcolmesh	meshes/towerofdoom/floor.vcolmesh	
+meshes/towerofdoom/floor.vmesh	meshes/towerofdoom/floor.vmesh	LODSwitchDistances=
 stoneblock.anim	stoneblock.anim	
 stoneblock.model	stoneblock.model	LODSwitchDistances=
 textures/rocks.tga	textures/rocks.tga	sRGB=false
 textures/stone.tga	textures/stone.tga	sRGB=false
-meshes/towerofdoom/floor.vcolmesh	meshes/towerofdoom/floor.vcolmesh	
-meshes/towerofdoom/floor.vmesh	meshes/towerofdoom/floor.vmesh	LODSwitchDistances=
