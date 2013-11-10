@@ -102,9 +102,24 @@ textures/ui/sliderhigh.png	textures/ui/sliderhigh.png	Usage="Undefined",sRGB=fal
 textures/ui/slidernorm.dds	textures/ui/slidernorm.dds	Usage="Undefined",sRGB=false
 textures/ui/slidernorm.png	textures/ui/slidernorm.png	Usage="Undefined",sRGB=false
 textures/ui/white.dds	textures/ui/white.dds	Usage="Undefined",sRGB=false
-textures/water/water_n_01.dds	textures/water/water_n_01.dds	Usage="NormalMap",sRGB=false
+textures/water/water_n_01.dds	textures/water/water_n_01.dds	Usage="Undefined",sRGB=false
+meshes/menu_floor_mesh.vmesh	meshes/menu_floor_mesh.vmesh	
+meshes/menu_wall_mash.vmesh	meshes/menu_wall_mash.vmesh	
+meshes/textures/jp_brick01_bump.jpg	meshes/textures/jp_brick01_bump.jpg	Usage="Undefined",sRGB=false
+meshes/towerofdoom.vmesh	meshes/towerofdoom.vmesh	
 models/misc/modularwall.model	models/misc/modularwall.model	
 models/misc/plane2.anim	models/misc/plane2.anim	
 models/misc/plane2.vmesh	models/misc/plane2.vmesh	
-models/misc/warrior.model	models/misc/warrior.model	
+models/misc/todcrate.model	models/misc/todcrate.model	
+models/misc/todcreate.anim	models/misc/todcreate.anim	
 models/misc/troll.model	models/misc/troll.model	
+models/misc/warrior.model	models/misc/warrior.model	
+textures/jp_brick01_bump.jpg	textures/jp_brick01_bump.jpg	Usage="Undefined",sRGB=false
+textures/menu_bricks_wall.jpg	textures/menu_bricks_wall.jpg	Usage="Undefined",sRGB=false
+textures/oldtilej.jpg	textures/oldtilej.jpg	Usage="Undefined",sRGB=false
+meshes/towerofdoom/floor.vcolmesh	meshes/towerofdoom/floor.vcolmesh	
+meshes/towerofdoom/floor.vmesh	meshes/towerofdoom/floor.vmesh	
+stoneblock.anim	stoneblock.anim	
+stoneblock.model	stoneblock.model	
+textures/rocks.tga	textures/rocks.tga	Usage="Undefined",sRGB=false
+textures/stone.tga	textures/stone.tga	Usage="Undefined",sRGB=false
