@@ -1,5 +1,8 @@
+
 Bin/android_vs2010_anarchy/
-Bin/win32_vs2010_acarchy/dev_dll
+Bin/android_arm_vs2010_anarchy/
+Bin/win32_vs2010_anarchy/debug_dll/
+Bin/win32_vs2010_anarchy/dev_dll
 External/
 Obj/
 Lib/
