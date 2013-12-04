@@ -484,7 +484,7 @@
             "File": {
                 "Hash": 335902617,
                 "TimeStamp": 1386185459408066200,
-                "LastEditTime": 1386185690497283700
+                "LastEditTime": 1386188188022065600
             },
             "Texture": {
                 "FileFormat": "DDS",
@@ -511,7 +511,7 @@
             "File": {
                 "Hash": 2903591900,
                 "TimeStamp": 1386185459474069900,
-                "LastEditTime": 1386185690844303500
+                "LastEditTime": 1386188188800110100
             },
             "Texture": {
                 "FileFormat": "DDS",
@@ -697,7 +697,7 @@
             "File": {
                 "Hash": 1847919170,
                 "TimeStamp": 1386185459512072100,
-                "LastEditTime": 1386185683354875200
+                "LastEditTime": 1386188187820054000
             },
             "Model": {
                 "LODSwitchDistances": [
@@ -801,7 +801,7 @@
             "File": {
                 "Hash": 1581469246,
                 "TimeStamp": 1384371714989156500,
-                "LastEditTime": 1386185690215267600
+                "LastEditTime": 1386188189380143300
             },
             "Model": {
                 "LODSwitchDistances": [
@@ -833,7 +833,7 @@
             "File": {
                 "Hash": 2244391882,
                 "TimeStamp": 1384371714945154000,
-                "LastEditTime": 1386185690621290800
+                "LastEditTime": 1386188188183074800
             },
             "Model": {
                 "LODSwitchDistances": [
@@ -858,7 +858,7 @@
             "File": {
                 "Hash": 175454185,
                 "TimeStamp": 1386185460196111200,
-                "LastEditTime": 1386185691118319200
+                "LastEditTime": 1386188188921117000
             },
             "Texture": {
                 "FileFormat": "DDS",
@@ -885,7 +885,7 @@
             "File": {
                 "Hash": 2918194458,
                 "TimeStamp": 1386185460418123900,
-                "LastEditTime": 1386185691249326700
+                "LastEditTime": 1386188189046124200
             },
             "Texture": {
                 "FileFormat": "DDS",
@@ -912,7 +912,7 @@
             "File": {
                 "Hash": 2462905616,
                 "TimeStamp": 1386185460741142400,
-                "LastEditTime": 1386185691475339600
+                "LastEditTime": 1386188189266136800
             },
             "Texture": {
                 "FileFormat": "DDS",
@@ -939,7 +939,7 @@
             "File": {
                 "Hash": 2262755871,
                 "TimeStamp": 1386185460862149300,
-                "LastEditTime": 1386185690140263300
+                "LastEditTime": 1386188189315139600
             },
             "Texture": {
                 "FileFormat": "DDS",
@@ -966,7 +966,7 @@
             "File": {
                 "Hash": 2582611873,
                 "TimeStamp": 1386185461001157300,
-                "LastEditTime": 1386185690340274700
+                "LastEditTime": 1386188189490149600
             },
             "Texture": {
                 "FileFormat": "DDS",
@@ -1204,7 +1204,7 @@
             "File": {
                 "Hash": 1091366312,
                 "TimeStamp": 1386185462043216900,
-                "LastEditTime": 1386185681697780400
+                "LastEditTime": 1386188187929060300
             },
             "Model": {
                 "LODSwitchDistances": [
@@ -1350,6 +1350,33 @@
                 "TemplateName": "Default"
             }
         },
+        "Textures/colors/Black.tga": {
+            "AssetType": "Texture",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+
+                ],
+                "Variants": [
+
+                ]
+            },
+            "File": {
+                "Hash": 4124567779,
+                "TimeStamp": 1386187223460519800,
+                "LastEditTime": 1386187223876543600
+            },
+            "Texture": {
+                "FileFormat": "TGA",
+                "Width": 16,
+                "Height": 16,
+                "HasAlpha": false,
+                "sRGB": false
+            },
+            "Transformations": {
+                "TemplateName": "Default"
+            }
+        },
         "Textures/colors/Blue.png": {
             "AssetType": "Texture",
             "Common": {
@@ -1368,6 +1395,33 @@
             },
             "Texture": {
                 "FileFormat": "PNG",
+                "Width": 16,
+                "Height": 16,
+                "HasAlpha": false,
+                "sRGB": false
+            },
+            "Transformations": {
+                "TemplateName": "Default"
+            }
+        },
+        "Textures/colors/Blue.tga": {
+            "AssetType": "Texture",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+
+                ],
+                "Variants": [
+
+                ]
+            },
+            "File": {
+                "Hash": 3302521094,
+                "TimeStamp": 1386187218237227200,
+                "LastEditTime": 1386187218437232500
+            },
+            "Texture": {
+                "FileFormat": "TGA",
                 "Width": 16,
                 "Height": 16,
                 "HasAlpha": false,
@@ -1404,6 +1458,33 @@
                 "TemplateName": "Default"
             }
         },
+        "Textures/colors/BlueDark.tga": {
+            "AssetType": "Texture",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+
+                ],
+                "Variants": [
+
+                ]
+            },
+            "File": {
+                "Hash": 1543060722,
+                "TimeStamp": 1386187212969927100,
+                "LastEditTime": 1386187213409952200
+            },
+            "Texture": {
+                "FileFormat": "TGA",
+                "Width": 16,
+                "Height": 16,
+                "HasAlpha": false,
+                "sRGB": false
+            },
+            "Transformations": {
+                "TemplateName": "Default"
+            }
+        },
         "Textures/colors/BlueLight.png": {
             "AssetType": "Texture",
             "Common": {
@@ -1422,6 +1503,33 @@
             },
             "Texture": {
                 "FileFormat": "PNG",
+                "Width": 16,
+                "Height": 16,
+                "HasAlpha": false,
+                "sRGB": false
+            },
+            "Transformations": {
+                "TemplateName": "Default"
+            }
+        },
+        "Textures/colors/BlueLight.tga": {
+            "AssetType": "Texture",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+
+                ],
+                "Variants": [
+
+                ]
+            },
+            "File": {
+                "Hash": 2321005111,
+                "TimeStamp": 1386187207840633700,
+                "LastEditTime": 1386187208250657100
+            },
+            "Texture": {
+                "FileFormat": "TGA",
                 "Width": 16,
                 "Height": 16,
                 "HasAlpha": false,
@@ -1485,6 +1593,33 @@
                 "TemplateName": "Default"
             }
         },
+        "Textures/colors/Cyan.tga": {
+            "AssetType": "Texture",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+
+                ],
+                "Variants": [
+
+                ]
+            },
+            "File": {
+                "Hash": 2781311912,
+                "TimeStamp": 1386187202571347900,
+                "LastEditTime": 1386187202776359700
+            },
+            "Texture": {
+                "FileFormat": "TGA",
+                "Width": 16,
+                "Height": 16,
+                "HasAlpha": false,
+                "sRGB": false
+            },
+            "Transformations": {
+                "TemplateName": "Default"
+            }
+        },
         "Textures/colors/CyanDark.png": {
             "AssetType": "Texture",
             "Common": {
@@ -1503,6 +1638,33 @@
             },
             "Texture": {
                 "FileFormat": "PNG",
+                "Width": 16,
+                "Height": 16,
+                "HasAlpha": false,
+                "sRGB": false
+            },
+            "Transformations": {
+                "TemplateName": "Default"
+            }
+        },
+        "Textures/colors/CyanDark.tga": {
+            "AssetType": "Texture",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+
+                ],
+                "Variants": [
+
+                ]
+            },
+            "File": {
+                "Hash": 2756142874,
+                "TimeStamp": 1386187189824022200,
+                "LastEditTime": 1386187190285048600
+            },
+            "Texture": {
+                "FileFormat": "TGA",
                 "Width": 16,
                 "Height": 16,
                 "HasAlpha": false,
@@ -1539,6 +1701,33 @@
                 "TemplateName": "Default"
             }
         },
+        "Textures/colors/CyanLight.tga": {
+            "AssetType": "Texture",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+
+                ],
+                "Variants": [
+
+                ]
+            },
+            "File": {
+                "Hash": 351726449,
+                "TimeStamp": 1386187184310286200,
+                "LastEditTime": 1386187184530286500
+            },
+            "Texture": {
+                "FileFormat": "TGA",
+                "Width": 16,
+                "Height": 16,
+                "HasAlpha": false,
+                "sRGB": false
+            },
+            "Transformations": {
+                "TemplateName": "Default"
+            }
+        },
         "Textures/colors/Gray33.png": {
             "AssetType": "Texture",
             "Common": {
@@ -1557,6 +1746,33 @@
             },
             "Texture": {
                 "FileFormat": "PNG",
+                "Width": 16,
+                "Height": 16,
+                "HasAlpha": false,
+                "sRGB": false
+            },
+            "Transformations": {
+                "TemplateName": "Default"
+            }
+        },
+        "Textures/colors/Gray33.tga": {
+            "AssetType": "Texture",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+
+                ],
+                "Variants": [
+
+                ]
+            },
+            "File": {
+                "Hash": 3918219920,
+                "TimeStamp": 1386187178079937100,
+                "LastEditTime": 1386187178684971700
+            },
+            "Texture": {
+                "FileFormat": "TGA",
                 "Width": 16,
                 "Height": 16,
                 "HasAlpha": false,
@@ -1593,6 +1809,33 @@
                 "TemplateName": "Default"
             }
         },
+        "Textures/colors/Gray50.tga": {
+            "AssetType": "Texture",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+
+                ],
+                "Variants": [
+
+                ]
+            },
+            "File": {
+                "Hash": 360120259,
+                "TimeStamp": 1386187171444562100,
+                "LastEditTime": 1386187172451615200
+            },
+            "Texture": {
+                "FileFormat": "TGA",
+                "Width": 16,
+                "Height": 16,
+                "HasAlpha": false,
+                "sRGB": false
+            },
+            "Transformations": {
+                "TemplateName": "Default"
+            }
+        },
         "Textures/colors/Gray66.png": {
             "AssetType": "Texture",
             "Common": {
@@ -1611,6 +1854,33 @@
             },
             "Texture": {
                 "FileFormat": "PNG",
+                "Width": 16,
+                "Height": 16,
+                "HasAlpha": false,
+                "sRGB": false
+            },
+            "Transformations": {
+                "TemplateName": "Default"
+            }
+        },
+        "Textures/colors/Gray66.tga": {
+            "AssetType": "Texture",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+
+                ],
+                "Variants": [
+
+                ]
+            },
+            "File": {
+                "Hash": 592751481,
+                "TimeStamp": 1386187165928286200,
+                "LastEditTime": 1386187166340304700
+            },
+            "Texture": {
+                "FileFormat": "TGA",
                 "Width": 16,
                 "Height": 16,
                 "HasAlpha": false,
@@ -1647,6 +1917,33 @@
                 "TemplateName": "Default"
             }
         },
+        "Textures/colors/Green.tga": {
+            "AssetType": "Texture",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+
+                ],
+                "Variants": [
+
+                ]
+            },
+            "File": {
+                "Hash": 2496193101,
+                "TimeStamp": 1386187160464044500,
+                "LastEditTime": 1386187160873067900
+            },
+            "Texture": {
+                "FileFormat": "TGA",
+                "Width": 16,
+                "Height": 16,
+                "HasAlpha": false,
+                "sRGB": false
+            },
+            "Transformations": {
+                "TemplateName": "Default"
+            }
+        },
         "Textures/colors/GreenDark.png": {
             "AssetType": "Texture",
             "Common": {
@@ -1665,6 +1962,33 @@
             },
             "Texture": {
                 "FileFormat": "PNG",
+                "Width": 16,
+                "Height": 16,
+                "HasAlpha": false,
+                "sRGB": false
+            },
+            "Transformations": {
+                "TemplateName": "Default"
+            }
+        },
+        "Textures/colors/GreenDark.tga": {
+            "AssetType": "Texture",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+
+                ],
+                "Variants": [
+
+                ]
+            },
+            "File": {
+                "Hash": 174699275,
+                "TimeStamp": 1386187154845729200,
+                "LastEditTime": 1386187155053735100
+            },
+            "Texture": {
+                "FileFormat": "TGA",
                 "Width": 16,
                 "Height": 16,
                 "HasAlpha": false,
@@ -1701,6 +2025,33 @@
                 "TemplateName": "Default"
             }
         },
+        "Textures/colors/GreenLight.tga": {
+            "AssetType": "Texture",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+
+                ],
+                "Variants": [
+
+                ]
+            },
+            "File": {
+                "Hash": 2346167941,
+                "TimeStamp": 1386187148421910900,
+                "LastEditTime": 1386187148626922600
+            },
+            "Texture": {
+                "FileFormat": "TGA",
+                "Width": 16,
+                "Height": 16,
+                "HasAlpha": false,
+                "sRGB": false
+            },
+            "Transformations": {
+                "TemplateName": "Default"
+            }
+        },
         "Textures/colors/Magenta.png": {
             "AssetType": "Texture",
             "Common": {
@@ -1719,6 +2070,33 @@
             },
             "Texture": {
                 "FileFormat": "PNG",
+                "Width": 16,
+                "Height": 16,
+                "HasAlpha": false,
+                "sRGB": false
+            },
+            "Transformations": {
+                "TemplateName": "Default"
+            }
+        },
+        "Textures/colors/Magenta.tga": {
+            "AssetType": "Texture",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+
+                ],
+                "Variants": [
+
+                ]
+            },
+            "File": {
+                "Hash": 2955740376,
+                "TimeStamp": 1386187143330619700,
+                "LastEditTime": 1386187143538631600
+            },
+            "Texture": {
+                "FileFormat": "TGA",
                 "Width": 16,
                 "Height": 16,
                 "HasAlpha": false,
@@ -1755,6 +2133,33 @@
                 "TemplateName": "Default"
             }
         },
+        "Textures/colors/MagentaDark.tga": {
+            "AssetType": "Texture",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+
+                ],
+                "Variants": [
+
+                ]
+            },
+            "File": {
+                "Hash": 3939017771,
+                "TimeStamp": 1386187138291338100,
+                "LastEditTime": 1386187138500343400
+            },
+            "Texture": {
+                "FileFormat": "TGA",
+                "Width": 16,
+                "Height": 16,
+                "HasAlpha": false,
+                "sRGB": false
+            },
+            "Transformations": {
+                "TemplateName": "Default"
+            }
+        },
         "Textures/colors/MagentaLight.png": {
             "AssetType": "Texture",
             "Common": {
@@ -1773,6 +2178,33 @@
             },
             "Texture": {
                 "FileFormat": "PNG",
+                "Width": 16,
+                "Height": 16,
+                "HasAlpha": false,
+                "sRGB": false
+            },
+            "Transformations": {
+                "TemplateName": "Default"
+            }
+        },
+        "Textures/colors/MagentaLight.tga": {
+            "AssetType": "Texture",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+
+                ],
+                "Variants": [
+
+                ]
+            },
+            "File": {
+                "Hash": 1335058224,
+                "TimeStamp": 1386187132939047600,
+                "LastEditTime": 1386187133345064700
+            },
+            "Texture": {
+                "FileFormat": "TGA",
                 "Width": 16,
                 "Height": 16,
                 "HasAlpha": false,
@@ -1809,6 +2241,33 @@
                 "TemplateName": "Default"
             }
         },
+        "Textures/colors/Orange.tga": {
+            "AssetType": "Texture",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+
+                ],
+                "Variants": [
+
+                ]
+            },
+            "File": {
+                "Hash": 2124205781,
+                "TimeStamp": 1386187127186746500,
+                "LastEditTime": 1386187127594769800
+            },
+            "Texture": {
+                "FileFormat": "TGA",
+                "Width": 16,
+                "Height": 16,
+                "HasAlpha": false,
+                "sRGB": false
+            },
+            "Transformations": {
+                "TemplateName": "Default"
+            }
+        },
         "Textures/colors/OrangeDark.png": {
             "AssetType": "Texture",
             "Common": {
@@ -1827,6 +2286,33 @@
             },
             "Texture": {
                 "FileFormat": "PNG",
+                "Width": 16,
+                "Height": 16,
+                "HasAlpha": false,
+                "sRGB": false
+            },
+            "Transformations": {
+                "TemplateName": "Default"
+            }
+        },
+        "Textures/colors/OrangeDark.tga": {
+            "AssetType": "Texture",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+
+                ],
+                "Variants": [
+
+                ]
+            },
+            "File": {
+                "Hash": 2655953626,
+                "TimeStamp": 1386187111994297800,
+                "LastEditTime": 1386187112210304500
+            },
+            "Texture": {
+                "FileFormat": "TGA",
                 "Width": 16,
                 "Height": 16,
                 "HasAlpha": false,
@@ -1863,6 +2349,33 @@
                 "TemplateName": "Default"
             }
         },
+        "Textures/colors/OrangeLight.tga": {
+            "AssetType": "Texture",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+
+                ],
+                "Variants": [
+
+                ]
+            },
+            "File": {
+                "Hash": 3402479942,
+                "TimeStamp": 1386187104446185100,
+                "LastEditTime": 1386187104652196900
+            },
+            "Texture": {
+                "FileFormat": "TGA",
+                "Width": 16,
+                "Height": 16,
+                "HasAlpha": false,
+                "sRGB": false
+            },
+            "Transformations": {
+                "TemplateName": "Default"
+            }
+        },
         "Textures/colors/Red.png": {
             "AssetType": "Texture",
             "Common": {
@@ -1881,6 +2394,33 @@
             },
             "Texture": {
                 "FileFormat": "PNG",
+                "Width": 16,
+                "Height": 16,
+                "HasAlpha": false,
+                "sRGB": false
+            },
+            "Transformations": {
+                "TemplateName": "Default"
+            }
+        },
+        "Textures/colors/Red.tga": {
+            "AssetType": "Texture",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+
+                ],
+                "Variants": [
+
+                ]
+            },
+            "File": {
+                "Hash": 2166527293,
+                "TimeStamp": 1386187094638524300,
+                "LastEditTime": 1386187094843780400
+            },
+            "Texture": {
+                "FileFormat": "TGA",
                 "Width": 16,
                 "Height": 16,
                 "HasAlpha": false,
@@ -1917,6 +2457,33 @@
                 "TemplateName": "Default"
             }
         },
+        "Textures/colors/RedDark.tga": {
+            "AssetType": "Texture",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+
+                ],
+                "Variants": [
+
+                ]
+            },
+            "File": {
+                "Hash": 1155952698,
+                "TimeStamp": 1386187085639160400,
+                "LastEditTime": 1386187085849163500
+            },
+            "Texture": {
+                "FileFormat": "TGA",
+                "Width": 16,
+                "Height": 16,
+                "HasAlpha": false,
+                "sRGB": false
+            },
+            "Transformations": {
+                "TemplateName": "Default"
+            }
+        },
         "Textures/colors/RedLight.png": {
             "AssetType": "Texture",
             "Common": {
@@ -1935,6 +2502,33 @@
             },
             "Texture": {
                 "FileFormat": "PNG",
+                "Width": 16,
+                "Height": 16,
+                "HasAlpha": false,
+                "sRGB": false
+            },
+            "Transformations": {
+                "TemplateName": "Default"
+            }
+        },
+        "Textures/colors/RedLight.tga": {
+            "AssetType": "Texture",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+
+                ],
+                "Variants": [
+
+                ]
+            },
+            "File": {
+                "Hash": 3501333188,
+                "TimeStamp": 1386187079126819300,
+                "LastEditTime": 1386187079336825000
+            },
+            "Texture": {
+                "FileFormat": "TGA",
                 "Width": 16,
                 "Height": 16,
                 "HasAlpha": false,
@@ -1971,6 +2565,33 @@
                 "TemplateName": "Default"
             }
         },
+        "Textures/colors/White.tga": {
+            "AssetType": "Texture",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+
+                ],
+                "Variants": [
+
+                ]
+            },
+            "File": {
+                "Hash": 3509718646,
+                "TimeStamp": 1386187070612598500,
+                "LastEditTime": 1386187071624601100
+            },
+            "Texture": {
+                "FileFormat": "TGA",
+                "Width": 16,
+                "Height": 16,
+                "HasAlpha": false,
+                "sRGB": false
+            },
+            "Transformations": {
+                "TemplateName": "Default"
+            }
+        },
         "Textures/colors/Yellow.png": {
             "AssetType": "Texture",
             "Common": {
@@ -1989,6 +2610,33 @@
             },
             "Texture": {
                 "FileFormat": "PNG",
+                "Width": 16,
+                "Height": 16,
+                "HasAlpha": false,
+                "sRGB": false
+            },
+            "Transformations": {
+                "TemplateName": "Default"
+            }
+        },
+        "Textures/colors/Yellow.tga": {
+            "AssetType": "Texture",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+
+                ],
+                "Variants": [
+
+                ]
+            },
+            "File": {
+                "Hash": 3762134931,
+                "TimeStamp": 1386187060597349600,
+                "LastEditTime": 1386187061203376100
+            },
+            "Texture": {
+                "FileFormat": "TGA",
                 "Width": 16,
                 "Height": 16,
                 "HasAlpha": false,
@@ -2025,6 +2673,33 @@
                 "TemplateName": "Default"
             }
         },
+        "Textures/colors/YellowDark.tga": {
+            "AssetType": "Texture",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+
+                ],
+                "Variants": [
+
+                ]
+            },
+            "File": {
+                "Hash": 3143117778,
+                "TimeStamp": 1386187046401993800,
+                "LastEditTime": 1386187047408051300
+            },
+            "Texture": {
+                "FileFormat": "TGA",
+                "Width": 16,
+                "Height": 16,
+                "HasAlpha": false,
+                "sRGB": false
+            },
+            "Transformations": {
+                "TemplateName": "Default"
+            }
+        },
         "Textures/colors/YellowLight.png": {
             "AssetType": "Texture",
             "Common": {
@@ -2043,6 +2718,33 @@
             },
             "Texture": {
                 "FileFormat": "PNG",
+                "Width": 16,
+                "Height": 16,
+                "HasAlpha": false,
+                "sRGB": false
+            },
+            "Transformations": {
+                "TemplateName": "Default"
+            }
+        },
+        "Textures/colors/YellowLight.tga": {
+            "AssetType": "Texture",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+
+                ],
+                "Variants": [
+
+                ]
+            },
+            "File": {
+                "Hash": 1309887362,
+                "TimeStamp": 1386187015803979800,
+                "LastEditTime": 1386187016815031200
+            },
+            "Texture": {
+                "FileFormat": "TGA",
                 "Width": 16,
                 "Height": 16,
                 "HasAlpha": false,
@@ -2552,7 +3254,7 @@
             "File": {
                 "Hash": 4060525796,
                 "TimeStamp": 1386185462517244000,
-                "LastEditTime": 1386185683334874000
+                "LastEditTime": 1386188186857999000
             },
             "Texture": {
                 "FileFormat": "TGA",
@@ -2718,6 +3420,33 @@
             },
             "Texture": {
                 "FileFormat": "BMP",
+                "Width": 32,
+                "Height": 32,
+                "HasAlpha": false,
+                "sRGB": false
+            },
+            "Transformations": {
+                "TemplateName": "Default"
+            }
+        },
+        "Textures/UI/CloseButton.tga": {
+            "AssetType": "Texture",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+
+                ],
+                "Variants": [
+
+                ]
+            },
+            "File": {
+                "Hash": 729502588,
+                "TimeStamp": 1386186735338295800,
+                "LastEditTime": 1386186736348349700
+            },
+            "Texture": {
+                "FileFormat": "TGA",
                 "Width": 32,
                 "Height": 32,
                 "HasAlpha": false,
