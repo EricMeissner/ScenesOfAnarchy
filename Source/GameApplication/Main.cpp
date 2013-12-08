@@ -13,7 +13,12 @@
 #include "GameApplicationPCH.h"
 #include <cstring>
 #include <string>
+#include <Vision\Runtime\EnginePlugins\Havok\HavokPhysicsEnginePlugin\vHavokPhysicsModule.hpp>
 using namespace std;
+
+#ifdef WIN32
+#include <Vision/Runtime/EnginePlugins/RemoteInputEnginePlugin/IVRemoteInput.hpp>
+#endif
 
 bool TDScene = false;
 bool addOnce = true;
@@ -23,10 +28,28 @@ enum G_S //Game state
 {
   GS_INIT,
   GS_MAIN_MENU,
-  GS_GAME
+  GS_GAME,
+  GS_GRAVITY_ROOM,
+  GS_TOD
 };
 
 G_S g_state = GS_INIT;
+
+
+#if defined(_VISION_PSP2)
+  VMotionInputPSP2* pMotionInput = NULL;
+#elif defined(_VISION_IOS)
+  VMotionInputIOS* pMotionInput = NULL;
+#elif defined(_VISION_ANDROID)
+  VMotionInputAndroid* pMotionInput = NULL;
+#elif defined(_VISION_WINRT)
+  VMotionInputWinRT* pMotionInput = NULL;
+#elif defined(_VISION_TIZEN)
+  VMotionInputTizen* pMotionInput = NULL;
+#elif defined(WIN32)
+  VMotionInputPC* pMotionInput = NULL;
+  IVRemoteInput* pRemoteInput = NULL;
+#endif
 
 //============================================================================================================
 // Properties for start up. Some of the settings are not relevant for mobile devices
@@ -176,9 +199,26 @@ VISION_SAMPLEAPP_AFTER_LOADING
 
 		Vision::InitWorld();
 		g_state = GS_MAIN_MENU;
+		#if defined(_VISION_PSP2)
+		  pMotionInput = (VMotionInputPSP2*)(&VInputManager::GetInputDevice(INPUT_DEVICE_MOTION_SENSOR));
+		  pMotionInput->SetEnabled(true);
+		#elif defined(_VISION_IOS)
+		  pMotionInput = (VMotionInputIOS*)(&VInputManager::GetInputDevice(INPUT_DEVICE_MOTION_SENSOR));
+		  pMotionInput->SetEnabled(true);
+		#elif defined(_VISION_WINRT)
+		  pMotionInput = (VMotionInputWinRT*)(&VInputManager::GetInputDevice(INPUT_DEVICE_MOTION_SENSOR));
+		#elif defined(WIN32)
+		  pMotionInput = (VMotionInputPC*)(&VInputManager::GetInputDevice(INPUT_DEVICE_MOTION_SENSOR));
+		#elif defined(_VISION_ANDROID)
+		  pMotionInput = (VMotionInputAndroid*)(&VInputManager::GetInputDevice(INPUT_DEVICE_MOTION_SENSOR));
+		  pMotionInput->SetEnabled(true);
+		#elif defined(_VISION_TIZEN)
+		  pMotionInput = (VMotionInputTizen*)(&VInputManager::GetInputDevice(INPUT_DEVICE_MOTION_SENSOR));
+		  pMotionInput->SetEnabled(true);
+		#endif 
 	}
 
-	else if (g_state == GS_GAME){
+	else if (g_state == GS_GAME || g_state == GS_TOD || g_state == GS_GRAVITY_ROOM){
 		VisBaseEntity_cl *pCamera = spApp->EnableMouseCamera();
 		pCamera->SetPosition(-700, 0, 100);
 		pCamera->SetOrientation(0, 0, 0);
@@ -187,7 +227,18 @@ VISION_SAMPLEAPP_AFTER_LOADING
 			spGUIContext->SetActivate(true);
 			spMainDlg = spGUIContext->ShowDialog("Dialogs//TDXML");
 			VASSERT(spMainDlg);
-		spApp->DisableMouseCamera();
+			spApp->DisableMouseCamera();
+	    
+		}
+
+		if( g_state == GS_GRAVITY_ROOM){
+			//spGUIContext->SetActivate(true);
+			//spMainDlg = spGUIContext->ShowDialog("Dialogs//TDXML");
+			//VASSERT(spMainDlg);
+
+
+
+			spApp->DisableMouseCamera();
 	    
 		}
 	}
@@ -216,7 +267,7 @@ VISION_SAMPLEAPP_RUN
 				spGUIContext->CloseDialog(spMainDlg);
 				spMainDlg = NULL;
 				spGUIContext->SetActivate(false);
-				g_state = GS_GAME;
+				g_state = GS_TOD;
 				spApp->LoadScene("Scenes//TowerOfDoom");
 				TDScene = true;
 				return true;
@@ -229,7 +280,7 @@ VISION_SAMPLEAPP_RUN
 				spGUIContext->CloseDialog(spMainDlg);
 				spMainDlg = NULL;
 				spGUIContext->SetActivate(false);
-				g_state = GS_GAME;
+				g_state = GS_GRAVITY_ROOM;
 				spApp->LoadScene("Scenes//GravityRoom");
 				return true;
 			}
@@ -247,6 +298,41 @@ VISION_SAMPLEAPP_RUN
 			}
 			spApp->Run(); //spApp->Run() applies the changes to the current frame
 			spMainDlg->SetDialogResult(VGUIManager::ID_OK);		//it is important to apply changes first and THEN "deactivate" dialog result otherwise it won't display new cube. 	
+		}
+	case GS_TOD:
+		{
+			int TDDlgResult = spMainDlg->GetDialogResult();
+		 
+			if(TDScene == true && TDDlgResult == VGUIManager::GetID("ADD")){	
+				char* str = new char[10];
+				//itoa(TDDlgResult, str, 10);
+
+				VisBaseEntity_cl *ent2 = Vision::Game.CreateEntity("VisBaseEntity_cl", hkvVec3(-100.0f, (float)count*5, (float)count*10), "Cube.MODEL");
+			count++;
+			}
+			spApp->Run(); //spApp->Run() applies the changes to the current frame
+			spMainDlg->SetDialogResult(VGUIManager::ID_OK);		//it is important to apply changes first and THEN "deactivate" dialog result otherwise it won't display new cube. 	
+			
+		}
+	case GS_GRAVITY_ROOM:
+		{
+			#if defined(_VISION_IOS) || defined(_VISION_PSP2) || defined(WIN32) || defined(_VISION_ANDROID) || defined(_VISION_WIIU) || defined(_VISION_TIZEN)
+				hkvVec3 vAcceleration;
+			#if defined(_VISION_WIIU)
+				vAcceleration.x = -VInputManager::GetDRC(V_DRC_FIRST).GetControlValue(CT_PAD_WIIU_ACCELERATION_X, 0.0f);
+				vAcceleration.y = VInputManager::GetDRC(V_DRC_FIRST).GetControlValue(CT_PAD_WIIU_ACCELERATION_Z, 0.0f);
+				vAcceleration.z = VInputManager::GetDRC(V_DRC_FIRST).GetControlValue(CT_PAD_WIIU_ACCELERATION_Y, 0.0f);
+			#else
+				vAcceleration = pMotionInput->GetAcceleration();
+			#endif
+
+			vHavokPhysicsModule* mod = static_cast<vHavokPhysicsModule*>(spApp->GetPhysicsModule());
+			hkvVec3 gravity = vAcceleration;
+			//hkvVec3 gravity = hkvVec3(0.0f,0.0f,-980.0f);
+			mod->SetGravity(gravity);
+			#endif
+			spApp->Run(); //spApp->Run() applies the changes to the current frame
+			//spMainDlg->SetDialogResult(VGUIManager::ID_OK);		//it is important to apply changes first and THEN "deactivate" dialog result otherwise
 		}
 	}
   return spApp->Run();
