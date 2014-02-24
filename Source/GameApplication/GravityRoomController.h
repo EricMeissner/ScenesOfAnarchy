@@ -9,7 +9,7 @@ public:
 	GravityRoomController(void);
 	virtual ~GravityRoomController(void);
 	virtual void MapTriggers(VInputMap* inputMap) HKV_OVERRIDE;
-	virtual void Run(VInputMap* inputMap) HKV_OVERRIDE;
+	virtual bool Run(VInputMap* inputMap) HKV_OVERRIDE;
 private:
 #if defined(_VISION_ANDROID)
 	vHavokPhysicsModule* pMod;

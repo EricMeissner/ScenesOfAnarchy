@@ -1,0 +1,9 @@
+<root>
+    <Resources Version="1" Count="5" PathType="Project">
+        <Resource Manager="Textures" Filename="Textures\Fortification_c.dds" CustomInt="1,0" Size="2796240" />
+        <Resource Manager="Textures" Filename="d71af510:WV_NMP_city_wall.sbsbin" Size="1398176" />
+        <Resource Manager="EffectLibs" Filename="Shaders\DeferredShading.ShaderLib" Size="113092" />
+        <Resource Manager="FILE" Filename="Staticmeshes\Rd_extension00.VMESH_data\materials.xml" Size="827" />
+        <Resource Manager="Static Meshes" Filename="Staticmeshes\Rd_extension00.VMESH" Size="4612012" />
+    </Resources>
+</root>

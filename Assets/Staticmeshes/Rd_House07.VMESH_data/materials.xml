@@ -1,0 +1,7 @@
+<root>
+    <Materials override="TRUE">
+        <Material name="M07" diffuse="..\Textures\M07_c.dds" normalmap="..\Textures\M07_n_EU.dds" transparency="opaque" doublesided="FALSE" specmul="0" specexp="255" parallaxscale="0" parallaxbias="-0.005" lightmapsize="256,256" lightmapID="-1" ambient="0,0,0,255" Lighting="Lightmapping" alphathreshold="0.25" lightmapgran="0" sortingkey="0" depthwrite="TRUE" zbias="0,0,0" mobileflags="0" pass="PrimaryOpaquePass" userflags="0">
+            <Shader library="\Shaders\vMaterial.ShaderLib" effect="vMaterial" paramstring="CullMode=back;DepthWrite=true;MaterialParams=0,255,0,-0.005;AlphaThreshold=0.25;" />
+        </Material>
+    </Materials>
+</root>

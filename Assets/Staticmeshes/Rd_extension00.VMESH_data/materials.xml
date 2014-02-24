@@ -1,0 +1,7 @@
+<root>
+    <Materials override="TRUE">
+        <Material name="fortification02" diffuse="..\Textures\Fortification_c.dds" normalmap="..\d71af510:WV_NMP_city_wall.sbsbin" specularmap="..\Textures\Fortification_c.dds" transparency="opaque" doublesided="FALSE" specmul="1.000000" specexp="255.000000" parallaxscale="-0.030000" parallaxbias="-0.015000" lightmapsize="128,128" lightmapID="-1" ambient="0,0,0,255" Lighting="Lightmapping" alphathreshold="-1.000000" lightmapgran="0.000000" sortingkey="0">
+            <Shader library="\Shaders\DeferredShading.ShaderLib" effect="InitialPass_Diff_Nrm_Spec_Par_StaticLight" paramstring="globalambientmultiplier=1;materialparams=1,255,-0.03,-0.015;materialambient=0,0,0;AlphaThreshold=0.25,0,0,0;gmaterialindex=255;" />
+        </Material>
+    </Materials>
+</root>

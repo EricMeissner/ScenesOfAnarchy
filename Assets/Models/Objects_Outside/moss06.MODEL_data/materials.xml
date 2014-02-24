@@ -1,0 +1,5 @@
+<root>
+    <Materials override="TRUE">
+        <Material name="14 - Default" diffuse="..\..\Textures\moss_c_mu.dds" transparency="alpha" doublesided="FALSE" specmul="0" specexp="0" parallaxscale="-0.03" parallaxbias="-0.015" Lighting="LightGrid" ambient="0,0,0,255" alphathreshold="0.25" lightmapsize="128,128" lightmapID="-1" depthwrite="TRUE" zbias="0,0,0" sortingkey="0" lightmapgran="0" />
+    </Materials>
+</root>

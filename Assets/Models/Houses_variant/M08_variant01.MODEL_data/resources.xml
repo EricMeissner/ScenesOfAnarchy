@@ -1,0 +1,11 @@
+<root>
+    <Resources Version="1" Count="7" PathType="Project">
+        <Resource Manager="FILE" Filename="Models\Houses_variant\M08_variant01.MODEL_data\materials.xml" Size="714" />
+        <Resource Manager="Textures" Filename="Textures\Houses\M08_c.dds" CustomInt="1,0" Size="5592424" />
+        <Resource Manager="Textures" Filename="Textures\Houses\M08_n_EU.dds" CustomInt="1,0" Size="2796240" />
+        <Resource Manager="Textures" Filename="Textures\Houses\M08_r_EU.dds" CustomInt="1,0" Size="262144" />
+        <Resource Manager="EffectLibs" Filename="Shaders\Materials.shaderlib" Size="54524" />
+        <Resource Manager="Textures" Filename="Textures\sub_default.dds" CustomInt="1,0" Size="43704" />
+        <Resource Manager="Models" Filename="Models\houses_variant\M08_variant01.MODEL" Size="69912" />
+    </Resources>
+</root>

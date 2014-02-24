@@ -1,0 +1,7 @@
+<root>
+    <Materials override="TRUE">
+        <Material name="M10" diffuse="..\Textures\M10_c.dds" normalmap="..\Textures\M10_n.dds" transparency="opaque" doublesided="FALSE" specmul="0" specexp="64" parallaxscale="-0.0075" parallaxbias="-0.0025" lightmapsize="512,512" lightmapID="-1" ambient="0,0,0,255" Lighting="Lightmapping" alphathreshold="-1" lightmapgran="0" sortingkey="0" depthwrite="TRUE" zbias="0,0,0">
+            <Shader library="\Shaders\vMaterialGlow.ShaderLib" effect="vMaterialGlow" paramstring="materialparams=0,64,-0.0075,-0.0025;glowmap=Textures\M10_Emissive.dds;glowintensity=0.75;glowcolor=1,1,1,1;alphathreshold=0.25;" />
+        </Material>
+    </Materials>
+</root>

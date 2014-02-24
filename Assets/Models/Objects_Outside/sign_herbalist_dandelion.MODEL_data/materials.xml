@@ -1,0 +1,5 @@
+<root>
+    <Materials override="TRUE">
+        <Material name="sign_herbalist_dandelion" diffuse="..\..\Textures\sign_herbalist_dandelion.dds" transparency="opaque" doublesided="FALSE" specmul="0" specexp="64" parallaxscale="0" parallaxbias="-0.015" Lighting="LightGrid" depthwrite="TRUE" zbias="0,0,0" ambient="0,0,0,255" sortingkey="0" alphathreshold="0.25" lightmapsize="128,128" lightmapgran="0" lightmapID="-1" />
+    </Materials>
+</root>

@@ -1,0 +1,7 @@
+<root>
+    <Materials override="TRUE">
+        <Material name="M03_new" diffuse="..\Textures\M01_M03_shared_c.dds" normalmap="..\Textures\M01_M03_shared_n.dds" Lighting="Lightmapping" transparency="opaque" doublesided="FALSE" depthwrite="TRUE" zbias="0,0,0" specmul="0" specexp="2" parallaxscale="0" parallaxbias="-0.015" ambient="0,0,0,255" sortingkey="0" alphathreshold="0.25" lightmapsize="128,128" lightmapgran="0" lightmapID="-1" mobileflags="0" pass="PrimaryOpaquePass" userflags="0">
+            <Shader library="..\Shaders\MobileShadersFog.ShaderLib" effect="DiffuseBumpFog" paramstring="CullMode=back;DepthWrite=true;MaterialParams=0,2,0,-0.015;AlphaThreshold=0.25;BumpStrength=1;StaticLightDir=-0.64,-0.38,0.65;VertexLighting=False;DynamicLightNormalMapping=False;" />
+        </Material>
+    </Materials>
+</root>

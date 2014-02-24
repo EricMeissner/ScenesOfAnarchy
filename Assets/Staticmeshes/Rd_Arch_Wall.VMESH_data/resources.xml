@@ -1,0 +1,9 @@
+<root>
+    <Resources Version="1" Count="5" PathType="Project">
+        <Resource Manager="Textures" Filename="Textures\arch_wall_c_mu.dds" CustomInt="1,0" Size="349544" />
+        <Resource Manager="Textures" Filename="Textures\arch_wall_n_mu.dds" CustomInt="1,0" Size="699088" />
+        <Resource Manager="EffectLibs" Filename="Shaders\vMaterial.ShaderLib" Size="339112" />
+        <Resource Manager="FILE" Filename="Staticmeshes\Rd_Arch_Wall.VMESH_data\materials.xml" OwnerRes="4" Size="464" />
+        <Resource Manager="Static/Dynamic Meshes" Filename="Staticmeshes\Rd_Arch_Wall.VMESH" CustomInt="1,1" Size="19544" />
+    </Resources>
+</root>

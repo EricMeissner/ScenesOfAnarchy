@@ -1,0 +1,5 @@
+<root>
+    <Materials override="TRUE">
+        <Material name="M06_EU" diffuse="..\Textures\M06_c.dds" transparency="opaque" doublesided="FALSE" specmul="0" specexp="255" parallaxscale="0" parallaxbias="-0.0025" lightmapsize="256,256" lightmapID="-1" ambient="0,0,0,255" Lighting="Lightmapping" alphathreshold="0.25" lightmapgran="0" sortingkey="0" depthwrite="TRUE" zbias="0,0,0" mobileflags="0" pass="Auto" userflags="0" />
+    </Materials>
+</root>

@@ -1,0 +1,11 @@
+<root>
+    <Resources Version="1" Count="7" PathType="Project">
+        <Resource Manager="Textures" Filename="Textures\Items\Sword_c.dds" CustomInt="1,0" Size="21864" />
+        <Resource Manager="Textures" Filename="Textures\Items\Sword_n.dds" CustomInt="1,0" Size="21864" />
+        <Resource Manager="EffectLibs" Filename="Shaders\vMaterial.ShaderLib" Size="339112" />
+        <Resource Manager="Textures" Filename="Textures\Items\emerald_c_mu.dds" CustomInt="1,0" Size="87408" />
+        <Resource Manager="FILE" Filename="Models\Items\Sword.MODEL_data\materials.xml" OwnerRes="6" Size="819" />
+        <Resource Manager="Animations" Filename="Models\Items\Sword.anim" Size="217" />
+        <Resource Manager="Static/Dynamic Meshes" Filename="Models\Items\Sword.MODEL" CustomInt="1,2" Size="56328" />
+    </Resources>
+</root>

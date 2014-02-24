@@ -1,0 +1,9 @@
+<root>
+    <Resources Version="1" Count="5" PathType="Project">
+        <Resource Manager="EffectLibs" Filename="Shaders\vMaterial.ShaderLib" Size="390384" />
+        <Resource Manager="FILE" Filename="Staticmeshes\Rd_Ground03.VMESH_data\materials.xml" OwnerRes="4" Size="716" />
+        <Resource Manager="Textures" Filename="Textures\ground_b8_c_mu.dds" CustomInt="1,64" Size="349584" />
+        <Resource Manager="Textures" Filename="Textures\ground_b8_n_mu.dds" CustomInt="1,0" Size="349584" />
+        <Resource Manager="Static/Dynamic Meshes" Filename="Staticmeshes\Rd_Ground03.VMESH" CustomInt="1,1" Size="112" />
+    </Resources>
+</root>

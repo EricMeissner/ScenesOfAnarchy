@@ -1,0 +1,9 @@
+<root>
+    <Resources Version="1" Count="5" PathType="Project">
+        <Resource Manager="Textures" Filename="Textures\sign_tavern_spotted_dog.dds" CustomInt="1,0" Size="43704" />
+        <Resource Manager="EffectLibs" Filename="Shaders\vMaterial.ShaderLib" Size="339112" />
+        <Resource Manager="FILE" Filename="Models\Objects_Outside\sign_tavern_spotted_dog.MODEL_data\materials.xml" OwnerRes="4" Size="442" />
+        <Resource Manager="Animations" Filename="Models\Objects_Outside\sign_tavern_spotted_dog.anim" Size="50049" />
+        <Resource Manager="Static/Dynamic Meshes" Filename="Models\Objects_Outside\sign_tavern_spotted_dog.MODEL" CustomInt="1,2" Size="27304" />
+    </Resources>
+</root>

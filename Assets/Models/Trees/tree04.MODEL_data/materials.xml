@@ -1,0 +1,6 @@
+<root>
+    <Materials override="TRUE">
+        <Material name="RT_Bark4A" diffuse="..\..\Textures\RTBark1A.dds" Lighting="LightGrid" transparency="opaque" doublesided="FALSE" depthwrite="TRUE" zbias="0,0,0" specmul="0" specexp="1.07177" parallaxscale="-0.03" parallaxbias="-0.015" ambient="0,0,0,255" sortingkey="0" alphathreshold="-1" lightmapsize="128,128" lightmapgran="0" lightmapID="-1" mobileflags="0" pass="Auto" />
+        <Material name="RT_Tree04A_FOL" diffuse="..\..\Textures\RTBranch1A.dds" Lighting="LightGrid" transparency="alphasmooth" doublesided="FALSE" depthwrite="FALSE" zbias="0,0,0" specmul="0" specexp="1.07177" parallaxscale="-0.03" parallaxbias="-0.015" ambient="51,51,51,255" sortingkey="0" alphathreshold="-1" lightmapsize="128,128" lightmapgran="0" lightmapID="-1" mobileflags="0" pass="Auto" />
+    </Materials>
+</root>

@@ -1,0 +1,5 @@
+<root>
+    <Materials override="TRUE">
+        <Material name="Bridge" diffuse="..\Textures\Bridge.dds" transparency="opaque" doublesided="FALSE" specmul="0" specexp="255" parallaxscale="0" parallaxbias="-0.005" lightmapsize="128,128" lightmapID="-1" ambient="0,0,0,255" Lighting="Lightmapping" sortingkey="0" alphathreshold="0.25" lightmapgran="0" depthwrite="TRUE" zbias="0,0,0" mobileflags="0" pass="Auto" userflags="0" />
+    </Materials>
+</root>

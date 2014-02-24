@@ -143,7 +143,10 @@
       <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug DLL|Win32'">GameApplicationPCH.h</PrecompiledHeaderFile>
       <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug DLL|Win32'">$(IntDir)GameApplicationPCH.pch</PrecompiledHeaderOutputFile>
     </ClCompile>
+    <ClCompile Include="ParticleRainController.cpp" />
+    <ClCompile Include="MenuController.cpp" />
     <ClCompile Include="StackNode.cpp" />
+    <ClCompile Include="TowerOfDoomController.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Constants.h" />
@@ -151,7 +154,10 @@
     <ClInclude Include="GravityRoomController.h" />
     <ClInclude Include="IController.h" />
     <ClInclude Include="EntityStack.h" />
+    <ClInclude Include="ParticleRainController.h" />
+    <ClInclude Include="MenuController.h" />
     <ClInclude Include="StackNode.h" />
+    <ClInclude Include="TowerOfDoomController.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="ClassDiagram1.cd" />

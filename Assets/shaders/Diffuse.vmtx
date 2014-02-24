@@ -1,0 +1,6 @@
+<root>
+    <MaterialTemplates>
+        <MaterialTemplate name="android" library="Shaders\MobileShaders.ShaderLib" effect="Diffuse" paramstring="VertexLighting=False;DynamicLightNormalMapping=False;" />
+        <MaterialTemplate name="ios" library="Shaders\MobileShaders.ShaderLib" effect="Diffuse" paramstring="VertexLighting=False;DynamicLightNormalMapping=False;" />
+    </MaterialTemplates>
+</root>

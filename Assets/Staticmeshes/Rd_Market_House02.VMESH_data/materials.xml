@@ -1,0 +1,5 @@
+<root>
+    <Materials override="TRUE">
+        <Material name="market_house02" diffuse="..\Textures\M02_M10_shared_c.dds" normalmap="..\Textures\M02_M10_shared_n.dds" transparency="opaque" doublesided="FALSE" specmul="0" specexp="64" parallaxscale="-0.01" parallaxbias="-0.005" lightmapsize="256,256" lightmapID="-1" ambient="0,0,0,255" Lighting="Lightmapping" alphathreshold="-1" lightmapgran="0" sortingkey="0" depthwrite="TRUE" zbias="0,0,0" />
+    </Materials>
+</root>

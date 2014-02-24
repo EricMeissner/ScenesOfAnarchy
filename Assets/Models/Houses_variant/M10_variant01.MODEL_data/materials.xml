@@ -1,0 +1,7 @@
+<root>
+    <Materials>
+        <Material name="M10" diffuse="..\..\Textures\Houses\M10_c.dds" normalmap="..\..\Textures\Houses\M10_n.dds" transparency="opaque" doublesided="FALSE" specmul="0.000000" specexp="1.000000" parallaxscale="0.000000" parallaxbias="0.000000" specularmap="..\..\Textures\Houses\M10_r.dds" ambient="0,0,0,0" lightmapsize="128,128" lightmapID="-1">
+            <Shader library="..\..\Shaders\Materials.shaderlib" effect="Material_BumpIntMapParallaxRim" paramstring="rimlight_switch=1,1,1;materialparams=3,50,-0.01,-0.005;intmap_add=0;fresnelminimum=0.2;rimlightmap=Textures\sub_default.dds;subsurfparams=10,6;subsurfcolmod=0.2,0.3,0.4,1;" />
+        </Material>
+    </Materials>
+</root>

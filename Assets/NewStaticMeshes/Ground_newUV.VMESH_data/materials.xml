@@ -1,0 +1,13 @@
+<root>
+    <Materials override="TRUE">
+        <Material name="Ground_deadtree" diffuse="..\Textures\Ground_deadtree.dds" transparency="opaque" doublesided="FALSE" specmul="0" specexp="2" parallaxscale="0" parallaxbias="-0.015" lightmapsize="128,128" lightmapgran="0" lightmapID="-1" normalmap="..\Textures\Ground_deadtree_n.dds" Lighting="Lightmapping" depthwrite="TRUE" zbias="0,0,0" ambient="0,0,0,255" sortingkey="0" alphathreshold="0.25" mobileflags="0" pass="PrimaryOpaquePass" userflags="0">
+            <Shader library="\Shaders\vMaterial.ShaderLib" effect="vMaterial" paramstring="CullMode=back;DepthWrite=true;MaterialParams=0,2,0,-0.015;AlphaThreshold=0.25;" />
+        </Material>
+        <Material name="ground_castle" diffuse="..\Textures\Ground_castle.dds" normalmap="..\Textures\Ground_castle_n.dds" transparency="opaque" doublesided="FALSE" specmul="0" specexp="2" parallaxscale="0" parallaxbias="-0.015" lightmapsize="128,128" lightmapgran="0" lightmapID="-1" Lighting="Lightmapping" depthwrite="TRUE" zbias="0,0,0" ambient="0,0,0,255" sortingkey="0" alphathreshold="0.25" mobileflags="0" pass="PrimaryOpaquePass" userflags="0">
+            <Shader library="\Shaders\vMaterial.ShaderLib" effect="vMaterial" paramstring="CullMode=back;DepthWrite=true;MaterialParams=0,2,0,-0.015;AlphaThreshold=0.25;" />
+        </Material>
+        <Material name="Ground_gate" diffuse="..\Textures\Ground_gate.dds" normalmap="..\Textures\Ground_gate_n.dds" transparency="opaque" doublesided="FALSE" specmul="0" specexp="2" parallaxscale="0" parallaxbias="-0.015" lightmapsize="128,128" lightmapgran="0" lightmapID="-1" Lighting="Lightmapping" depthwrite="TRUE" zbias="0,0,0" ambient="0,0,0,255" sortingkey="0" alphathreshold="0.25" mobileflags="0" pass="PrimaryOpaquePass" userflags="0">
+            <Shader library="\Shaders\vMaterial.ShaderLib" effect="vMaterial" paramstring="CullMode=back;DepthWrite=true;MaterialParams=0,2,0,-0.015;AlphaThreshold=0.25;" />
+        </Material>
+    </Materials>
+</root>

@@ -1,0 +1,9 @@
+<root>
+    <Resources Version="1" Count="5" PathType="Project">
+        <Resource Manager="Textures" Filename="Textures\Crow.dds" CustomInt="1,0" Size="349552" />
+        <Resource Manager="EffectLibs" Filename="Shaders\vMaterial.ShaderLib" Size="339112" />
+        <Resource Manager="FILE" Filename="Models\Animals\crow01.MODEL_data\materials.xml" OwnerRes="4" Size="778" />
+        <Resource Manager="Animations" Filename="Models\Animals\crow01.anim" Size="509517" />
+        <Resource Manager="Static/Dynamic Meshes" Filename="Models\Animals\crow01.MODEL" CustomInt="1,2" Size="22488" />
+    </Resources>
+</root>

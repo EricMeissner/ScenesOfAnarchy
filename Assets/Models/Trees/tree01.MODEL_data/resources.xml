@@ -1,0 +1,10 @@
+<root>
+    <Resources Version="1" Count="6" PathType="Project">
+        <Resource Manager="FILE" Filename="Models\Trees\tree01.MODEL_data\materials.xml" OwnerRes="5" Size="887" />
+        <Resource Manager="Textures" Filename="Textures\RTBark1A.dds" CustomInt="1,64" Size="87380" />
+        <Resource Manager="Textures" Filename="Textures\RTBark1A_NRM.dds" CustomInt="1,0" Size="174764" />
+        <Resource Manager="Textures" Filename="Textures\RTBranch1A.dds" CustomInt="1,64" Size="349524" />
+        <Resource Manager="EffectLibs" Filename="Shaders\vMaterial.ShaderLib" Size="445016" />
+        <Resource Manager="Static/Dynamic Meshes" Filename="Models\Trees\tree01.MODEL" CustomInt="1,2" Size="144" />
+    </Resources>
+</root>

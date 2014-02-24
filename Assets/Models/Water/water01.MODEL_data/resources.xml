@@ -1,0 +1,11 @@
+<root>
+    <Resources Version="1" Count="7" PathType="Project">
+        <Resource Manager="FILE" Filename="Models\Water\water01.MODEL_data\materials.xml" OwnerRes="5" Size="872" />
+        <Resource Manager="EffectLibs" Filename="Shaders\MobileShadersFog.ShaderLib" Size="3522784" />
+        <Resource Manager="Textures" Filename="Textures\water01_diffuse.dds" CustomInt="1,64" Size="21872" />
+        <Resource Manager="Textures" Filename="Textures\water_normal2.dds" CustomInt="1,0" Size="43704" />
+        <Resource Manager="Textures" Filename="cubemap_water01.dds" CustomInt="3,0" Size="393216" />
+        <Resource Manager="Static/Dynamic Meshes" Filename="Models\Water\water01.MODEL" CustomInt="1,2" Size="56" />
+        <Resource Manager="EffectLibs" Filename="Shaders\vMaterial.ShaderLib" Size="390384" />
+    </Resources>
+</root>

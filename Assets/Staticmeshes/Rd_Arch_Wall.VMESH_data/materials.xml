@@ -1,0 +1,5 @@
+<root>
+    <Materials override="TRUE">
+        <Material name="arch_wall-2" diffuse="..\Textures\arch_wall_c_mu.dds" normalmap="..\Textures\arch_wall_n_mu.dds" transparency="opaque" doublesided="FALSE" specmul="0" specexp="255" parallaxscale="0" parallaxbias="-0.01" lightmapsize="128,128" lightmapID="-1" ambient="0,0,0,255" Lighting="Lightmapping" alphathreshold="0.25" lightmapgran="0" sortingkey="0" depthwrite="TRUE" zbias="0,0,0" />
+    </Materials>
+</root>

@@ -1,0 +1,9 @@
+<root>
+    <Resources Version="1" Count="5" PathType="Project">
+        <Resource Manager="EffectLibs" Filename="Shaders\vMaterial.ShaderLib" Size="390384" />
+        <Resource Manager="FILE" Filename="Staticmeshes\Rd_Tower_Corner.VMESH_data\materials.xml" OwnerRes="4" Size="713" />
+        <Resource Manager="Textures" Filename="Textures\Tower_Corner_c.dds" CustomInt="1,64" Size="699088" />
+        <Resource Manager="Textures" Filename="Textures\Tower_Corner_n.dds" CustomInt="1,0" Size="174800" />
+        <Resource Manager="Static/Dynamic Meshes" Filename="Staticmeshes\Rd_Tower_Corner.VMESH" CustomInt="1,1" Size="112" />
+    </Resources>
+</root>

@@ -1,0 +1,1 @@
+vLux.exe "" -project "C:\Users\rippe_000\Documents\GitHub\ScenesOfAnarchy\Assets" -tempfolder "C:\Users\rippe_000\Documents\GitHub\ScenesOfAnarchy\Assets\Scenes\ParticleRain.scene.Layers" -out "Scenes\ParticleRain" -quiet -minimized -config "C:\Users\rippe_000\Documents\GitHub\ScenesOfAnarchy\Assets\Scenes\ParticleRain.scene.Layers\lighting.cfg"

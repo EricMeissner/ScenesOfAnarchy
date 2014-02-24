@@ -1,0 +1,6 @@
+<root>
+    <Materials>
+        <Material name="07 - Default" diffuse="Textures\4K_Testmap.tga" normalmap="" specularmap="" transparency="opaque" doublesided="FALSE" specmul="0,000000" specexp="2,000000" />
+        <Material name="19 - Default" diffuse="Textures\Hair.tga" normalmap="" specularmap="" transparency="alpha" doublesided="FALSE" specmul="0,000000" specexp="2,000000" />
+    </Materials>
+</root>

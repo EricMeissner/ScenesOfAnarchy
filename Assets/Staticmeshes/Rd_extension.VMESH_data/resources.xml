@@ -1,0 +1,18 @@
+<root>
+    <Resources Version="1" Count="14" PathType="Project">
+        <Resource Manager="Textures" Filename="Textures\normalmix\Rock02_mix.dds" CustomInt="1,0" Size="349552" />
+        <Resource Manager="Textures" Filename="Textures\Fortification_c.dds" CustomInt="1,0" Size="2796240" />
+        <Resource Manager="Textures" Filename="d71af510:WV_NMP_city_wall.sbsbin" Size="1398176" />
+        <Resource Manager="EffectLibs" Filename="Shaders\DeferredShading_sb.ShaderLib" Size="132500" />
+        <Resource Manager="Textures" Filename="Textures\colormix\MixMetal01.dds" CustomInt="1,0" Size="349552" />
+        <Resource Manager="Textures" Filename="Textures\Fortification_mix.dds" CustomInt="1,0" Size="32768" />
+        <Resource Manager="Textures" Filename="Textures\normalmix\Wood01_horiz_mix.dds" CustomInt="1,0" Size="349552" />
+        <Resource Manager="FILE" Filename="Staticmeshes\Rd_extension.VMESH_data\materials.xml" Size="2411" />
+        <Resource Manager="Textures" Filename="Textures\normalmix\Stone01_mix.dds" CustomInt="1,0" Size="349552" />
+        <Resource Manager="Textures" Filename="Textures\Tower_Corner_c.dds" CustomInt="1,0" Size="2796240" />
+        <Resource Manager="Textures" Filename="d71af2b9:WV_NMP_city_wall.sbsbin" Size="1398176" />
+        <Resource Manager="Textures" Filename="Textures\Tower_Corner_mix.dds" CustomInt="1,0" Size="32768" />
+        <Resource Manager="Textures" Filename="Textures\normalmix\Wood01_mix.dds" CustomInt="1,0" Size="349552" />
+        <Resource Manager="Static Meshes" Filename="Staticmeshes\Rd_extension.VMESH" Size="9073152" />
+    </Resources>
+</root>

@@ -1,0 +1,5 @@
+<root>
+    <Materials override="TRUE">
+        <Material name="tower02" diffuse="..\..\Textures\tower02_c_mu.dds" transparency="opaque" doublesided="FALSE" specmul="0" specexp="255" parallaxscale="-0.01" parallaxbias="-0.01" ambient="0,0,0,255" lightmapsize="128,128" lightmapID="-1" Lighting="LightGrid" sortingkey="0" alphathreshold="-1" lightmapgran="0" depthwrite="TRUE" zbias="0,0,0" />
+    </Materials>
+</root>

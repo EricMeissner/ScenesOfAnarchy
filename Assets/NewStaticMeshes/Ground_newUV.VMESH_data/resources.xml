@@ -1,0 +1,13 @@
+<root>
+    <Resources Version="1" Count="9" PathType="Project">
+        <Resource Manager="FILE" Filename="NewStaticMeshes\Ground_newUV.VMESH_data\materials.xml" OwnerRes="8" Size="2008" />
+        <Resource Manager="EffectLibs" Filename="Shaders\vMaterial.ShaderLib" Size="390384" />
+        <Resource Manager="Textures" Filename="Textures\Ground_castle.dds" CustomInt="1,64" Size="5592432" />
+        <Resource Manager="Textures" Filename="Textures\Ground_castle_n.dds" CustomInt="1,0" Size="1398128" />
+        <Resource Manager="Textures" Filename="Textures\Ground_deadtree.dds" CustomInt="1,64" Size="5592432" />
+        <Resource Manager="Textures" Filename="Textures\Ground_deadtree_n.dds" CustomInt="1,0" Size="1398128" />
+        <Resource Manager="Textures" Filename="Textures\Ground_gate.dds" CustomInt="1,64" Size="5592432" />
+        <Resource Manager="Textures" Filename="Textures\Ground_gate_n.dds" CustomInt="1,0" Size="1398128" />
+        <Resource Manager="Static/Dynamic Meshes" Filename="NewStaticMeshes\Ground_newUV.VMESH" CustomInt="1,1" Size="1792" />
+    </Resources>
+</root>

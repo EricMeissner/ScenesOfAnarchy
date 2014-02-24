@@ -1,0 +1,7 @@
+<root>
+    <Materials override="TRUE">
+        <Material name="M16" diffuse="..\Textures\M16_c_mu.dds" normalmap="..\Textures\M16_n_mu.dds" transparency="opaque" doublesided="FALSE" specmul="0" specexp="255" parallaxscale="-0.005" parallaxbias="-0.005" lightmapsize="256,256" lightmapID="-1" ambient="0,0,0,255" Lighting="Lightmapping" alphathreshold="-1" lightmapgran="0" sortingkey="0" depthwrite="TRUE" zbias="0,0,0" mobileflags="0" pass="PrimaryOpaquePass" userflags="0">
+            <Shader library="..\Shaders\MobileShadersFog.ShaderLib" effect="DiffuseBumpFog" paramstring="CullMode=back;DepthWrite=true;MaterialParams=0,255,-0.005,-0.005;AlphaThreshold=0.25;BumpStrength=1;StaticLightDir=-0.64,-0.38,0.65;VertexLighting=False;DynamicLightNormalMapping=False;" />
+        </Material>
+    </Materials>
+</root>

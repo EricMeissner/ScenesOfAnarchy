@@ -1,0 +1,42 @@
+<root>
+    <particlelayer>
+        <description name="New Layer" />
+        <defaultemitter type="point">
+            <startupfillpercentage average="100.000000" variation="0.000000" />
+            <fixparticlecount average="-1.000000" variation="0.000000" />
+            <frequency average="100.000000" variation="0.500000" />
+            <countlookup time="10.000000" randomofs="TRUE" />
+            <direction coneangle="-1.000000" />
+        </defaultemitter>
+        <group>
+            <lifetime average="-1.000000" variation="0.000000" />
+            <timescale average="1.000000" variation="0.000000" />
+            <texture filename="plainwhite" transparency="2" sizeaspect="1.000000" animationsubdiv="1,1" usedframes="1" />
+            <lighting modcolor="255,255,255,255" usescenebrightness="FALSE" />
+            <visibility boundingbox="-100.0000,-100.0000,-100.0000,100.0000,100.0000,100.0000" dynamicInflateInterval="1.000000" alwaysinforeground="FALSE" handlewhenvisible="TRUE" />
+        </group>
+        <particles>
+            <lifetime average="1.000000" variation="0.500000" />
+            <color />
+            <distortion enabled="FALSE">
+                <fixlength average="-1.000000" variation="0.500000" />
+                <speedmultiplier average="-1.000000" variation="0.500000" />
+            </distortion>
+            <size>
+                <start average="10.000000" variation="0.500000" />
+                <growth average="10.000000" variation="0.500000" />
+            </size>
+            <animation mode="0" startrandomframe="FALSE">
+                <animtime average="3.000000" variation="0.500000" />
+            </animation>
+            <speed average="50.000000" variation="0.500000" />
+            <physics gravity="-50.000000" friction="0.300000">
+                <inertia average="0.500000" variation="0.500000" />
+            </physics>
+            <ondestroy>
+                <newparticlecount average="-1.000000" variation="0.000000" />
+                <newparticletype copyflags="1" />
+            </ondestroy>
+        </particles>
+    </particlelayer>
+</root>

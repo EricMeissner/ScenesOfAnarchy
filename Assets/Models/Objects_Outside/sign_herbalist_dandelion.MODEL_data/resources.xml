@@ -1,0 +1,10 @@
+<root>
+    <Resources Version="1" Count="6" PathType="Project">
+        <Resource Manager="FILE" Filename="Models\Objects_Outside\sign_herbalist_dandelion.MODEL_data\materials.xml" OwnerRes="4" Size="444" />
+        <Resource Manager="Animations" Filename="Models\Objects_Outside\sign_herbalist_dandelion.anim" Size="50049" />
+        <Resource Manager="Textures" Filename="Textures\sign_herbalist_dandelion.dds" CustomInt="1,0" Size="87400" />
+        <Resource Manager="EffectLibs" Filename="Shaders\MobileShaders.ShaderLib" Size="70272" />
+        <Resource Manager="Static/Dynamic Meshes" Filename="Models\Objects_Outside\sign_herbalist_dandelion.MODEL" CustomInt="1,2" Size="64" />
+        <Resource Manager="EffectLibs" Filename="Shaders\vMaterial.ShaderLib" Size="399004" />
+    </Resources>
+</root>

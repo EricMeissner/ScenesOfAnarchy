@@ -1,0 +1,8 @@
+<root>
+    <Resources Version="1" Count="4" PathType="Project">
+        <Resource Manager="Textures" Filename="Textures\Herbs01.dds" CustomInt="1,0" Size="349552" />
+        <Resource Manager="EffectLibs" Filename="Shaders\vmDiffuse.ShaderLib" Size="43660" />
+        <Resource Manager="FILE" Filename="Models\Vegetals\Herbs03.MODEL_data\materials.xml" OwnerRes="3" Size="416" />
+        <Resource Manager="Static/Dynamic Meshes" Filename="Models\Vegetals\Herbs03.MODEL" CustomInt="1,2" Size="6180" />
+    </Resources>
+</root>

@@ -1,0 +1,5 @@
+<root>
+    <Materials override="TRUE">
+        <Material name="Herbs01" diffuse="..\..\Textures\Herbs01.dds" Lighting="LightGrid" transparency="alphasmooth" doublesided="TRUE" specmul="0" specexp="0" parallaxscale="-0.03" parallaxbias="-0.015" ambient="0,0,0,255" alphathreshold="-1" lightmapsize="128,128" lightmapID="-1" depthwrite="FALSE" zbias="0,0,0" sortingkey="0" lightmapgran="0" />
+    </Materials>
+</root>

@@ -1,0 +1,8 @@
+<root>
+    <Materials override="TRUE">
+        <Material name="light03_c_mu_Noz" diffuse="..\..\Textures\light03_c_mu.dds" Lighting="LightGrid" transparency="opaque" doublesided="FALSE" specmul="0" specexp="0" parallaxscale="-0.03" parallaxbias="-0.015" ambient="0,0,0,255" alphathreshold="-1" lightmapsize="128,128" lightmapID="-1" depthwrite="TRUE" zbias="0,0,0" sortingkey="0" lightmapgran="0" mobileflags="0" pass="Auto" userflags="0">
+            <Shader library="..\..\Shaders\GlassEnvMap.ShaderLib" effect="GlassEnvMap" paramstring="CullMode=back;DepthWrite=true;MaterialParams=0,0.0001,-0.03,-0.015;AlphaThreshold=0.25;EnvMap=Particles\smoke.dds;dummy_id=0;Color=0.1,0.1,0.1,1;" />
+        </Material>
+        <Material name="light03_c_mu" diffuse="..\..\Textures\light03_c_mu.dds" Lighting="LightGrid" transparency="opaque" doublesided="FALSE" specmul="0" specexp="0" parallaxscale="-0.03" parallaxbias="-0.015" ambient="0,0,0,255" alphathreshold="0.25" lightmapsize="128,128" lightmapID="-1" depthwrite="TRUE" zbias="0,0,0" sortingkey="0" lightmapgran="0" mobileflags="0" pass="Auto" userflags="0" />
+    </Materials>
+</root>

@@ -1,0 +1,9 @@
+<root>
+    <Resources Version="1" Count="5" PathType="Project">
+        <Resource Manager="Textures" Filename="Textures\flag03_c_mu.dds" CustomInt="1,0" Size="87432" />
+        <Resource Manager="EffectLibs" Filename="Shaders\vmDiffuse.ShaderLib" Size="43660" />
+        <Resource Manager="FILE" Filename="Models\Objects_Outside\flag03.MODEL_data\materials.xml" OwnerRes="4" Size="418" />
+        <Resource Manager="Animations" Filename="Models\Objects_Outside\flag03.anim" Size="214541" />
+        <Resource Manager="Static/Dynamic Meshes" Filename="Models\Objects_Outside\flag03.MODEL" CustomInt="1,2" Size="6500" />
+    </Resources>
+</root>

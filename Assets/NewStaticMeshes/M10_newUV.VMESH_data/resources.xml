@@ -1,0 +1,10 @@
+<root>
+    <Resources Version="1" Count="6" PathType="Project">
+        <Resource Manager="FILE" Filename="NewStaticMeshes\M10_newUV.VMESH_data\materials.xml" OwnerRes="5" Size="791" />
+        <Resource Manager="EffectLibs" Filename="Shaders\vMaterialGlow.ShaderLib" Size="335644" />
+        <Resource Manager="Textures" Filename="Textures\M02_M10_shared_c.dds" CustomInt="1,64" Size="5592432" />
+        <Resource Manager="Textures" Filename="Textures\M02_M10_shared_g.dds" CustomInt="1,0" Size="5592432" />
+        <Resource Manager="Textures" Filename="Textures\M02_M10_shared_n.dds" CustomInt="1,0" Size="5592432" />
+        <Resource Manager="Static/Dynamic Meshes" Filename="NewStaticMeshes\M10_newUV.VMESH" CustomInt="1,1" Size="168" />
+    </Resources>
+</root>

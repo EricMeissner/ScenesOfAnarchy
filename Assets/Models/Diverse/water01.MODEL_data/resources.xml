@@ -1,0 +1,10 @@
+<root>
+    <Resources Version="1" Count="6" PathType="Project">
+        <Resource Manager="Textures" Filename="Textures\Mdestruct.dds" CustomInt="1,0" Size="5592424" />
+        <Resource Manager="Textures" Filename="cubemap_01.dds" CustomInt="3,0" Size="1572864" />
+        <Resource Manager="EffectLibs" Filename="Shaders\GlowReflectionShaders.ShaderLib" Size="23528" />
+        <Resource Manager="FILE" Filename="Models\Diverse\water01.MODEL_data\materials.xml" OwnerRes="5" Size="666" />
+        <Resource Manager="EffectLibs" Filename="Shaders\vmSpecular.ShaderLib" Size="48456" />
+        <Resource Manager="Static/Dynamic Meshes" Filename="Models\Diverse\water01.MODEL" CustomInt="1,2" Size="1220" />
+    </Resources>
+</root>

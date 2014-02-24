@@ -1,0 +1,8 @@
+<root>
+    <Resources Version="1" Count="4" PathType="Project">
+        <Resource Manager="EffectLibs" Filename="Shaders\vMaterial.ShaderLib" Size="393008" />
+        <Resource Manager="FILE" Filename="Staticmeshes\Rd_bridge.VMESH_data\materials.xml" OwnerRes="3" Size="451" />
+        <Resource Manager="Textures" Filename="Textures\Bridge.dds" CustomInt="1,64" Size="174776" />
+        <Resource Manager="Static/Dynamic Meshes" Filename="Staticmeshes\Rd_bridge.VMESH" CustomInt="1,1" Size="56" />
+    </Resources>
+</root>

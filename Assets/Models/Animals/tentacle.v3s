@@ -1,0 +1,3 @@
+[VNUM=2.00]
+FXLIB, ..\..\..\..\..\shared\basedata\shaders\LightGrid.ShaderLib
+SRFFX, tentacle, 1, "LG_Bump_SpecMap:fspecparams=1,255,0,0;"

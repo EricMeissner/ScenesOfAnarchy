@@ -13,7 +13,9 @@ public:
 	IController(void);
 	virtual ~IController(void);
 	virtual void MapTriggers(VInputMap* inputMap){}
-	virtual void Run(VInputMap* inputMap){}
+	virtual bool Run(VInputMap* inputMap){
+		return true;
+	}
 protected:
 	//VisBaseEntity_cl* AddEntity();
 	VisBaseEntity_cl* AddSphere();

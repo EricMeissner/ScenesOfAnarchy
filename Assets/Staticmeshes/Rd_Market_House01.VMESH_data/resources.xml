@@ -1,0 +1,10 @@
+<root>
+    <Resources Version="1" Count="6" PathType="Project">
+        <Resource Manager="Textures" Filename="Textures\M02_c_mu.dds" CustomInt="1,0" Size="349544" />
+        <Resource Manager="Textures" Filename="Textures\M02_n_mu.dds" CustomInt="1,0" Size="699088" />
+        <Resource Manager="EffectLibs" Filename="Shaders\vmBumpDiffuseGlow.ShaderLib" Size="35356" />
+        <Resource Manager="Textures" Filename="Textures\M02_c_mu_Emissive.dds" CustomInt="1,0" Size="349544" />
+        <Resource Manager="FILE" Filename="Staticmeshes\Rd_Market_House01.VMESH_data\materials.xml" OwnerRes="5" Size="738" />
+        <Resource Manager="Static/Dynamic Meshes" Filename="Staticmeshes\Rd_Market_House01.VMESH" CustomInt="1,1" Size="80820" />
+    </Resources>
+</root>

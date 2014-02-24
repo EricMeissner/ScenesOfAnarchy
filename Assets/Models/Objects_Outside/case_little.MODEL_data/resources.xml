@@ -1,0 +1,8 @@
+<root>
+    <Resources Version="1" Count="4" PathType="Project">
+        <Resource Manager="Textures" Filename="Textures\case_little_c_mu.dds" CustomInt="1,0" Size="87400" />
+        <Resource Manager="EffectLibs" Filename="Shaders\vmDiffuse.ShaderLib" Size="43660" />
+        <Resource Manager="FILE" Filename="Models\Objects_Outside\case_little.MODEL_data\materials.xml" OwnerRes="3" Size="425" />
+        <Resource Manager="Static/Dynamic Meshes" Filename="Models\Objects_Outside\case_little.MODEL" CustomInt="1,2" Size="820" />
+    </Resources>
+</root>

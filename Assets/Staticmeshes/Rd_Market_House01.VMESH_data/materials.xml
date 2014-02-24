@@ -1,0 +1,7 @@
+<root>
+    <Materials override="TRUE">
+        <Material name="market_house01" diffuse="..\Textures\M02_c_mu.dds" normalmap="..\Textures\M02_n_mu.dds" transparency="opaque" doublesided="FALSE" specmul="0" specexp="64" parallaxscale="-0.01" parallaxbias="-0.005" lightmapsize="256,256" lightmapID="-1" ambient="0,0,0,255" Lighting="Lightmapping" alphathreshold="-1" lightmapgran="0" sortingkey="0" depthwrite="TRUE" zbias="0,0,0">
+            <Shader library="Shaders\vmBumpDiffuseGlow.ShaderLib" effect="vmBumpDiffuseGlow" paramstring="materialparams=0,64,-0.01,-0.005;glowmap=Textures\M02_c_mu_Emissive.dds;glowintensity=1;glowcolor=0.9294118,0.6941177,0.509804,1;alphathreshold=0.25;" />
+        </Material>
+    </Materials>
+</root>

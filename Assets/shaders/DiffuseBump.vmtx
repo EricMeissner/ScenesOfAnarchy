@@ -1,0 +1,6 @@
+<root>
+    <MaterialTemplates>
+        <MaterialTemplate name="android" library="Shaders\MobileShaders.ShaderLib" effect="DiffuseBump" paramstring="BumpStrength=1;StaticLightDir=-0.408248,-0.707107,0.57735;VertexLighting=False;DynamicLightNormalMapping=True;" />
+        <MaterialTemplate name="ios" library="Shaders\MobileShaders.ShaderLib" effect="DiffuseBump" paramstring="BumpStrength=1;StaticLightDir=-0.408248,-0.707107,0.57735;VertexLighting=False;DynamicLightNormalMapping=False;" />
+    </MaterialTemplates>
+</root>

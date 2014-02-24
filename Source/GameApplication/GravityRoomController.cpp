@@ -17,7 +17,7 @@ GravityRoomController::~GravityRoomController(void)
 {
 }
 
-void GravityRoomController::Run(VInputMap* inputMap){
+bool GravityRoomController::Run(VInputMap* inputMap){
 #if defined(_VISION_ANDROID)
 	hkvVec3 accel = pMotionInput->GetAcceleration();
 	//Multiply it by 1K to increase the intensity
@@ -28,24 +28,24 @@ void GravityRoomController::Run(VInputMap* inputMap){
 	pMod->SetGravity(gravity);
 #endif
 	if(inputMap->GetTrigger(CUSTOM_CONTROL_ONE)){
-		//this->AddCube();
-		this->RemoveLast();
+		this->AddCube();
+		//this->RemoveLast();
 	}
 	if(inputMap->GetTrigger(CUSTOM_CONTROL_TWO)){
 		this->AddSphere(-100.0f, -30, 100);
 		//this->RemoveLast();
-
 	}
 	if(inputMap->GetTrigger(CUSTOM_CONTROL_THREE)){
 		this->AddRagdoll(-100.0f, 5, 100);
 	}
+	return true;
 }
 
 void GravityRoomController::MapTriggers(VInputMap* inputMap){
 
 #if defined(WIN32)
 	inputMap->MapTrigger(CUSTOM_CONTROL_ONE, V_KEYBOARD, VInputControl::CT_KB_UP, VInputOptions::Once());
-	inputMap->MapTrigger(CUSTOM_CONTROL_TWO, V_KEYBOARD, VInputControl::CT_KB_DOWN, VInputOptions::Once()); // Typo on the input control fixed.
+	inputMap->MapTrigger(CUSTOM_CONTROL_TWO, V_KEYBOARD, VInputControl::CT_KB_DOWN, VInputOptions::Once());
 	inputMap->MapTrigger(CUSTOM_CONTROL_THREE, V_KEYBOARD, VInputControl::CT_KB_LEFT, VInputOptions::Once());
 #endif
 
@@ -60,4 +60,5 @@ void GravityRoomController::MapTriggers(VInputMap* inputMap){
 	VTouchArea* addSphereArea = new VTouchArea(VInputManager::GetTouchScreen(),VRectanglef((float)width * .65f, 0.0f, (float)width, (float)height * .35f), -900.0f);
 	inputMap->MapTrigger(CUSTOM_CONTROL_THREE, addSphereArea, CT_TOUCH_ANY);
 #endif
+
 }

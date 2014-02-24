@@ -1,0 +1,13 @@
+<root>
+    <Resources Version="1" Count="9" PathType="Project">
+        <Resource Manager="Textures" Filename="Models\NPC\OLD\StefanWlkBody.DDS" CustomInt="1,0" Size="699064" />
+        <Resource Manager="Textures" Filename="Models\NPC\OLD\Stefan_Face.DDS" CustomInt="1,0" Size="524288" />
+        <Resource Manager="Textures" Filename="Models\NPC\OLD\Stefan_Face_n.DDS" CustomInt="1,0" Size="174776" />
+        <Resource Manager="EffectLibs" Filename="Shaders\vMaterial.ShaderLib" Size="339112" />
+        <Resource Manager="Animations" Filename="Models\NPC\OLD\Stefan_Walk.anim" Size="71288" />
+        <Resource Manager="Textures" Filename="Models\NPC\OLD\StefanWlkBody_n.DDS" CustomInt="1,0" Size="174776" />
+        <Resource Manager="Textures" Filename="Models\NPC\OLD\Eye.DDS" CustomInt="1,0" Size="8192" />
+        <Resource Manager="FILE" Filename="Models\NPC\OLD\Stefan_Walk.model_data\materials.xml" OwnerRes="8" Size="1136" />
+        <Resource Manager="Static/Dynamic Meshes" Filename="Models\NPC\OLD\Stefan_Walk.model" CustomInt="1,2" Size="137072" />
+    </Resources>
+</root>

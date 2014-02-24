@@ -1,0 +1,3 @@
+[VNUM=2.00]
+FXLIB, shaders\LightGrid.ShaderLib
+SRFFX, crow_double_sided, 1, "LG_Diffuse:"

@@ -1,0 +1,7 @@
+<root>
+    <Materials override="TRUE">
+        <Material name="Face" diffuse="Stefan_Face.DDS" normalmap="Stefan_Face_n.DDS" Lighting="LightGrid" transparency="opaque" doublesided="FALSE" depthwrite="TRUE" zbias="0,0,0" specmul="0.1" specexp="1" parallaxscale="0" parallaxbias="-0.015" ambient="130,140,150,255" sortingkey="0" alphathreshold="0.25" lightmapsize="128,128" lightmapgran="0" lightmapID="-1" />
+        <Material name="Body" diffuse="StefanWlkBody.DDS" normalmap="StefanWlkBody_n.DDS" Lighting="LightGrid" transparency="opaque" doublesided="FALSE" depthwrite="TRUE" zbias="0,0,0" specmul="0.1" specexp="1" parallaxscale="0" parallaxbias="-0.015" ambient="130,140,150,255" sortingkey="0" alphathreshold="0.25" lightmapsize="128,128" lightmapgran="0" lightmapID="-1" />
+        <Material name="eye" diffuse="Eye.DDS" Lighting="LightGrid" transparency="opaque" doublesided="FALSE" depthwrite="TRUE" zbias="0,0,0" specmul="0.1" specexp="1" parallaxscale="0" parallaxbias="-0.015" ambient="130,140,150,255" sortingkey="0" alphathreshold="0.25" lightmapsize="128,128" lightmapgran="0" lightmapID="-1" />
+    </Materials>
+</root>

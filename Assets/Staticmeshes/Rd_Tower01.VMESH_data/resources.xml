@@ -1,0 +1,10 @@
+<root>
+    <Resources Version="1" Count="6" PathType="Project">
+        <Resource Manager="EffectLibs" Filename="Shaders\MobileShadersFog.ShaderLib" Size="3522784" />
+        <Resource Manager="FILE" Filename="Staticmeshes\Rd_Tower01.VMESH_data\materials.xml" OwnerRes="5" Size="824" />
+        <Resource Manager="Textures" Filename="Textures\tower01_c_mu.dds" CustomInt="1,64" Size="349552" />
+        <Resource Manager="Textures" Filename="Textures\tower01_n_mu.dds" CustomInt="1,0" Size="349552" />
+        <Resource Manager="EffectLibs" Filename="Shaders\vMaterial.ShaderLib" Size="390384" />
+        <Resource Manager="Static/Dynamic Meshes" Filename="Staticmeshes\Rd_Tower01.VMESH" CustomInt="1,1" Size="112" />
+    </Resources>
+</root>
