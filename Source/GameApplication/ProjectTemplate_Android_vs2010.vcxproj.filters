@@ -23,4 +23,7 @@
     <ClInclude Include="ParticleRainController.h" />
     <ClInclude Include="MenuController.h" />
   </ItemGroup>
+  <ItemGroup>
+    <Java Include="..\..\..\..\..\..\..\Havok\AnarchySDK\Source\Vision\Runtime\Common\Android\VirtualKeyboardActivity.java" />
+  </ItemGroup>
 </Project>

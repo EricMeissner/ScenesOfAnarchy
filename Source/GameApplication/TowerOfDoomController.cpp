@@ -1,8 +1,49 @@
 #include "GameApplicationPCH.h"
 #include "TowerOfDoomController.h"
+#include <Vision/Runtime/Framework/VisionApp/VAppImpl.hpp>
+#include <Vision/Runtime/EnginePlugins/VisionEnginePlugin/GUI/vGUI.hpp>
+#include <Vision/Runtime/EnginePlugins/VisionEnginePlugin/GUI/Controls/VTextControl.hpp>
+#include <string>
+#include <Vision/Runtime/Framework/VisionApp/Modules/VHelp.hpp>
+#include <Vision/Runtime/EnginePlugins/VisionEnginePlugin/GUI/VDlgControlBase.hpp>
+#include <Vision/Runtime/EnginePlugins/VisionEnginePlugin/GUI/Controls/VItemContainer.hpp>
+#include <Vision/Runtime/Framework/VisionApp/Modules/VDefaultMenu.hpp>
+#include <Vision/Runtime/EnginePlugins/VisionEnginePlugin/GUI/VGUIManager.hpp>
+#include <iostream>
+#include <sstream>
 
+VSmartPtr<VGUIMainContext> spGUIContext;
+VDialogPtr spMainDlg;
+VTextControl *blocksInput;
+const char *blocks;
+int value, count;
+bool once = true;
 
+void InitGUI()	{
 
+	spGUIContext = new VGUIMainContext(NULL);
+	spGUIContext->SetActivate(true);
+	VGUIManager::GlobalManager().LoadResourceFile("Dialogs\\MenuSystem.xml");
+	spMainDlg = spGUIContext->ShowDialog("Dialogs\\MainMenu.xml");
+	VASSERT(spMainDlg);
+
+}
+void GrabInput()	{
+	
+	blocksInput = (VTextControl *)(spMainDlg->Items().FindItem(VGUIManager::GetID("TEXT1")));
+	blocks= blocksInput->GetText();
+	value = atoi(blocks);	
+}
+void printInput()	{
+	Vision::Message.Print(1, 500, 100, "Input = %d", value);
+	
+}
+void DeInitGUI()	{
+	spMainDlg = NULL;
+	spGUIContext->SetActivate(false);
+	//spGUIContext = NULL;
+	
+}
 
 TowerOfDoomController::TowerOfDoomController(void)
 {
@@ -10,6 +51,7 @@ TowerOfDoomController::TowerOfDoomController(void)
 	//Vision::Camera.AttachToEntity(pCamera, hkvVec3(-500.0f, 0.0f, 0.0f));
 	blockCount = 0;
 	z = 100;
+	InitGUI();
 }
 
 
@@ -19,6 +61,7 @@ TowerOfDoomController::~TowerOfDoomController(void)
 
 
 void TowerOfDoomController::StackBlocks(int numOfBlocks){
+	
 	while (blockCount < numOfBlocks){
 		VisBaseEntity_cl *ent = Vision::Game.CreateEntity("VisBaseEntity_cl", hkvVec3(0, 0, z), "Models\\Misc\\Cube.Model");
 		vHavokRigidBody *cube = new vHavokRigidBody();
@@ -54,8 +97,18 @@ hkvVec3 project3D(float x, float y, float fDist)
     return hkvVec3(traceEnd);
 }
 bool TowerOfDoomController::Run(VInputMap* inputMap){
-	this->StackBlocks(10);
-
+	if(once)	{
+		int dialogResult = spMainDlg->GetDialogResult();
+		if(dialogResult==VGUIManager::GetID("ENTER"))	{
+			GrabInput();
+			printInput();
+			this->StackBlocks(value);
+			once = false;
+		}
+	}
+	
+	else
+		DeInitGUI();
 	//if(inputMap->GetTrigger(CUSTOM_CONTROL_ONE)){
 	//	//this->AddCube();
 	//	this->RemoveLast();

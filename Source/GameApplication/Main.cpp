@@ -9,6 +9,8 @@
 #include "GameApplicationPCH.h"
 #include <Vision/Runtime/Framework/VisionApp/VAppImpl.hpp> 
 #include <Vision/Runtime/Framework/VisionApp/Modules/VHelp.hpp>
+#include <Vision/Runtime/EnginePlugins/VisionEnginePlugin/Input/VFreeCamera.hpp>
+#include <Vision/Runtime/EnginePlugins/VisionEnginePlugin/Input/VVirtualThumbStick.hpp>
 #include "IController.h"
 #include "GravityRoomController.h"
 #include "TowerOfDoomController.h"
@@ -31,7 +33,7 @@ const char *sceneNames[7]={"Scenes/Default.vscene", "Scenes/GravityRoom.vscene",
 class ProjectTemplateApp : public VAppImpl
 {
 public:
-	ProjectTemplateApp() {}
+	ProjectTemplateApp(){}
 	virtual ~ProjectTemplateApp() {}
 
 	virtual void SetupAppConfig(VisAppConfig_cl& config) HKV_OVERRIDE;
@@ -55,6 +57,13 @@ public:
 	float m_fCurrentFps;
 	float previousFps;
 	ofstream stats;
+
+	///changes by carlos
+	void addButtons();
+	private:
+	//State m_state;
+	//VDialog* m_pMainMenuDialog;
+	///end changes by carlos
 };
 
 VAPP_IMPLEMENT_SAMPLE(ProjectTemplateApp);
@@ -116,16 +125,42 @@ void ProjectTemplateApp::Init()
 	//Initliaze the menu
 	menu = new MenuController(this->GetContext());
 	currentSceneID=MAIN_MENU;
-	// Set filename and paths to our stand alone version.
-	// Note: "/Data/Vision/Base" is always added by the sample framework
+
 
 	VisAppLoadSettings settings(sceneNames[currentSceneID]);
 	settings.m_customSearchPaths.Append(":template_root/Assets");
 	LoadScene(settings);
 	menu->Enable();
 
-}
 
+
+}
+//added by Bardia
+void ProjectTemplateApp::addButtons(){
+
+#if defined(_VISION_ANDROID)
+	int width = Vision::Video.GetXRes();
+	int height = Vision::Video.GetYRes();
+
+	VisScreenMask_cl *addCube = new VisScreenMask_cl();
+	addCube->LoadFromFile("\\GravityRoomGUI\\button.tga");
+	addCube->SetPos(width *.85, height * .10 );
+
+	VisScreenMask_cl *deleteLast = new VisScreenMask_cl();
+	deleteLast->LoadFromFile("\\GravityRoomGUI\\button.tga");
+	deleteLast->SetPos(width *.10, height * .10 );
+
+	VisScreenMask_cl *addRagdoll = new VisScreenMask_cl();
+	addRagdoll->LoadFromFile("\\GravityRoomGUI\\button.tga");
+	addRagdoll->SetPos(width *.85, height * .85 );
+
+	VisScreenMask_cl *addSphere = new VisScreenMask_cl();
+	addSphere->LoadFromFile("\\GravityRoomGUI\\button.tga");
+	addSphere->SetPos(width *.10, height * .85 );
+
+#endif
+
+}
 //---------------------------------------------------------------------------------------------------------
 // Gets called after the scene has been loaded
 //---------------------------------------------------------------------------------------------------------
@@ -137,13 +172,27 @@ void ProjectTemplateApp::AfterSceneLoaded(bool bLoadingSuccessful)
 	//help.Append("");
 	//RegisterAppModule(new VHelp(help));
 
+	//VVirtualThumbStick* stick = new VVirtualThumbStick();
+
+	VisBaseEntity_cl* pCam = Vision::Game.CreateEntity("VFreeCamera", hkvVec3::ZeroVector());
+	pCam->SetPosition(150, 150, 150);
+	pCam->SetOrientation(180, -15, 100);
+
+
 	// Create a mouse controlled camera (set above the ground so that we can see the ground)
 	//Vision::Game.CreateEntity("VisMouseCamera_cl", hkvVec3(-600.0f, 0.0f, 170.0f));
 	// Add other initial game code here
 	// [...]
-	//controller = new GravityRoomController();
-	//controller->MapTriggers(this->GetInputMap());
+
+	//changes by carlos
+	/*controller = new GravityRoomController();
+	controller->MapTriggers(this->GetInputMap());*/
+	
+
+	//end changes by carlos
 }
+
+
 
 //---------------------------------------------------------------------------------------------------------
 // Main Loop of the application until we quit
@@ -236,6 +285,7 @@ void ProjectTemplateApp::SwitchController(int sceneID){
 	case GRAVITY_ROOM:
 		this->controller = new GravityRoomController();
 		this->controller->MapTriggers(this->GetInputMap());
+		addButtons();
 		break;
 	case TOWER_OF_DOOM:
 		this->controller = new TowerOfDoomController();
@@ -260,6 +310,8 @@ void ProjectTemplateApp::DeInit()
 {
 	// De-Initialization
 	// [...]
+	//changes by carlos
+	//end changes by carlos
 }
 
 /*

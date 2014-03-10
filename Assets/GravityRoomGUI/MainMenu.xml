@@ -1,0 +1,59 @@
+
+<root>
+  <DIALOG class="VDialog" name="GravityRoom" fullscreen="true" startPosition="ScreenCenter">
+
+	<!-- NOTES:
+	backgroundcolor="#000000"
+	Position for coordinates  = "X,Y"
+	- (0,0) Left top of the Parent Box
+	- (X+,Y) --move to the right
+	- (X-,Y) --move to the left
+	- (X,Y+) --move up
+	- (X,Y-) --move down
+	
+	-Keep Everything aligned on the X-coordinate
+	
+	<!--Ragdoll Button -->
+<!-- 
+	<control class="VPushButton" ID="CUSTOM_CONTROL_ONE" pos="1000, 550" size="150,150" dialogResult="CUSTOM_CONTROL_ONE" enabled="true" tooltiptext="Add Cube" taborder="6">
+		<image texture="button.TGA"></image>
+
+      <text text="Add Cube" font="MenuFont" color="180,180,180,255" valign="CENTER" halign="CENTER">
+        <statemodifier state="selected"  color="255,255,255,255"/>
+        <statemodifier state="disabled"  color="120,120,120,255"/>
+      </text>
+    </control>
+	  -->
+	<!--Cube Button -->
+	
+ <!-- <control class="VPushButton" ID="CUSTOM_CONTROL_TWO" pos="100,550" size="150,150" dialogResult="CUSTOM_CONTROL_TWO" enabled="true" tooltiptext="Add Sphere" taborder="6">
+		<image texture="button.TGA"></image>
+      <text text="Add Sphere" font="MenuFont" color="180,180,180,255" valign="CENTER" halign="CENTER">
+        <statemodifier state="selected"  color="255,255,255,255"/>
+        <statemodifier state="disabled"  color="120,120,120,255"/>
+      </text>
+    </control>  -->
+	
+	<!--Sphere Button -->
+	
+<!-- <control class="VPushButton" ID="CUSTOM_CONTROL_THREE" pos="1000,40" size="150,150" dialogResult="CUSTOM_CONTROL_THREE" enabled="true" tooltiptext="Add Ragdoll" taborder="6">
+		<image texture="button.TGA"></image>
+      <text text="Add Ragdoll" font="MenuFont" color="180,180,180,255" valign="CENTER" halign="CENTER">
+        <statemodifier state="selected"  color="255,255,255,255"/>
+        <statemodifier state="disabled"  color="120,120,120,255"/>
+      </text>
+    </control>
+   -->
+	
+    <!-- Return to MainMenu button -->
+ <!-- <control class="VPushButton" ID="CUSTOM_CONTROL_FOUR" pos="100,40" size="150,150" dialogResult="CUSTOM_CONTROL_FOUR" enabled="true" tooltiptext="Remove Last" taborder="6">
+    	<image texture="button.TGA"></image>
+      <text text="Remove Last" font="MenuFont" color="180,180,180,255" valign="CENTER" halign="CENTER">
+        <statemodifier state="selected"  color="255,255,255,255"/>
+        <statemodifier state="disabled"  color="120,120,120,255"/>
+      </text>
+    </control>
+	-->
+  </DIALOG>
+</root> 
+  
