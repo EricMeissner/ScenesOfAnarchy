@@ -105,7 +105,7 @@ VisBaseEntity_cl *IController::AddWaterDrop(float x, float y, float z, float sca
 	sphere->Havok_Restitution = .35f;
 	ent->AddComponent(sphere);
 	ent->Tag();
-	entityStack->push(ent);
+	//entityStack->push(ent);
 	return ent;
 }
 

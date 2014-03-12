@@ -71,7 +71,7 @@ void ParticleRainController::ChangeCam(){
 	}
 }
 
-
+bool ParticleRainController::Run(VInputMap* inputMap) {
 	if(inputMap->GetTrigger(CUSTOM_CONTROL_ONE)){
 		this->RainBalls(100);
 	}
@@ -82,6 +82,7 @@ void ParticleRainController::ChangeCam(){
 }
 
 void ParticleRainController::MapTriggers(VInputMap* inputMap){
+
 #if defined(WIN32)
 	inputMap->MapTrigger(CUSTOM_CONTROL_ONE, V_KEYBOARD, VInputControl::CT_KB_UP, VInputOptions::Once());
 	inputMap->MapTrigger(CUSTOM_CONTROL_TWO, V_KEYBOARD, VInputControl::CT_KB_DOWN, VInputOptions::Once());
