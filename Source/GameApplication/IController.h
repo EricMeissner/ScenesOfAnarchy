@@ -3,19 +3,23 @@
 #endif
 #pragma once
 #include "Constants.h"
-#include "EntityStack.h"
-#include "StackNode.h"
+//#include "EntityStack.h"
+//#include "StackNode.h"
 
 class IController
 {
 public:
-	EntityStack* entityStack;
+	//EntityStack* entityStack;
 	IController(void);
 	virtual ~IController(void);
 	virtual void MapTriggers(VInputMap* inputMap){}
 	virtual bool Run(VInputMap* inputMap){
 		return true;
 	}
+	virtual int GetEntityCount() {
+		return 0;
+	}
+
 protected:
 	//VisBaseEntity_cl* AddEntity();
 	VisBaseEntity_cl* AddSphere();
@@ -24,6 +28,6 @@ protected:
 	VisBaseEntity_cl* AddSphere(float x, float y, float z);
 	VisBaseEntity_cl* AddCube(float x, float y, float z);
 	VisBaseEntity_cl* AddRagdoll(float x, float y, float z);
-	void RemoveLast(void);   //Removes the last entity added.
+	//void RemoveLast(void);   //Removes the last entity added.
 };
 

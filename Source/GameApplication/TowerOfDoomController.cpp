@@ -147,3 +147,7 @@ void TowerOfDoomController::MapTriggers(VInputMap* inputMap){
 	
 #endif
 }
+
+int TowerOfDoomController::GetEntityCount() {
+	return blockCount;
+}

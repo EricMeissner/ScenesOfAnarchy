@@ -12,11 +12,14 @@ public:
 	virtual ~ParticleRainController(void);
 	virtual void MapTriggers(VInputMap* inputMap) HKV_OVERRIDE;
 	virtual bool Run(VInputMap* inputMap) HKV_OVERRIDE;
+	virtual int GetEntityCount() HKV_OVERRIDE;
 	void RainBalls(int numOfBlocks);
 
 #if defined(_VISION_ANDROID)
 	vHavokPhysicsModule* pMod;
 	VMotionInputAndroid* pMotionInput;
 #endif
+private:
+	int entityCount;
 };
 

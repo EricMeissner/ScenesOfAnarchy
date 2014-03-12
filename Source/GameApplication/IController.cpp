@@ -8,7 +8,7 @@
 
 IController::IController(void)
 {
-	entityStack = new EntityStack();
+	//entityStack = new EntityStack();
 }
 
 
@@ -24,7 +24,7 @@ VisBaseEntity_cl* IController::AddRagdoll(){
 	ent->AddComponent(ragdoll);
 	//EntityStack stack = *entityStack;
 	//stack.push(ent);
-	entityStack->push(ent);
+	//entityStack->push(ent);
 	return ent;
 }
 
@@ -34,9 +34,7 @@ VisBaseEntity_cl* IController::AddSphere(){
 	sphere->Havok_TightFit = true;
 	sphere->Havok_Restitution = 1.0f;
 	ent->AddComponent(sphere);
-	//EntityStack stack = *entityStack;
-	//stack.push(ent);
-	entityStack->push(ent);
+	//entityStack->push(ent);
 	return ent;
 }
 
@@ -47,7 +45,7 @@ VisBaseEntity_cl* IController::AddCube(){
 	ent->AddComponent(cube);
 	//EntityStack stack = *entityStack;
 	//stack.push(ent);
-	entityStack->push(ent);
+	//entityStack->push(ent);
 	return ent;
 }
 
@@ -59,7 +57,7 @@ VisBaseEntity_cl* IController::AddSphere(float x, float y, float z){
 	ent->AddComponent(sphere);
 	//EntityStack stack = *entityStack;
 	//stack.push(ent);
-	entityStack->push(ent);
+	//entityStack->push(ent);
 	return ent;
 }
 
@@ -70,7 +68,7 @@ VisBaseEntity_cl* IController::AddCube(float x, float y, float z){
 	ent->AddComponent(cube);
 	//EntityStack stack = *entityStack;
 	//stack.push(ent);
-	entityStack->push(ent);
+	//entityStack->push(ent);
 	return ent;
 }
 
@@ -81,16 +79,9 @@ VisBaseEntity_cl* IController::AddRagdoll(float x, float y, float z){
 	ent->AddComponent(ragdoll);
 	//EntityStack stack = *entityStack;
 	//stack.push(ent);
-	entityStack->push(ent);
+	//entityStack->push(ent);
 	return ent;
 }
 
 
-void IController::RemoveLast(void)
-{
-	VisBaseEntity_cl *ent = entityStack->pop();
-	if (ent != NULL)
-	{
-		ent->DisposeObject();
-	}
-}
+

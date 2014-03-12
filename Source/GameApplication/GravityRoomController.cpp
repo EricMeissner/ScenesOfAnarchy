@@ -1,5 +1,6 @@
 #include "GameApplicationPCH.h"
 #include "GravityRoomController.h"
+#include "EntityStack.h"
 
 GravityRoomController::GravityRoomController(void)
 {
@@ -10,6 +11,7 @@ GravityRoomController::GravityRoomController(void)
 	pMotionInput = (VMotionInputAndroid*)(&VInputManager::GetInputDevice(INPUT_DEVICE_MOTION_SENSOR));
 	pMotionInput->SetEnabled(true);
 #endif
+	entityStack = new EntityStack();
 }
 
 
@@ -28,17 +30,32 @@ bool GravityRoomController::Run(VInputMap* inputMap){
 	pMod->SetGravity(gravity);
 #endif
 	if(inputMap->GetTrigger(CUSTOM_CONTROL_ONE)){
-		this->AddCube();
+		//this->AddCube();
+		entityStack->push(this->AddCube());
 		//this->RemoveLast();
 	}
 	if(inputMap->GetTrigger(CUSTOM_CONTROL_TWO)){
-		this->AddSphere(-100.0f, -30, 100);
+		entityStack->push(this->AddSphere(-100.0f, -30, 100));
+		//this->AddSphere(-100.0f, -30, 100);
 		//this->RemoveLast();
 	}
 	if(inputMap->GetTrigger(CUSTOM_CONTROL_THREE)){
-		this->AddRagdoll(-100.0f, 5, 100);
+		entityStack->push(this->AddRagdoll(-100.0f, 5, 100));
+		//this->AddRagdoll(-100.0f, 5, 100);
+	}
+	if(inputMap->GetTrigger(CUSTOM_CONTROL_FOUR)){ // Input not implemented
+		this->RemoveLast();
 	}
 	return true;
+}
+
+void GravityRoomController::RemoveLast(void)
+{
+	VisBaseEntity_cl *ent = entityStack->pop();
+	if (ent != NULL)
+	{
+		ent->DisposeObject();
+	}
 }
 
 void GravityRoomController::MapTriggers(VInputMap* inputMap){
@@ -67,4 +84,8 @@ void GravityRoomController::MapTriggers(VInputMap* inputMap){
 	
 #endif
 
+}
+
+int GravityRoomController::GetEntityCount() {
+	return entityStack->getLength();
 }

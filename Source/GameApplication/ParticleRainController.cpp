@@ -8,6 +8,7 @@ ParticleRainController::ParticleRainController(void)
 {
 	//VisBaseEntity_cl *pCamera  = Vision::Game.SearchEntity("CameraPosition");
 	//Vision::Camera.AttachToEntity(pCamera, hkvVec3(-500.0f, 0.0f, 0.0f));
+	entityCount = 0;
 }
 
 
@@ -33,9 +34,12 @@ void ParticleRainController::RainBalls(int numOfBalls){
 		++ballCount;
 	}
 	ballCount = 0;
+	entityCount += numOfBalls;
 }
 
-
+int ParticleRainController::GetEntityCount() {
+	return entityCount;
+}
 
 
 bool ParticleRainController::Run(VInputMap* inputMap){

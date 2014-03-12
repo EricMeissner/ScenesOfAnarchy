@@ -259,7 +259,7 @@ void ProjectTemplateApp::UpdateStats(){
 		m_fTimeAccumulator = 0.0f;
 		m_iFrameCounter = 0;
 	}
-	Vision::Message.Print(1, 10, Vision::Video.GetYRes() - 55, "FPS : %.1f\nFrame Time : %.2f\nEntity Count : %d", m_fCurrentFps, m_fCurrentFrameTime * 1000.0f, controller->entityStack->getLength());
+	Vision::Message.Print(1, 10, Vision::Video.GetYRes() - 55, "FPS : %.1f\nFrame Time : %.2f\nEntity Count : %d", m_fCurrentFps, m_fCurrentFrameTime * 1000.0f, controller->GetEntityCount());
 }
 
 void ProjectTemplateApp::RecordFPS()
