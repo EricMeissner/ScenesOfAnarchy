@@ -1,6 +1,0 @@
-<root>
-    <Materials override="TRUE">
-        <Material name="08 - Default" diffuse="..\..\Textures\Items\Sword_c.dds" normalmap="..\..\Textures\Items\Sword_n.dds" Lighting="LightGrid" transparency="opaque" doublesided="FALSE" depthwrite="TRUE" zbias="0,0,0" specmul="2" specexp="255" parallaxscale="0" parallaxbias="0" ambient="0,0,0,255" sortingkey="0" alphathreshold="0.25" lightmapsize="128,128" lightmapgran="0" lightmapID="-1" />
-        <Material name="emerald" diffuse="..\..\Textures\Items\emerald_c_mu.dds" Lighting="LightGrid" transparency="alphasmooth" doublesided="TRUE" depthwrite="TRUE" zbias="0,0,0" specmul="4" specexp="100" parallaxscale="0" parallaxbias="0" ambient="0,0,0,255" sortingkey="0" alphathreshold="0.25" lightmapsize="128,128" lightmapgran="0" lightmapID="-1" />
-    </Materials>
-</root>

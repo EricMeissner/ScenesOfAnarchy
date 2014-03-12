@@ -1,7 +1,0 @@
-<root>
-    <Materials>
-        <Material name="Face" diffuse="Stefan_Face.DDS" normalmap="Stefan_Face_n.DDS" transparency="opaque" doublesided="FALSE" specmul="0.100000" specexp="1.000000" parallaxscale="-0.030000" parallaxbias="-0.015000" />
-        <Material name="Body" diffuse="Thorsten_Body.DDS" normalmap="Thorsten_Body_n.DDS" transparency="opaque" doublesided="FALSE" specmul="0.100000" specexp="1.000000" parallaxscale="-0.030000" parallaxbias="-0.015000" />
-        <Material name="eye" diffuse="Eye.DDS" transparency="opaque" doublesided="FALSE" specmul="0.100000" specexp="1.000000" parallaxscale="-0.030000" parallaxbias="-0.015000" />
-    </Materials>
-</root>

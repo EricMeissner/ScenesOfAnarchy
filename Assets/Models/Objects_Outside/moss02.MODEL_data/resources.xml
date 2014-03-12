@@ -1,9 +1,0 @@
-<root>
-    <Resources Version="1" Count="5" PathType="Project">
-        <Resource Manager="Textures" Filename="Textures\moss_c_mu.dds" CustomInt="1,0" Size="5592432" />
-        <Resource Manager="EffectLibs" Filename="Shaders\vmDiffuse.ShaderLib" Size="43660" />
-        <Resource Manager="FILE" Filename="Models\Objects_Outside\moss02.MODEL_data\materials.xml" OwnerRes="4" Size="551" />
-        <Resource Manager="Animations" Filename="Models\Objects_Outside\moss02.anim" Size="93956" />
-        <Resource Manager="Static/Dynamic Meshes" Filename="Models\Objects_Outside\moss02.MODEL" CustomInt="1,2" Size="1140" />
-    </Resources>
-</root>

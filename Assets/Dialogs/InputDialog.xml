@@ -1,0 +1,10 @@
+<root>
+  <DIALOG class="VDialog" name="InputDialog" fullscreen="FALSE" backgroundcolor="51,51,51,200" size="400,450" startPosition="ScreenCenter">
+		<control class="VTextControl" pos="90,300" size="260,35" ID="Input" taborder="0" clientborder="4,4" validchars="0123456789">
+			<frame texture="Assets\Textures\UIMedia_stop.TGA" color="160,160,160,255"/>
+			<text font="Assets\Fonts\Arial_18.fnt" color="0,0,0,255"/>
+		</control>
+	
+
+  </DIALOG>
+</root>

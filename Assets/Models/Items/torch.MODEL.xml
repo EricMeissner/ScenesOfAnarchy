@@ -1,5 +1,0 @@
-<root>
-    <Materials>
-        <Material name="01 - Default" diffuse="..\..\Textures\metall.dds" normalmap="..\..\Textures\metall_n.dds" specularmap="" transparency="opaque" doublesided="FALSE" specmul="0,000000" specexp="2,000000" />
-    </Materials>
-</root>

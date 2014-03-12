@@ -1,0 +1,101 @@
+<root>
+  <info createdby="vForge version 2013.2.5.1" />
+  <header version="0" name="" description="" category="" convertible="True" autosavebinary="True" relativefilenames="False" />
+  <thumbnail type="jpg" size="5144">/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAEAAQADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD5/ooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACinYFGBQA2inYFGBQA2inYoxQA2irtjYteQXfkJNJPDH5wWNN2UX75OORgfNnoADmqVABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAD6KKKACiiu1+G/wAONX+IP9o/2Nc2EH2Hy/M+1u6537sbdqt/cOc47UAcVRXu3/DNmv8A/Qa0v8pP/iax9e+AvibSUMiFb+FVDM9mm8gk4xsJDk9+FIwevXAB594Ma9fWGstLTfe6hby2MS5UZMiFcfNxyCRk4xnORiufrq9B0nUbPXoLjTHSeS2PnboXw6ICAXAyCSAS3y5KhSx4UmsXxHpv9jeIdU0vzfO+xXUtt5u3bv2OV3YycZxnGTQBnUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQA+iiigAr139lzUobH4oC3lWQvf2U1tEVAwrArLluem2Jhxnkj6jyKuo+F+qtovxE8O3y3MdqiXsSSzSbQqRO2yTJbgDYzc9uvHWgD70orjL/AOKHgmxmEU3ibTWYruzBJ5y4+qZGeOnWr3hrx14a8T38lloOrQ3t1HGZmjRWBCAgE8gd2H50AeJ/tGeEIdEvV8VWUipDf3CxT26qFKzFSd647MEJOed3PO7jwjxMkL30d9bCCKO/Q3P2eKcym3beysjZAK/MhZVOSEZMsx5P3D8TNBbxN4C1vSYlkaee3LQojKpeVCHjXLcAFlUHOOCeR1r4meWK58GTJLd4ls9QjNtbZUbhNG/nPjG44+zwDrgZ6ZagDAooooAKKKKACiiigAorX0jwxr2tWzXGj6JqmoW6uY2ltbSSVQwAJUlQRnBBx7ir3/CA+MP+hT8Qf+C6b/4mgDmqK6X/AIQHxh/0KfiD/wAF03/xNH/CA+MP+hT8Qf8Agum/+JoA5qiul/4QHxh/0KfiD/wXTf8AxNH/AAgPjD/oU/EH/gum/wDiaAOaor0r/hRvxE/6F7/ydt//AI5Ve8+DHj6zhaW40BlRRk7buBj+QcmgDz2iupl+H/iqEsJdEuk2nB3AD+vNU5fCWuQ/67T5I/8AeZR/WgDCoqzfWNzYyBLuF4mPQnofoeh6iq1ABRRRQAUUUUAFFFFAD6KKKACiiigAr0v9nTVW0z4saUn2mO3t71JbSbftAcFCyJk9CZFjxjknA74PnEcLPyOF9a6nwJcWukeKdJ1C5R3jtLuK4fYMttRwx2j1wD/k5AB9318ReCNB0+38b63oHiL7PLdW6y2sJCsyNPHOm8qccfu0lwWGPxwK+wZvFmgRW7THV7N41OD5UgkOfouSetfPqeGYU+LeteI9PmE2lvLLNbmYZaV5oz5hxgYCu74yM8L16kA7LRvh54ehhSa3skWYEZwoDHjODjqOnFdjpfhzS4I1e0soI5FYMCEGTg+vXOao+H590IXOACfxrotMbMmw9h/WgDodLkzAq9CABj8BV8Vl2Xyv/n2rSU8UAOooooAKKKKACiiigAooooAUVTvU835c4Hf/AD+NW6ryDJoAybyFC6JtG0e3Tv8A1rmPE9tbywmJooypwxXHX3I78gde9dPctmV26ACuW1hjJOCeh7UAcXrWg6ayBZLWPypRhwFAAB67hznrxx6815l45+HWk2n73T5Li2lbJKkq0ZOewOD698ADPGMH1nWpgbgJ/dHP5f5/OuO8WThowSR5gGAx5Pvz15wPwBoA8HvtHvLMZkj3oOrJk469e/as+vRJjgnjFZl/ZWt0czR7XPWRTtI+v4A9fSgDjqK1X0pZZmjsbmKSQDJhkOx1OVGD2zllHUZOR1FZs0UkEhjmjeOQdVcEEfhQAyiiigB9FKis7qiKWdjgKBkk+ldVo/hR2bzNUO1e0SNyef4j6fT17UAc1a2k90xEEZbHU9FX6k8D8adL9lt5diTpcyrkOE52kEjGO+SCAc9SvHIrvNRthbaa8FgkMfTagUkE4/ix1yBznP4149rm/wC3SLPGI5VOCMYxjoD7/j0xQB1CShm4II9QMA/T+f41oWL7JFauL0q98shHOMdMnr/n+prqLOXdjBoA9U8P3gltgu4EDAwD7f55+ldf4duMiVCe4/OvLvD93sKqCf8AP+f5V3ei3GHUjozZ5PWgD0bRHKKecHOfpXXWLDzg3TtXC6TKTjIOCOv1rsdMctEW/u4/GgDqrY8g9DWgh+WsmxJITP3SoP8AKtRV+XigCTNG76VEdw6qaAT/AHTQBLu+lGfeowT/AHf0pdx9P0oAfmk3e9M3/SmmSgCXd70m73qIyGml80AT7vrUM7YH9KY0oX7zAfU1XnlUg4YH8aAM++fAPPJrltSkHm5PbpW/fF2B2IzE+grnr3T7+4DGG3Yjp8xCn9aAON1Wf/SC5I/+v3rh/EVz5jsAeRxjP+f85r0LU/C+uzbvJss55B85B/7NXKah4A8VTsWXS8/9vEX/AMVQB5zdSAZJOK5HxFq4t8xRlhIwPPQgHj6ev5Y717Vc/BzxRc2yutzpUDuoJSSZ9yEjodqEZHsSK4jV/gH4rEpZ9R0PJOABNL/8aoA8lTUpPPWeWRppwcqST8vJb8skfr0PNeh+HtSj1WwaLUFthEoVNsgxh8Hdj0PPXrz1zXGwaVaWWpXttczm7tAvk+dbhPnYMpLRsQ3yZU4YYLLg8BitdLp2vW+mxGGzspFj3FhmZc/+gUAaupeEYpBv0+Tyn/55vkr26HqO/r+FcvqWl3enPi6hITOBIOVbr3/Dp1roh40wAPsBPuZv/saR/GjFGCWID44JlyAfpigDUsH0PR7ctDdW7Efek3h5Dk9OOcdOAO1Tf8JLpP8Az9/+Q3/wrzeigD0V/EWkHJW7AYjBbyn6fl71ga1No1ywniuXFwVeNmghKuUdSGBJI4IJHXueOTXM0UAdF4T8C6b4y1e+sNInms7iOKGWLzs4EalVmfADeY3IO3dHy3HHTrbH4L+J7fdvuNPEXmvHEZJG3SKGIViFVgNwAYDOeeecivOtKv7nSdVs9RsZDHdWkqzRtkgEjs2CCVIyCM8gkV9dfD3xRaeMPDlvqEMflGTMc1uzhmgkHVSR+YPBKsDgZxQBwfh/4MXwhZtQ1m2gmDcLBC0qkeuSV568Y/H07Cy+F7W3l41kNt+9/ouM/T5+DXcwZhbA5U+vatFHBGaAOVsPB7WnH9obxnOPJx/7NXQWmnR26BRI7HHPTBq5uFG4UASRSNEAFwQPWrC38qjACfkap7hRmgC19tuP+en6Ck+2T/8APT9BVbNGaALBu5yOZD+AAqPzZP8Ano/51HmjNAEnmyf89H/OkZ2YYZmI9zTM0ZoAWim5NGTQA6im5NGaAHUU2igB1ISPWmEgdxUM0yovXNADL25EaHHJ7V8+/tAeMxFA/hmwmR7q5UHUGSRg1vEcFYxj+/3BP3c5HzA16L8T/Gtt4S0Ka5eRG1KZGSxtyN3mSY+8QCPkBILHI9ByQD8l315dajezXuo3D3N5O2+WZ+rt6+w6AAcAAAcCgCCiiigAooooAKKKKACiiigArp/h14un8GeIvt6JJPZzIIbq3VyN6ZyGUZxvXnGexYZG7I5iigD7h8Pa1Y69pVvfadcJcW8y7kkXv2wR1BByCDyCCO1bEUmODXxp8OfHN94L1MvHvn0yZgbm1z17b0zwHA/BgMHoCv1ZoOv2ms6Zb39jMs9rOm9JV6HsR7EEYIOCDkHmgDpd6460vmJ61nrcgjkj8eKDcr7fnQBoeYnrSGVfc1n/AGn3Sg3OB1WgDQ81fQ0hmHYGs43Wf4gPwo+0EjIJP0FAGh53+z+tHnf7P61nec7Do38qUO5HVh9TQBf81vQUea3oKzjIejsB/wACppdf7w/OgDSMrdc4FN8//bH6VmGQDq6/kaa9wirnzF/AUAahm7lx+Bpvnj++f1rJN2naQn6KKie+AONx/HigDaMynqxNJ5y+hrBfUQP4iPxrE1/xtouhgjVdRt4ZQocQlt0pUttDBBliM9wMcH0oA7Z7hVHT8ziuD+IfxG0rwnA0c7/aNSeMvBZx53PzgFmwQi5zyeu1sBiMV5D4u+NGqahug8OQf2bbn/l4nCvOeh4XlF53DnfkH+E15S7NJLJLIzPLIxd3clmdj1ZieST3JoA0fEWt6h4i1ebU9Wn866l444WNR0RB2UZOB7kkkkk5tFFABRRRQAUUUUAFFFFABRRRQAUUUUAFdL4I8aav4PvhLpsu+zeQPcWUmPLm4x1wSjY/iX0XIYDFc1RQB9ceCPiDoPi3fFYSPFeRrue1nXY4XONw6hh0+6TjcM4JxXXAwnoP1r4bikeGWOWJ2SWNg6OpwVYHIIPYgjOa9a+EXjbxBqni7StA1DWoBZ3brF517EHZAqMQqsGUl3IC5YsckcE8EA+iHELDG4r9DUeyEH/Wyfn/APWrOu9N17SvD2parrcenQrZQyXDx2d08+6NE3HBaNPm4Ix06c88eVH4zaJjmz1Td7JGB/6FQB7K7xJwJZj9GA/nTTcQhed7H/bfH8q8HvfjWou2W00NpbUY2yTXWxzxzlQhA5/2vf2rGu/jFrjXcjWllp0VscbY5FeRxxzltwB5z/CKAPoxruEqdirn/fJqCS/jXIIXPsWr5dm+JHiqWaST+0wgZiyolvEAgPYfLnA9yT71z95rOqX1q9tfanf3Vu+N0dxcvIrYORkMTnkA/hQB9Y6p4jsNJhWXUr62tImIUPcSqgJIyBkkc4B4rC1L4keHLC2WWXWLaRGIUfZ2M55GeiZOOOvSvlsAKAAAAOABS0AfQ+pfF7w9bwLJbvc3zMQNkEBVgMHk+ZtGPxzz0rF1H41WyQK2nabdzylhlLiRYQBg9135PTjHrzXiVFAHqWo/GTUpYFGn6bb282fmNxK064xyAAEOc45z+FYep/E7xLeNEYLmGx2E7hbxA+ZnHXfu6Y7Y6n2riaKAN2/8XeIb65WefWb5XVdoEMphXHPVUwpPPXGfyrBRVRQqKFUdgMUtFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFdB8PbiG18feGri6ljht4tTtpJJZGCqiiVSWJPAAHOa5+igD9H6/OE9a/Rm2nhuraK4tZY5reVBJHLGwZXUjIYEcEEc5r4B8c2NvpnjXX7Cxj8q0tdQuIIU3FtqLIyqMnJOAByaAMOiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAPvf4W3ENz8NfC0lvLHKg0y3jLRsGAZY1VlyO4YEEdiCK+Q/jnpsOlfFjxHb27SMj3AuSXIJ3SosrDgDgM5A9sdetUdM+I3i3StAtdF0zW7i0062ZmijgVEZSWZj84G4jLE4Jx+QrntX1O91nUZb/VbqW7vJceZNK25mwAoyfYAD8KAKdFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQB/9k=</thumbnail>
+  <shape class="CameraPositionShape">
+    <property name="ShortCut" value="None" />
+    <property name="FOV" value="0" />
+    <property name="NearClipDistance" value="0" />
+    <property name="FarClipDistance" value="0" />
+    <property name="ObjectKey" value="tankcamera" />
+    <property name="Visible" value="True" />
+    <property name="Position" value="-510.9146,-229.9081,421.6624" />
+    <property name="Orientation" value="24,35,3.446418" />
+    <property name="Scaling" value="1,1,1" />
+    <property name="TextLabel" value="" />
+    <property name="ShapeName" value="CameraPosition" />
+    <property name="UserDataString" value="" />
+    <property name="ExportShape" value="True" />
+    <property name="UniqueID" value="16127477955961028613" />
+  </shape>
+  <shape class="StaticMeshShape">
+    <property name="ScaleX" value="100" />
+    <property name="ScaleY" value="100" />
+    <property name="ScaleZ" value="100" />
+    <property name="UniformScaling" value="100" />
+    <property name="NavMeshUsage" value="IncludeInNavMesh" />
+    <property name="MeshFileName" value="Meshes/tank2.vmesh" />
+    <property name="CustomMaterialSet" value="&lt;None&gt;" />
+    <property name="LODUsage" value="FarClipOnly" />
+    <property name="LODDefinitionFile" value="" />
+    <property name="FarClipDistance" value="0" />
+    <property name="VisibleBitmask" value="4294967295" />
+    <property name="LightInfluenceBitmask" value="65535" />
+    <property name="CastStaticShadows" value="True" />
+    <property name="CastDynamicShadows" value="False" />
+    <property name="ShowLightgridWidget" value="False" />
+    <property name="SampleOfsX" value="0" />
+    <property name="SampleOfsY" value="0" />
+    <property name="SampleOfsZ" value="0" />
+    <property name="LightmapSizeMultiplier" value="1" />
+    <property name="CustomLightmap" value="" />
+    <property name="CollisionBitmask" value="65535" />
+    <property name="CollisionBehavior" value="FromFile" />
+    <property name="CollisionLayerID" value="2" />
+    <property name="SubSystemID" value="0" />
+    <property name="SubSystemDontCollideWith" value="0" />
+    <property name="SystemGroup" value="0" />
+    <property name="WeldingType" value="None" />
+    <property name="PreviewVisibility" value="False" />
+    <property name="ObjectKey" value="" />
+    <property name="Visible" value="True" />
+    <property name="Position" value="0,0,0" />
+    <property name="Orientation" value="90,0,0" />
+    <property name="Scaling" value="100,100,100" />
+    <property name="TextLabel" value="" />
+    <property name="ShapeName" value="tank2" />
+    <property name="UserDataString" value="" />
+    <property name="ExportShape" value="True" />
+    <property name="UniqueID" value="16127477955961028621" />
+    <linktarget class="LinkTargetVisiblity" name="visibility determined by" ID="VisibilityTarget_1" />
+  </shape>
+  <shape class="DynLightShape">
+    <property name="LightColor" value="255,255,255,255" />
+    <property name="LightAttenuationCurve" value="None" />
+    <property name="CustomAttenuationCurveTexture" value="\Atten\none.dds" />
+    <property name="Multiplier" value="100" />
+    <property name="DistanceFadeEnd" value="0" />
+    <property name="DistanceFadeStart" value="0" />
+    <property name="UseSpecular" value="True" />
+    <property name="LightType" value="Point" />
+    <property name="SpotAngle" value="45" />
+    <property name="ProjectedTexture" value="" />
+    <property name="Radius" value="1000" />
+    <property name="Triggered" value="True" />
+    <property name="CastStaticShadows" value="True" />
+    <property name="UsesLightMasks" value="False" />
+    <property name="AnimationCurve" value="" />
+    <property name="AnimationTiming" value="1" />
+    <property name="AnimationPhase" value="0" />
+    <property name="RemoveLightAfterAnimation" value="False" />
+    <property name="WorldInfluenceMask" value="255" />
+    <property name="ObjectInfluenceMask" value="255" />
+    <property name="VisibleBitmask" value="4294967295" />
+    <property name="IsStatic" value="False" />
+    <property name="ExportWhenNotRelevant" value="False" />
+    <property name="PreviewAsDynamicLight" value="True" />
+    <property name="TurnOffAfterLighting" value="True" />
+    <property name="ObjectKey" value="" />
+    <property name="Visible" value="True" />
+    <property name="Position" value="0,0,409.1982" />
+    <property name="Orientation" value="0,0,0" />
+    <property name="Scaling" value="1,1,1" />
+    <property name="TextLabel" value="" />
+    <property name="ShapeName" value="DynamicLight" />
+    <property name="UserDataString" value="" />
+    <property name="ExportShape" value="True" />
+    <property name="UniqueID" value="16127477955961028628" />
+    <linktarget class="LinkTargetTriggerComponent" name="ToggleOn" ID="ToggleOn" />
+    <linktarget class="LinkTargetTriggerComponent" name="ToggleOff" ID="ToggleOff" />
+  </shape>
+</root>

@@ -11,6 +11,7 @@
     <ClCompile Include="TowerOfDoomController.cpp" />
     <ClCompile Include="ParticleRainController.cpp" />
     <ClCompile Include="MenuController.cpp" />
+    <ClCompile Include="WaterSimulationController.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="GameApplicationPCH.h" />
@@ -22,8 +23,9 @@
     <ClInclude Include="TowerOfDoomController.h" />
     <ClInclude Include="ParticleRainController.h" />
     <ClInclude Include="MenuController.h" />
+    <ClInclude Include="WaterSimulationController.h" />
   </ItemGroup>
   <ItemGroup>
-    <Java Include="..\..\..\..\..\..\..\Havok\AnarchySDK\Source\Vision\Runtime\Common\Android\VirtualKeyboardActivity.java" />
+    <Java Include="..\..\Assets\VirtualKeyboardActivity.java" />
   </ItemGroup>
 </Project>

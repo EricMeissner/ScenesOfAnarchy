@@ -16,6 +16,13 @@ public:
 	void Swipe(VInputMap *inputMap);
 	int blockCount;
 	int z;
+	VDialog* dialog;
+	void InitMenu(VAppMenuContext* context);
+	void EnableMenu();
+	bool menuMode;
+	bool menuDisplayed;
+	bool blocksStacked;
+	VAppMenuContext* spContext;
 #if defined(_VISION_ANDROID)
 	vHavokPhysicsModule* pMod;
 	VMotionInputAndroid* pMotionInput;

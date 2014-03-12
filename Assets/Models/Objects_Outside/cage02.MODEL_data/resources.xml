@@ -1,9 +1,0 @@
-<root>
-    <Resources Version="1" Count="5" PathType="Project">
-        <Resource Manager="Textures" Filename="Textures\cage02_c_mu.dds" CustomInt="1,0" Size="349552" />
-        <Resource Manager="Textures" Filename="Textures\cage02_n_mu.dds" CustomInt="1,0" Size="349552" />
-        <Resource Manager="EffectLibs" Filename="Shaders\vmBumpDiffuse.ShaderLib" Size="47812" />
-        <Resource Manager="FILE" Filename="Models\Objects_Outside\cage02.MODEL_data\materials.xml" OwnerRes="4" Size="458" />
-        <Resource Manager="Static/Dynamic Meshes" Filename="Models\Objects_Outside\cage02.MODEL" CustomInt="1,2" Size="24020" />
-    </Resources>
-</root>

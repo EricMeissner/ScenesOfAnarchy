@@ -1,9 +1,0 @@
-<root>
-    <Resources Version="1" Count="5" PathType="Project">
-        <Resource Manager="FILE" Filename="Models\Items\shield01.MODEL_data\materials.xml" OwnerRes="4" Size="524" />
-        <Resource Manager="Textures" Filename="Textures\Items\shield01_c_mu.dds" CustomInt="1,0" Size="43704" />
-        <Resource Manager="Textures" Filename="Textures\Items\shield01_n_mu.dds" CustomInt="1,0" Size="174776" />
-        <Resource Manager="EffectLibs" Filename="Shaders\vMaterial.ShaderLib" Size="399004" />
-        <Resource Manager="Static/Dynamic Meshes" Filename="Models\Items\shield01.MODEL" CustomInt="1,2" Size="64" />
-    </Resources>
-</root>

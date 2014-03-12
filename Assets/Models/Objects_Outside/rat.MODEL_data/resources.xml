@@ -1,9 +1,0 @@
-<root>
-    <Resources Version="1" Count="5" PathType="Project">
-        <Resource Manager="Textures" Filename="Textures\rat_c_mu.dds" CustomInt="1,0" Size="43704" />
-        <Resource Manager="Textures" Filename="Textures\rat_n_mu.dds" CustomInt="1,0" Size="87408" />
-        <Resource Manager="EffectLibs" Filename="Shaders\vMaterial.ShaderLib" Size="339112" />
-        <Resource Manager="FILE" Filename="Models\Objects_Outside\rat.MODEL_data\materials.xml" OwnerRes="4" Size="452" />
-        <Resource Manager="Static/Dynamic Meshes" Filename="Models\Objects_Outside\rat.MODEL" CustomInt="1,2" Size="21944" />
-    </Resources>
-</root>

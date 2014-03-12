@@ -1,6 +1,0 @@
-<root>
-    <Materials override="TRUE">
-        <Material name="crow_single_sided" diffuse="..\..\Textures\Crow.dds" transparency="opaque" doublesided="FALSE" specmul="0" specexp="0" parallaxscale="-0.03" parallaxbias="-0.015" ambient="0,0,0,255" Lighting="LightGrid" depthwrite="TRUE" zbias="0,0,0" sortingkey="0" alphathreshold="-1" lightmapsize="128,128" lightmapgran="0" lightmapID="-1" />
-        <Material name="crow_double_sided" diffuse="..\..\Textures\Crow.dds" transparency="alphasmooth" doublesided="TRUE" specmul="0" specexp="0" parallaxscale="-0.03" parallaxbias="-0.015" ambient="0,0,0,255" Lighting="LightGrid" depthwrite="TRUE" zbias="0,0,0" sortingkey="0" alphathreshold="0.25" lightmapsize="128,128" lightmapgran="0" lightmapID="-1" />
-    </Materials>
-</root>

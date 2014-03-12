@@ -1,8 +1,0 @@
-<root>
-    <Resources Version="1" Count="4" PathType="Project">
-        <Resource Manager="Textures" Filename="Textures\bowl01_c_mu.dds" CustomInt="1,0" Size="21864" />
-        <Resource Manager="EffectLibs" Filename="Shaders\vMaterial.ShaderLib" Size="339112" />
-        <Resource Manager="FILE" Filename="Models\Objects_Outside\bowl01.MODEL_data\materials.xml" OwnerRes="3" Size="418" />
-        <Resource Manager="Static/Dynamic Meshes" Filename="Models\Objects_Outside\bowl01.MODEL" CustomInt="1,2" Size="13544" />
-    </Resources>
-</root>

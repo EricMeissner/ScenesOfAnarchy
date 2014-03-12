@@ -1,8 +1,0 @@
-<root>
-    <Resources Version="1" Count="4" PathType="Project">
-        <Resource Manager="FILE" Filename="Models\Objects_Outside\spidernet02_roof.MODEL_data\materials.xml" OwnerRes="3" Size="450" />
-        <Resource Manager="Textures" Filename="Textures\spidernet02_c_mu.dds" CustomInt="1,64" Size="87408" />
-        <Resource Manager="EffectLibs" Filename="Shaders\vMaterial.ShaderLib" Size="417592" />
-        <Resource Manager="Static/Dynamic Meshes" Filename="Models\Objects_Outside\spidernet02_roof.MODEL" CustomInt="1,2" Size="56" />
-    </Resources>
-</root>

@@ -1,8 +1,0 @@
-<root>
-    <Resources Version="1" Count="4" PathType="Project">
-        <Resource Manager="Textures" Filename="Models\NPC\OLD\Jug04.DDS" CustomInt="1,0" Size="87408" />
-        <Resource Manager="EffectLibs" Filename="Shaders\vMaterial.ShaderLib" Size="339112" />
-        <Resource Manager="FILE" Filename="Models\NPC\OLD\Jug_d.model_data\materials.xml" OwnerRes="3" Size="385" />
-        <Resource Manager="Static/Dynamic Meshes" Filename="Models\NPC\OLD\Jug_d.model" CustomInt="1,2" Size="6264" />
-    </Resources>
-</root>

@@ -13,6 +13,7 @@ public:
 	virtual void MapTriggers(VInputMap* inputMap) HKV_OVERRIDE;
 	virtual bool Run(VInputMap* inputMap) HKV_OVERRIDE;
 	void RainBalls(int numOfBlocks);
+	void ChangeCam();
 
 #if defined(_VISION_ANDROID)
 	vHavokPhysicsModule* pMod;
