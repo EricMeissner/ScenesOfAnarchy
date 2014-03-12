@@ -1,0 +1,7 @@
+<root>
+    <Materials override="TRUE">
+        <Material name="MultiMat_0/Material" diffuse="\PlainWhite.DDS" ambient="0,0,0,255" specmul="0" specexp="1" parallaxscale="-0.03" parallaxbias="-0.015" lightmapsize="512,512" lightmapID="0" userflags="0" sortingkey="0" alphathreshold="0.25" doublesided="FALSE" depthwrite="TRUE" zbias="0,0,0" Lighting="LightGrid" pass="Auto" transparency="alpha" datadirectoryrelative="FALSE" lightmapgran="0" />
+        <Material name="MultiMat_0/Material_002" diffuse="\PlainWhite.DDS" ambient="0,0,0,255" specmul="0" specexp="1" parallaxscale="-0.03" parallaxbias="-0.015" lightmapsize="512,512" lightmapID="0" userflags="0" sortingkey="0" alphathreshold="0.25" doublesided="FALSE" depthwrite="TRUE" zbias="0,0,0" Lighting="LightGrid" pass="Auto" transparency="opaque" datadirectoryrelative="FALSE" lightmapgran="0" />
+        <Material name="MultiMat_0/Material_001" diffuse="\PlainWhite.DDS" ambient="0,0,0,255" specmul="0" specexp="1" parallaxscale="-0.03" parallaxbias="-0.015" lightmapsize="512,512" lightmapID="0" userflags="0" sortingkey="0" alphathreshold="0.25" doublesided="FALSE" depthwrite="TRUE" zbias="0,0,0" Lighting="LightGrid" pass="Auto" transparency="opaque" datadirectoryrelative="FALSE" lightmapgran="0" />
+    </Materials>
+</root>

@@ -147,6 +147,7 @@
     <ClCompile Include="MenuController.cpp" />
     <ClCompile Include="StackNode.cpp" />
     <ClCompile Include="TowerOfDoomController.cpp" />
+    <ClCompile Include="WaterSimulationController.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Constants.h" />
@@ -158,6 +159,7 @@
     <ClInclude Include="MenuController.h" />
     <ClInclude Include="StackNode.h" />
     <ClInclude Include="TowerOfDoomController.h" />
+    <ClInclude Include="WaterSimulationController.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\..\..\..\..\..\..\Havok\AnarchySDK\Source\Vision\Runtime\Common\Android\VirtualKeyboardActivity.java" />

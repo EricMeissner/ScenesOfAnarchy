@@ -1,8 +1,0 @@
-<root>
-    <Resources Version="1" Count="4" PathType="Project">
-        <Resource Manager="Textures" Filename="Textures\stones_c_mu.dds" CustomInt="1,0" Size="174776" />
-        <Resource Manager="EffectLibs" Filename="Shaders\vmDiffuse.ShaderLib" Size="43660" />
-        <Resource Manager="FILE" Filename="Models\Objects_Outside\stones01.MODEL_data\materials.xml" OwnerRes="3" Size="415" />
-        <Resource Manager="Static/Dynamic Meshes" Filename="Models\Objects_Outside\stones01.MODEL" CustomInt="1,2" Size="19260" />
-    </Resources>
-</root>

@@ -1,3 +1,0 @@
-[VNUM=2.00]
-SRFFX, light01_mu_X2, 1, "LG_Bump_SpecMap:fspecparams=1,255,0,0;"
-SRFFX, light01_mu_X2_Noz, 1, "LG_Bump_SpecMap_NoZ:fspecparams=1,255,0,0;"

@@ -1,5 +1,0 @@
-<root>
-    <Materials override="TRUE">
-        <Material name="tentacle" diffuse="..\..\Textures\tentacle_c_mu.dds" normalmap="..\..\Textures\tentacle_n_mu.dds" transparency="opaque" doublesided="FALSE" specmul="0" specexp="64" parallaxscale="0" parallaxbias="0" Lighting="LightGrid" depthwrite="TRUE" zbias="0,0,0" ambient="0,0,0,255" sortingkey="0" alphathreshold="0.25" lightmapsize="128,128" lightmapgran="0" lightmapID="-1" />
-    </Materials>
-</root>

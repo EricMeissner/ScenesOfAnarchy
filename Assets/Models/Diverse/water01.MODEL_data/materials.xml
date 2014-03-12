@@ -1,7 +1,0 @@
-<root>
-    <Materials override="TRUE">
-        <Material name="water" diffuse="..\..\Textures\Mdestruct.dds" Lighting="LightGrid" transparency="alpha" doublesided="FALSE" depthwrite="TRUE" zbias="0,0,0" specmul="2" specexp="0" parallaxscale="-0.03" parallaxbias="-0.015" ambient="0,0,0,255" sortingkey="0" alphathreshold="-1" lightmapsize="128,128" lightmapgran="0" lightmapID="-1" specularmap="..\..\cubemap_01.dds">
-            <Shader library="\Shaders\GlowReflectionShaders.ShaderLib" effect="LightmapReflection" paramstring="cubemap=cubemap_01.dds;cubereflectionmodulate=1,1,1,1;materialparams=2,0,-0.03,-0.015;" />
-        </Material>
-    </Materials>
-</root>

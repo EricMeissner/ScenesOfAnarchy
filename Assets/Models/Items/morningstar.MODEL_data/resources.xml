@@ -1,8 +1,0 @@
-<root>
-    <Resources Version="1" Count="4" PathType="Project">
-        <Resource Manager="Textures" Filename="Textures\Items\morningstar_c_mu.dds" CustomInt="1,0" Size="349544" />
-        <Resource Manager="EffectLibs" Filename="Shaders\vmSpecular.ShaderLib" Size="47812" />
-        <Resource Manager="FILE" Filename="Models\Items\morningstar.MODEL_data\materials.xml" OwnerRes="3" Size="431" />
-        <Resource Manager="Static/Dynamic Meshes" Filename="Models\Items\morningstar.MODEL" CustomInt="1,2" Size="60420" />
-    </Resources>
-</root>
