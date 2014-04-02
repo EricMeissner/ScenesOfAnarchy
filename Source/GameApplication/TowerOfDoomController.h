@@ -13,6 +13,7 @@ public:
 	virtual void MapTriggers(VInputMap* inputMap) HKV_OVERRIDE;
 	virtual bool Run(VInputMap* inputMap) HKV_OVERRIDE;
 	virtual int GetEntityCount() HKV_OVERRIDE;
+	virtual void DeInitGUI() HKV_OVERRIDE;
 	void StackBlocks(int numOfBlocks);
 	void Swipe(VInputMap *inputMap);
 	int blockCount;

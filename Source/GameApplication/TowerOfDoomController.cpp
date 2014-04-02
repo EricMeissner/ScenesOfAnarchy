@@ -39,6 +39,13 @@ TowerOfDoomController::~TowerOfDoomController(void)
 	dialog = NULL;
 }
 
+void TowerOfDoomController::DeInitGUI(){
+	if(this->menuDisplayed){
+		this->spContext->CloseDialog(this->dialog);
+		this->dialog = NULL;
+	}
+}
+
 
 void TowerOfDoomController::StackBlocks(int numOfBlocks){
 
@@ -82,7 +89,7 @@ bool TowerOfDoomController::Run(VInputMap* inputMap){
 		if(menuDisplayed){
 			if(this->dialog->GetDialogResult() == 42){
 				this->blockCount = atoi((((VTextControl *)this->dialog->Items().FindItem(VGUIManager::GetID("Input")))->GetText()));
-				this->spContext->CloseDialog(this->dialog);
+				DeInitGUI();
 				menuMode = false;
 				menuDisplayed = false;
 			}

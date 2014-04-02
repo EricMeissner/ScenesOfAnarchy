@@ -122,6 +122,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="$(NDKROOT)\sources\android\native_app_glue\android_native_app_glue.c" />
+    <ClCompile Include="CarDerbyController.cpp" />
     <ClCompile Include="EntityStack.cpp" />
     <ClCompile Include="GameApplicationPCH.cpp" />
     <ClCompile Include="GravityRoomController.cpp" />
@@ -131,9 +132,12 @@
     <ClCompile Include="MenuController.cpp" />
     <ClCompile Include="StackNode.cpp" />
     <ClCompile Include="TowerOfDoomController.cpp" />
+    <ClCompile Include="Vehicle.cpp" />
+    <ClCompile Include="VehicleSetup.cpp" />
     <ClCompile Include="WaterSimulationController.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="CarDerbyController.h" />
     <ClInclude Include="Constants.h" />
     <ClInclude Include="EntityStack.h" />
     <ClInclude Include="GameApplicationPCH.h" />
@@ -143,6 +147,8 @@
     <ClInclude Include="MenuController.h" />
     <ClInclude Include="StackNode.h" />
     <ClInclude Include="TowerOfDoomController.h" />
+    <ClInclude Include="Vehicle.h" />
+    <ClInclude Include="VehicleSetup.h" />
     <ClInclude Include="WaterSimulationController.h" />
   </ItemGroup>
   <ItemGroup>

@@ -18,15 +18,19 @@
 #include "MenuController.h"
 #include "Constants.h"
 #include "WaterSimulationController.h"
+#include "CarDerbyController.h"
+#include <Vision/Runtime/EnginePlugins/Havok/HavokPhysicsEnginePlugin/vHavokSync.hpp>
 #include <sstream>
 #include <iostream>
 #include <fstream>
+#include <ctime>
 using namespace std;
 // Use the following line to initialize a plugin that is statically linked.
 // Note that only Windows platform links plugins dynamically (on Windows you can comment out this line).
 VIMPORT IVisPlugin_cl* GetEnginePlugin_GamePlugin();
+VIMPORT IVisPlugin_cl* GetEnginePlugin_vHavok();
 
-const char *sceneNames[7]={"Scenes/Default.vscene", "Scenes/GravityRoom.vscene","Scenes/TowerOfDoom.vscene","Scenes/ParticleRain.vscene","","", "Scenes/WaterSimulation.vscene"};
+const char *sceneNames[7]={"Scenes/Default.vscene", "Scenes/GravityRoom.vscene","Scenes/TowerOfDoom.vscene","Scenes/ParticleRain.vscene","","Scenes/CarDerby.vscene", "Scenes/WaterSimulation.vscene"};
 
 class ProjectTemplateApp : public VAppImpl
 {
@@ -55,6 +59,7 @@ public:
 	float m_fCurrentFps;
 	float previousFps;
 	ofstream stats;
+	clock_t begin, end;
 
 	///changes by carlos
 	void addButtons();
@@ -103,6 +108,9 @@ void ProjectTemplateApp::PreloadPlugins()
 	// you still need to statically link your plugin library (e.g. on mobile platforms) through project
 	// Properties, Linker, Additional Dependencies.
 	VISION_PLUGIN_ENSURE_LOADED(GamePlugin);
+	
+		  VISION_PLUGIN_ENSURE_LOADED(vHavok);
+	  
 }
 
 
@@ -112,18 +120,20 @@ void ProjectTemplateApp::PreloadPlugins()
 //---------------------------------------------------------------------------------------------------------
 void ProjectTemplateApp::Init()
 {
+  VISION_HAVOK_SYNC_STATICS();
+  VISION_HAVOK_SYNC_PER_THREAD_STATICS(vHavokPhysicsModule::GetInstance());
 	//Initiliaze FPS variables to 0.
 	m_iFrameCounter=0;
 	m_fTimeAccumulator=0;
 	m_fCurrentFrameTime=0;
 	m_fCurrentFps=0;
-	stats.open("stats.txt");
-	stats << "FPS\tFrame Time\n";
+	stats.open("stats.csv");
+	stats << "Scene Name, FPS, Frame Time, Body Count, Time Elapsed\n";
 
 	//Initliaze the menu
 	menu = new MenuController(this->GetContext());
 	currentSceneID=MAIN_MENU;
-
+	this->controller = NULL;
 
 	VisAppLoadSettings settings(sceneNames[currentSceneID]);
 	settings.m_customSearchPaths.Append(":template_root/Assets");
@@ -166,9 +176,7 @@ void ProjectTemplateApp::AfterSceneLoaded(bool bLoadingSuccessful)
 // Main Loop of the application until we quit
 //---------------------------------------------------------------------------------------------------------
 bool ProjectTemplateApp::Run()
-{
-
-
+{	
 	if(currentSceneID==MAIN_MENU){
 		//Do menu stuff
 		int newSceneID = menu->Run();
@@ -227,29 +235,40 @@ void ProjectTemplateApp::UpdateStats(){
 		m_fTimeAccumulator = 0.0f;
 		m_iFrameCounter = 0;
 	}
+	end = clock();
 	Vision::Message.Print(1, 10, Vision::Video.GetYRes() - 55, "FPS : %.1f\nFrame Time : %.2f\nEntity Count : %d", m_fCurrentFps, m_fCurrentFrameTime * 1000.0f, controller->GetEntityCount());
 }
 
 void ProjectTemplateApp::RecordFPS()
 {
 	std::ostringstream ss;
+	double elapsed_secs = double(end-begin)/CLOCKS_PER_SEC;
+	ss << sceneNames[currentSceneID];
+	ss << ", ";
 	ss << m_fCurrentFps;
-	ss << " ";
+	ss << ", ";
 	ss << m_fCurrentFrameTime * 1000.0f;
+	ss << ", ";
+	ss << controller->entityStack->getLength();
+	ss << ", ";
+	ss << elapsed_secs;
 	std::string s = ss.str() + "\n";
 	stats << s;
-	//const char * c = s.c_str();
 }
 void ProjectTemplateApp::SwitchScene(int sceneID){
+		if(this->controller != NULL){
+			this->controller->DeInitGUI();
+	}
 	this->m_pSceneLoader->UnloadScene();
 	VisAppLoadSettings settings(sceneNames[sceneID]);
 	settings.m_customSearchPaths.Append(":template_root/Assets");
 	LoadScene(settings);
 	this->currentSceneID=sceneID;
+	begin = clock();
 }
 
 void ProjectTemplateApp::SwitchController(int sceneID){
-	this->controller = NULL;
+
 	switch(sceneID){
 	case GRAVITY_ROOM:
 		this->controller = new GravityRoomController();
@@ -263,11 +282,11 @@ void ProjectTemplateApp::SwitchController(int sceneID){
 		break;
 	case PARTICLE_RAIN:
 		this->controller = new ParticleRainController();
-		this->controller->MapTriggers(this->GetInputMap());
 		break;
 	case TUMBLER:
 		break;
 	case CAR_DERBY:
+		this->controller = new CarDerbyController();
 		break;
 	case WATER_SIMULATION:
 		this->controller = new WaterSimulationController();
@@ -276,13 +295,16 @@ void ProjectTemplateApp::SwitchController(int sceneID){
 	default:
 		break;
 	}
+	this->controller->MapTriggers(this->GetInputMap());
 }
 
 
 void ProjectTemplateApp::DeInit()
 {
 	// De-Initialization
-	// [...]
+	
+	VISION_HAVOK_UNSYNC_ALL_STATICS()
+  VISION_HAVOK_UNSYNC_PER_THREAD_STATICS(vHavokPhysicsModule::GetInstance());
 	
 }
 

@@ -11,6 +11,9 @@
     <ClCompile Include="ParticleRainController.cpp" />
     <ClCompile Include="MenuController.cpp" />
     <ClCompile Include="WaterSimulationController.cpp" />
+    <ClCompile Include="Vehicle.cpp" />
+    <ClCompile Include="VehicleSetup.cpp" />
+    <ClCompile Include="CarDerbyController.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="GameApplicationPCH.h" />
@@ -23,6 +26,9 @@
     <ClInclude Include="ParticleRainController.h" />
     <ClInclude Include="MenuController.h" />
     <ClInclude Include="WaterSimulationController.h" />
+    <ClInclude Include="Vehicle.h" />
+    <ClInclude Include="VehicleSetup.h" />
+    <ClInclude Include="CarDerbyController.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="ClassDiagram1.cd" />

@@ -73,7 +73,7 @@
       <TargetMachine>MachineX86</TargetMachine>
       <AdditionalOptions> %(AdditionalOptions)</AdditionalOptions>
       <ImportLibrary>..\..\Lib\win32_vs2010_anarchy\debug_dll\$(TargetName)D.lib</ImportLibrary>
-      <AdditionalDependencies>lua100D.lib;BaseD.lib;VisionD.lib;VisionEnginePluginD.lib;VisionAppD.lib;vHavokD.lib;vFmodEnginePluginD.lib;VisionAppD.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>lua100D.lib;BaseD.lib;VisionD.lib;VisionEnginePluginD.lib;VisionAppD.lib;vHavokD.lib;vFmodEnginePluginD.lib;hkBase.lib;hkCompat.lib;hkSceneData.lib;hkSerialize.lib;hkVisualize.lib;hkInternal.lib;hkGeometryUtilities.lib;hkcdInternal.lib;hkcdCollide.lib;hkpUtilities.lib;hkpVehicle.lib;hkpDynamics.lib;hkpCollide.lib;hkpInternal.lib;hkpConstraintSolver.lib;hkpConstraint.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PreBuildEvent>
       <Command>
@@ -131,6 +131,7 @@
     </PreBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="CarDerbyController.cpp" />
     <ClCompile Include="GameApplicationPCH.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug DLL|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Dev DLL|Win32'">Create</PrecompiledHeader>
@@ -147,9 +148,12 @@
     <ClCompile Include="MenuController.cpp" />
     <ClCompile Include="StackNode.cpp" />
     <ClCompile Include="TowerOfDoomController.cpp" />
+    <ClCompile Include="Vehicle.cpp" />
+    <ClCompile Include="VehicleSetup.cpp" />
     <ClCompile Include="WaterSimulationController.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="CarDerbyController.h" />
     <ClInclude Include="Constants.h" />
     <ClInclude Include="GameApplicationPCH.h" />
     <ClInclude Include="GravityRoomController.h" />
@@ -159,6 +163,8 @@
     <ClInclude Include="MenuController.h" />
     <ClInclude Include="StackNode.h" />
     <ClInclude Include="TowerOfDoomController.h" />
+    <ClInclude Include="Vehicle.h" />
+    <ClInclude Include="VehicleSetup.h" />
     <ClInclude Include="WaterSimulationController.h" />
   </ItemGroup>
   <ItemGroup>
