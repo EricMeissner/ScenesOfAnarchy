@@ -249,7 +249,7 @@ void ProjectTemplateApp::RecordFPS()
 	ss << ", ";
 	ss << m_fCurrentFrameTime * 1000.0f;
 	ss << ", ";
-	ss << controller->entityStack->getLength();
+	ss << controller->GetEntityCount();
 	ss << ", ";
 	ss << elapsed_secs;
 	std::string s = ss.str() + "\n";

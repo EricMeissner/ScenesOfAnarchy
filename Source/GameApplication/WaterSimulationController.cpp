@@ -20,6 +20,7 @@ WaterSimulationController::WaterSimulationController(void)
 	pMotionInput = (VMotionInputAndroid*)(&VInputManager::GetInputDevice(INPUT_DEVICE_MOTION_SENSOR));
 	pMotionInput->SetEnabled(true);
 	#endif*/
+	//triggerbox = vdynamic_cast <TriggerBoxEntity_cl *> (Vision::Game.SearchEntity("triggerbox"));
 }
 bool WaterSimulationController::Run(VInputMap* inputMap){
 
@@ -34,7 +35,8 @@ bool WaterSimulationController::Run(VInputMap* inputMap){
 		this->Drain(); //turns drain on/off
 		// need to find a way to decrement entityCount
 	}
-		
+	
+	
 
 	return true;
 }

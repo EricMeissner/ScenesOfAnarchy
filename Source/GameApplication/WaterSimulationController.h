@@ -17,5 +17,6 @@ public:
 
 private:
 	int entityCount;
+	//TriggerBoxEntity_cl *triggerbox;
 };
 

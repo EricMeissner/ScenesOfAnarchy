@@ -58,7 +58,7 @@ void TowerOfDoomController::StackBlocks(int numOfBlocks){
 		cube->Shape_BoxSize = hkvVec3(100,100,100);
 		ent->AddComponent(cube);
 		ent->SetObjectKey("Blocks");
-		++blockCount;
+		//++blockCount;
 		z = z +100;
 	}
 	blocksStacked = true;
