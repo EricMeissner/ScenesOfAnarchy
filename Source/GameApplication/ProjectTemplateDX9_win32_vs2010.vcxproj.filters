@@ -14,6 +14,7 @@
     <ClCompile Include="Vehicle.cpp" />
     <ClCompile Include="VehicleSetup.cpp" />
     <ClCompile Include="CarDerbyController.cpp" />
+    <ClCompile Include="WaterDropEntity.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="GameApplicationPCH.h" />
@@ -29,6 +30,7 @@
     <ClInclude Include="Vehicle.h" />
     <ClInclude Include="VehicleSetup.h" />
     <ClInclude Include="CarDerbyController.h" />
+    <ClInclude Include="WaterDropEntity.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="ClassDiagram1.cd" />

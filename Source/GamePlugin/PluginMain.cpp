@@ -98,7 +98,7 @@ void myPlugin_cl::OnInitEnginePlugin()
   // In some cases the compiler optimizes away the full class from the plugin since it seems to be dead code. 
   // One workaround to prevent this is to add the following helper macro into the plugin initialization code:
   FORCE_LINKDYNCLASS( MyComponent );
-
+  
   // [...]
 
   // Start our component managers and game manager here....

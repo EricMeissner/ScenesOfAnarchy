@@ -1,6 +1,6 @@
 #pragma once
 #include "IController.h"
-#include "Vehicle.h";
+#include "Vehicle.h"
 
 const int CAR_ACCELERATION = 3;
 

@@ -4,7 +4,7 @@
 #include "IController.h"
 #include <Vision/Runtime/EnginePlugins/Havok/HavokPhysicsEnginePlugin/vHavokPhysicsModule.hpp>
 #include <Vision/Runtime/EnginePlugins/Havok/HavokPhysicsEnginePlugin/vHavokRagdoll.hpp>
-
+#include "WaterDropEntity.h"
 
 IController::IController(void)
 {

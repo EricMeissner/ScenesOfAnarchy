@@ -1,5 +1,7 @@
 #include "GameApplicationPCH.h"
 #include "WaterSimulationController.h"
+#include "WaterDropEntity.h"
+
 
 WaterSimulationController::WaterSimulationController(void)
 {
@@ -63,4 +65,21 @@ void WaterSimulationController::MapTriggers(VInputMap* inputMap){
 	VTouchArea* addCubeArea = new VTouchArea(VInputManager::GetTouchScreen(),VRectanglef(0.0f, (float)height*.8f, (float)width*.2f, (float)height), -900.0f);
 	inputMap->MapTrigger(CUSTOM_CONTROL_TWO, addCubeArea, CT_TOUCH_ANY);
 #endif 
+}
+
+void WaterSimulationController::decrementEntityCount() {
+	entityCount--;
+}
+
+VisBaseEntity_cl *WaterSimulationController::AddWaterDrop(float x, float y, float z, float scaling){
+	VisBaseEntity_cl *ent = Vision::Game.CreateEntity("WaterDropEntity", hkvVec3(x, y, z), "Assets\\Models\\Misc\\Sphere.Model");
+	((WaterDropEntity *)ent)->setController(this);
+	ent->SetScaling(scaling);
+	vHavokRigidBody *sphere = new vHavokRigidBody();
+	sphere->Havok_TightFit = true;
+	sphere->Havok_Restitution = .35f;
+	ent->AddComponent(sphere);
+	ent->Tag();
+	//entityStack->push(ent);
+	return ent;
 }

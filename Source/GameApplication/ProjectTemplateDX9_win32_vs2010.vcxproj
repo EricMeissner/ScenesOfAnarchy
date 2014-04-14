@@ -150,6 +150,7 @@
     <ClCompile Include="TowerOfDoomController.cpp" />
     <ClCompile Include="Vehicle.cpp" />
     <ClCompile Include="VehicleSetup.cpp" />
+    <ClCompile Include="WaterDropEntity.cpp" />
     <ClCompile Include="WaterSimulationController.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -165,6 +166,7 @@
     <ClInclude Include="TowerOfDoomController.h" />
     <ClInclude Include="Vehicle.h" />
     <ClInclude Include="VehicleSetup.h" />
+    <ClInclude Include="WaterDropEntity.h" />
     <ClInclude Include="WaterSimulationController.h" />
   </ItemGroup>
   <ItemGroup>
